@@ -1,0 +1,94 @@
+path,c_class_name,py_class_name,lineno
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\xla.cc,CpuDevice,CpuDevice,160
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\xla.cc,GpuDevice,GpuDevice,165
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\xla.cc,PjRtTpuDevice,TpuDevice,171
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\xla.cc,DistributedRuntimeService,DistributedRuntimeService,339
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\xla.cc,DistributedRuntimeClient,DistributedRuntimeClient,342
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,PyTpuBuffer,PyTpuBuffer,148
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,PyTpuExecutable,TpuExecutable,188
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,TpuDevice,TpuDevice,214
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\lite\python\interpreter_wrapper\interpreter_wrapper_pybind11.cc,InterpreterWrapper,InterpreterWrapper,91
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_Executor,TFE_Executor,535
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_ContextOptions,TFE_ContextOptions,536
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringCounter0,TFE_MonitoringCounter0,538
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringCounter1,TFE_MonitoringCounter1,540
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringCounter2,TFE_MonitoringCounter2,542
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGauge0,TFE_MonitoringStringGauge0,544
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGauge1,TFE_MonitoringStringGauge1,546
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGauge2,TFE_MonitoringStringGauge2,548
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGauge3,TFE_MonitoringStringGauge3,550
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGauge4,TFE_MonitoringStringGauge4,552
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringIntGauge0,TFE_MonitoringIntGauge0,554
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringIntGauge1,TFE_MonitoringIntGauge1,556
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringIntGauge2,TFE_MonitoringIntGauge2,558
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringBoolGauge0,TFE_MonitoringBoolGauge0,560
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringBoolGauge1,TFE_MonitoringBoolGauge1,562
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringBoolGauge2,TFE_MonitoringBoolGauge2,564
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringCounterCell,TFE_MonitoringCounterCell,566
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringIntGaugeCell,TFE_MonitoringIntGaugeCell,568
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGaugeCell,TFE_MonitoringStringGaugeCell,570
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringBoolGaugeCell,TFE_MonitoringBoolGaugeCell,572
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringSamplerCell,TFE_MonitoringSamplerCell,574
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringBuckets,TFE_MonitoringBuckets,576
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringSampler0,TFE_MonitoringSampler0,578
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringSampler1,TFE_MonitoringSampler1,580
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringSampler2,TFE_MonitoringSampler2,582
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,CancellationManager,TFE_CancellationManager,584
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TF_DeviceList,TF_DeviceList,587
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TF_Function,TF_Function,588
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Graph,TF_Graph,103
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Operation,TF_Operation,104
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_ImportGraphDefOptions,TF_ImportGraphDefOptions,116
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_ImportGraphDefResults,TF_ImportGraphDefResults,118
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_DeprecatedSession,TF_DeprecatedSession,120
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Session,TF_Session,122
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_OperationDescription,TF_OperationDescription,123
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Library,TF_Library,125
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_SessionOptions,TF_SessionOptions,126
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Buffer,TF_Buffer,127
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_ApiDefMap,TF_ApiDefMap,128
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Server,TF_Server,129
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Status,TF_Status,130
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\data\experimental\service\server_lib_wrapper.cc,DispatchGrpcDataServer,DispatchGrpcDataServer,33
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\data\experimental\service\server_lib_wrapper.cc,WorkerGrpcDataServer,WorkerGrpcDataServer,48
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\framework\python_api_info_wrapper.cc,InferredAttributes,InferredAttributes,71
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\framework\experimental\unified_api.cc,AbstractContext,AbstractContext,116
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\framework\experimental\unified_api.cc,TracingContext,TracingContext,134
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\framework\experimental\unified_api.cc,AbstractOperation,AbstractOperation,186
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\framework\experimental\unified_api.cc,AbstractTensorHandle,AbstractTensorHandle,228
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\framework\experimental\unified_api.cc,ImmediateExecutionContext,ImmediateExecutionContext,181
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\framework\experimental\unified_api.cc,AbstractFunction,AbstractFunction,260
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\grappler\cluster_wrapper.cc,Cluster,tensorflow::grappler::Cluster,74
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\grappler\item_wrapper.cc,GrapplerItem,tensorflow::grappler::GrapplerItem,125
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\lib\io\file_io_wrapper.cc,PyTransactionToken,TransactionToken,51
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\lib\io\file_io_wrapper.cc,FileStatistics,FileStatistics,216
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\lib\io\record_io_wrapper.cc,ZlibCompressionOptions,ZlibCompressionOptions,269
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,Region,Region,34
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,iterator,Block_Iterator,41
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,OpResult,OpResult,51
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,BlockArgument,BlockArgument,52
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\mlir\python\mlir_wrapper\builders.cc,InsertPoint,OpBuilder_InsertionPoint,51
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\outfeed_receiver_py.cc,OutfeedReceiverForPython,OutfeedReceiverForPython,156
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\profiler.cc,ProfilerServer,ProfilerServer,52
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\profiler.cc,ProfileOptions,ProfileOptions,85
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\pytree.cc,PyTreeDef,PyTreeDef,699
+path,c_fun_name,py_fun_name,lineno
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\xla.cc,GetDistributedRuntimeService,get_distributed_runtime_service,348
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\xla.cc,GetDistributedRuntimeClient,get_distributed_runtime_client,349
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\xla.cc,IsOptimizedBuild,is_optimized_build,353
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\py_exception_registry_wrapper.cc,lambda expression,PyExceptionRegistry_Lookup,30
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,lambda expression,TFE_DeleteContext,670
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,lambda expression,TFE_GetContextId,762
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,TFE_Py_SetEagerTensorProfiler,TFE_Py_SetEagerTensorProfiler,898
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\tfe_wrapper.cc,lambda expression,TFE_Py_TensorShapeOnDevice,1100
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,lambda expression,TF_GraphGetTensorShape_wrapper,257
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\client\tf_session_wrapper.cc,TF_DeletePluggableDeviceLibraryHandle,TF_PluggableDeviceLibraryHandle,737
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\lib\io\file_io_wrapper.cc,lambda expression,ReadFileToString,79
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\lib\io\file_io_wrapper.cc,lambda expression,WriteStringToFile,91
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\profiler\internal\profiler_wrapper.cc,lambda expression,xspace_to_tools_data,133
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\profiler\internal\profiler_wrapper.cc,lambda expression,xspace_to_tools_data_from_string,163
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\util\util_wrapper.cc,lambda expression,IsResourceVariable,316
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\traceback.cc,MakePythonTraceback,make_python_traceback,171
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\traceback.cc,lambda expression,replace_thread_exc_traceback,178
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\compiler\xla\python\traceback.cc,lambda expression,replace_thread_exc_traceback,196
+F:\DLFs_dataset\tensorflow\tensorflow-2.6.0\tensorflow\python\eager\pywrap_tfe_src.cc,ForwardAccumulatorDeleteGradient,ForwardAccumulatorDeleteGradient,2292

@@ -1,0 +1,8 @@
+path,c_class_name,py_class_name,lineno
+F:\DLFs_dataset\chainer\chainer-6.5.0\chainerx_cc\chainerx\python\context.cc,PyContextScope,ContextScope,90
+F:\DLFs_dataset\chainer\chainer-6.5.0\chainerx_cc\chainerx\python\device.cc,PyDeviceScope,DeviceScope,81
+F:\DLFs_dataset\chainer\chainer-6.5.0\chainerx_cc\chainerx\python\graph.cc,AnyGraph,AnyGraph,49
+F:\DLFs_dataset\chainer\chainer-6.5.0\chainerx_cc\chainerx\python\graph.cc,BackpropId,BackpropId,54
+F:\DLFs_dataset\chainer\chainer-6.5.0\chainerx_cc\chainerx\python\graph.cc,PyBackpropScope,BackpropScope,65
+F:\DLFs_dataset\chainer\chainer-6.5.0\chainerx_cc\chainerx\python\scalar.cc,Scalar,_Scalar,22
+path,c_fun_name,py_fun_name,lineno

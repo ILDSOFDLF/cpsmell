@@ -1,0 +1,483 @@
+c_path,module_name,py_fun_name,c_fun_name,lineno,lambda_len
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\mlir\python\mlir_wrapper\filecheck_wrapper.cc,filecheck_wrapper,check,lambda expression,24,392.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\mlir\python\mlir_wrapper\mlir_wrapper.cc,mlir_wrapper,preloadTensorFlowDialects,lambda expression,32,174.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\mlir\python\mlir_wrapper\mlir_wrapper.cc,mlir_wrapper,verify,lambda expression,39,415.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\mlir\tfr\python\tfr_wrapper.cc,tfr_wrapper,verify,lambda expression,35,592.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\tf2tensorrt\utils\py_utils_wrapper.cc,_pywrap_py_utils,get_linked_tensorrt_version,get_linked_tensorrt_version,32,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\tf2tensorrt\utils\py_utils_wrapper.cc,_pywrap_py_utils,get_loaded_tensorrt_version,get_loaded_tensorrt_version,35,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\tf2tensorrt\utils\py_utils_wrapper.cc,_pywrap_py_utils,is_tensorrt_enabled,IsGoogleTensorRTEnabled,38,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,bfloat16_dtype,lambda expression,99,49.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,get_cpu_client,lambda expression,233,175.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,get_interpreter_client,lambda expression,241,159.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,get_gpu_client,lambda expression,246,323.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,get_tpu_client,lambda expression,260,175.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,buffer_to_dlpack_managed_tensor,BufferToDLPackManagedTensor,373,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,dlpack_managed_tensor_to_buffer,DLPackManagedTensorToBuffer,375,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,get_distributed_runtime_service,GetDistributedRuntimeService,394,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,get_distributed_runtime_client,GetDistributedRuntimeClient,395,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,collect_garbage,lambda expression,397,43.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,xla_extension,is_optimized_build,IsOptimizedBuild,399,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\kernels\gradient\gradient_ops_wrapper.cc,pywrap_gradient_ops,GradientOpsRegisterer,lambda expression,24,93.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\kernels\perception\perception_ops_wrapper.cc,pywrap_perception_ops,PerceptionOpsRegisterer,lambda expression,24,95.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\python\interpreter_wrapper\interpreter_wrapper_pybind11.cc,_pywrap_tensorflow_interpreter_wrapper,CreateWrapperFromFile,lambda expression,35,281.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\python\interpreter_wrapper\interpreter_wrapper_pybind11.cc,_pywrap_tensorflow_interpreter_wrapper,CreateWrapperFromFile,lambda expression,48,389.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\python\interpreter_wrapper\interpreter_wrapper_pybind11.cc,_pywrap_tensorflow_interpreter_wrapper,CreateWrapperFromBuffer,lambda expression,63,267.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\python\interpreter_wrapper\interpreter_wrapper_pybind11.cc,_pywrap_tensorflow_interpreter_wrapper,CreateWrapperFromBuffer,lambda expression,76,375.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\python\optimize\calibration_wrapper_pybind11.cc,_pywrap_tensorflow_lite_calibration_wrapper,AddIntermediateTensors,lambda expression,32,80.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\python\testdata\test_registerer_wrapper.cc,_pywrap_test_registerer,get_num_test_registerer_calls,get_num_test_registerer_calls,21,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\python\testdata\test_registerer_wrapper.cc,_pywrap_test_registerer,TF_TestRegisterer,lambda expression,25,83.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\testing\string_util_wrapper.cc,_pywrap_string_util,SerializeAsHexString,lambda expression,28,105.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\tools\optimize\python\modify_model_interface.cc,_pywrap_modify_model_interface,modify_model_interface,lambda expression,30,228.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\tools\sanitizers\sanitizers_pybind11.cc,_pywrap_tensorflow_lite_sanitizers,TSan_Enabled,lambda expression,20,62.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\tools\sanitizers\sanitizers_pybind11.cc,_pywrap_tensorflow_lite_sanitizers,MSan_Enabled,lambda expression,27,62.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\tools\sanitizers\sanitizers_pybind11.cc,_pywrap_tensorflow_lite_sanitizers,ASan_Enabled,lambda expression,34,63.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\tools\signature\signature_def_util_wrapper_pybind11.cc,_pywrap_signature_def_util_wrapper,SetSignatureDefMap,WrappedSetSignatureDefMap,90,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\tools\signature\signature_def_util_wrapper_pybind11.cc,_pywrap_signature_def_util_wrapper,GetSignatureDefMap,WrappedGetSignatureDefMap,92,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\tools\signature\signature_def_util_wrapper_pybind11.cc,_pywrap_signature_def_util_wrapper,ClearSignatureDefs,WrappedClearSignatureDefs,94,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\mlir_wrapper.cc,_pywrap_mlir,ImportGraphDef,lambda expression,25,138.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\mlir_wrapper.cc,_pywrap_mlir,ImportFunction,lambda expression,36,164.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\mlir_wrapper.cc,_pywrap_mlir,ExperimentalConvertSavedModelToMlir,lambda expression,50,147.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\mlir_wrapper.cc,_pywrap_mlir,ExperimentalConvertSavedModelV1ToMlirLite,lambda expression,61,190.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\mlir_wrapper.cc,_pywrap_mlir,ExperimentalConvertSavedModelV1ToMlir,lambda expression,75,208.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\mlir_wrapper.cc,_pywrap_mlir,ExperimentalRunPassPipeline,lambda expression,89,138.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\py_exception_registry_wrapper.cc,_pywrap_py_exception_registry,PyExceptionRegistry_Init,lambda expression,27,98.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\py_exception_registry_wrapper.cc,_pywrap_py_exception_registry,PyExceptionRegistry_Lookup,lambda expression,30,61.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfcompile_wrapper.cc,_pywrap_tfcompile,Compile,lambda expression,35,1025.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_RegisterExceptionClass,lambda expression,534,86.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_RegisterFallbackExceptionClass,lambda expression,537,86.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_GetMemoryInfo,lambda expression,542,1372.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_SetXlaEnableLazyCompilation,TF_SetXlaEnableLazyCompilation,602,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_SetTfXlaCpuGlobalJit,TF_SetTfXlaCpuGlobalJit,603,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_SetXlaAutoJitMode,TF_SetXlaAutoJitMode,604,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_SetXlaConstantFoldingDisabled,TF_SetXlaConstantFoldingDisabled,605,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_GetXlaConstantFoldingDisabled,TF_GetXlaConstantFoldingDisabled,606,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_SetXlaMinClusterSize,TF_SetXlaMinClusterSize,607,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_GetCompilerIr,TFE_GetCompilerIr,608,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_IsMlirBridgeEnabled,lambda expression,611,78.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_EnableMlirBridge,lambda expression,617,213.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_EnableXlaDevices,lambda expression,624,63.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_NewContext,lambda expression,629,94.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_DeleteContext,lambda expression,639,64.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextListDevices,lambda expression,642,78.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_HostAddressSpace,lambda expression,653,84.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextAddFunction,lambda expression,656,100.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextAddFunctionDef,lambda expression,663,121.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextGetFunctionDef,lambda expression,672,114.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextRemoveFunction,lambda expression,680,98.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextHasFunction,lambda expression,687,98.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextListFunctionNames,lambda expression,695,95.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextEnableRunMetadata,lambda expression,699,79.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextDisableRunMetadata,lambda expression,702,79.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextEnableGraphCollection,lambda expression,705,83.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextDisableGraphCollection,lambda expression,708,84.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextExportRunMetadata,lambda expression,711,97.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextClearCaches,lambda expression,718,69.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_GetContextId,lambda expression,721,72.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextGetDevicePlacementPolicy,lambda expression,724,83.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextSetThreadLocalDevicePlacementPolicy,lambda expression,728,121.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextSetServerDef,lambda expression,733,116.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextUpdateServerDef,lambda expression,743,116.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextCheckAlive,lambda expression,756,105.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextSyncExecutors,lambda expression,764,84.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextClearExecutors,lambda expression,773,84.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextSetSoftDevicePlacement,lambda expression,783,94.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextSetLogDevicePlacement,lambda expression,789,94.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_NewExecutor,lambda expression,797,62.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_DeleteExecutor,TFE_DeleteExecutor,804,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ExecutorIsAsync,TFE_ExecutorIsAsync,805,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ExecutorWaitForAllPendingNodes,lambda expression,806,86.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ExecutorClearError,TFE_ExecutorClearError,815,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextSetExecutorForThread,lambda expression,816,102.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextGetExecutorForThread,lambda expression,820,79.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_OpNameGetAttrType,lambda expression,827,171.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_InitEagerTensor,lambda expression,850,79.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_PackEagerTensors,lambda expression,853,106.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_SetEagerTensorProfiler,TFE_Py_SetEagerTensorProfiler,857,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_RegisterJVPFunction,lambda expression,858,83.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_RegisterGradientFunction,lambda expression,861,88.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_Execute,lambda expression,864,224.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_ExecuteCancelable,lambda expression,872,294.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_FastPathExecute,lambda expression,882,84.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_RecordGradient,lambda expression,886,240.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_UID,lambda expression,894,46.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetNew,lambda expression,897,154.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetAdd,lambda expression,902,54.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetRemove,lambda expression,904,57.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetStopOnThread,TFE_Py_TapeSetStopOnThread,906,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetRestartOnThread,TFE_Py_TapeSetRestartOnThread,907,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetIsStopped,lambda expression,908,59.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetIsEmpty,lambda expression,910,57.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetShouldRecordBackprop,lambda expression,912,95.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetPossibleGradientTypes,lambda expression,916,96.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetDeleteTrace,TFE_Py_TapeSetDeleteTrace,920,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetRecordOperation,lambda expression,921,286.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetRecordOperationBackprop,lambda expression,929,244.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeSetRecordOperationForwardprop,lambda expression,937,321.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeGradient,lambda expression,946,225.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeVariableAccessed,lambda expression,960,69.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeWatch,lambda expression,963,78.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeWatchVariable,lambda expression,967,90.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TapeWatchedVariables,lambda expression,971,90.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_VariableWatcherNew,lambda expression,976,61.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_VariableWatcherRemove,lambda expression,978,86.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_VariableWatcherVariableAccessed,lambda expression,981,74.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_VariableWatcherWatchedVariables,lambda expression,985,105.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_ForwardAccumulatorNew,lambda expression,992,83.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_ForwardAccumulatorSetAdd,lambda expression,996,100.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_ForwardAccumulatorSetRemove,lambda expression,1000,76.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_ForwardAccumulatorWatch,lambda expression,1005,142.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_ForwardAccumulatorJVP,lambda expression,1011,119.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_ForwardAccumulatorPushState,lambda expression,1016,67.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_ForwardAccumulatorPopState,lambda expression,1019,66.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_PackJVPs,lambda expression,1022,84.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_NewContextOptions,TFE_NewContextOptions,1027,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextOptionsSetConfig,lambda expression,1029,110.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextOptionsSetDevicePlacementPolicy,TFE_ContextOptionsSetDevicePlacementPolicy,1039,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextOptionsSetTfrt,TFE_ContextOptionsSetTfrt,1041,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ContextOptionsSetAsync,TFE_ContextOptionsSetAsync,1042,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_DeleteContextOptions,TFE_DeleteContextOptions,1043,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TensorShapeSlice,lambda expression,1047,93.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_TensorShapeOnDevice,lambda expression,1052,107.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_EnableInteractivePythonLogging,TFE_Py_EnableInteractivePythonLogging,1056,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_SetEagerContext,lambda expression,1060,79.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_RegisterVSpace,lambda expression,1063,78.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_EncodeArg,lambda expression,1066,107.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_EnableCollectiveOps,lambda expression,1071,103.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_AbortCollectiveOps,lambda expression,1080,113.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_CollectiveOpsCheckPeerHealth,lambda expression,1087,117.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_ListPhysicalDevices,TF_ListPhysicalDevices,1095,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_ListPluggablePhysicalDevices,TF_ListPluggablePhysicalDevices,1096,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_GetDeviceDetails,TF_GetDeviceDetails,1098,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_DeleteDeviceList,TF_DeleteDeviceList,1099,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_DeviceListCount,TF_DeviceListCount,1101,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_DeviceListName,lambda expression,1102,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_DeviceListType,lambda expression,1109,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_PickUnusedPortOrDie,TF_PickUnusedPortOrDie,1117,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringCounterCellIncrementBy,TFE_MonitoringCounterCellIncrementBy,1120,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringCounterCellValue,TFE_MonitoringCounterCellValue,1122,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewCounter0,lambda expression,1123,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteCounter0,TFE_MonitoringDeleteCounter0,1134,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellCounter0,TFE_MonitoringGetCellCounter0,1136,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewCounter1,lambda expression,1138,117.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteCounter1,TFE_MonitoringDeleteCounter1,1149,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellCounter1,TFE_MonitoringGetCellCounter1,1151,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewCounter2,lambda expression,1153,133.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteCounter2,TFE_MonitoringDeleteCounter2,1165,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellCounter2,TFE_MonitoringGetCellCounter2,1167,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringIntGaugeCellSet,TFE_MonitoringIntGaugeCellSet,1171,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringIntGaugeCellValue,TFE_MonitoringIntGaugeCellValue,1172,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewIntGauge0,lambda expression,1173,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteIntGauge0,TFE_MonitoringDeleteIntGauge0,1184,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellIntGauge0,TFE_MonitoringGetCellIntGauge0,1186,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewIntGauge1,lambda expression,1188,117.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteIntGauge1,TFE_MonitoringDeleteIntGauge1,1199,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellIntGauge1,TFE_MonitoringGetCellIntGauge1,1201,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewIntGauge2,lambda expression,1203,133.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteIntGauge2,TFE_MonitoringDeleteIntGauge2,1215,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellIntGauge2,TFE_MonitoringGetCellIntGauge2,1217,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringStringGaugeCellSet,TFE_MonitoringStringGaugeCellSet,1219,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringStringGaugeCellValue,TFE_MonitoringStringGaugeCellValue,1220,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewStringGauge0,lambda expression,1222,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteStringGauge0,TFE_MonitoringDeleteStringGauge0,1235,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellStringGauge0,TFE_MonitoringGetCellStringGauge0,1236,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewStringGauge1,lambda expression,1238,117.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteStringGauge1,TFE_MonitoringDeleteStringGauge1,1249,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellStringGauge1,TFE_MonitoringGetCellStringGauge1,1250,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewStringGauge2,lambda expression,1252,133.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteStringGauge2,TFE_MonitoringDeleteStringGauge2,1264,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellStringGauge2,TFE_MonitoringGetCellStringGauge2,1265,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringBoolGaugeCellSet,TFE_MonitoringBoolGaugeCellSet,1269,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringBoolGaugeCellValue,TFE_MonitoringBoolGaugeCellValue,1270,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewBoolGauge0,lambda expression,1271,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteBoolGauge0,TFE_MonitoringDeleteBoolGauge0,1282,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellBoolGauge0,TFE_MonitoringGetCellBoolGauge0,1284,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewBoolGauge1,lambda expression,1286,117.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteBoolGauge1,TFE_MonitoringDeleteBoolGauge1,1297,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellBoolGauge1,TFE_MonitoringGetCellBoolGauge1,1299,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewBoolGauge2,lambda expression,1301,133.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteBoolGauge2,TFE_MonitoringDeleteBoolGauge2,1313,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellBoolGauge2,TFE_MonitoringGetCellBoolGauge2,1315,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringSamplerCellAdd,TFE_MonitoringSamplerCellAdd,1319,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringSamplerCellValue,TFE_MonitoringSamplerCellValue,1320,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewExponentialBuckets,TFE_MonitoringNewExponentialBuckets,1321,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteBuckets,TFE_MonitoringDeleteBuckets,1324,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewSampler0,lambda expression,1326,130.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteSampler0,TFE_MonitoringDeleteSampler0,1338,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellSampler0,TFE_MonitoringGetCellSampler0,1340,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewSampler1,lambda expression,1342,146.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteSampler1,TFE_MonitoringDeleteSampler1,1354,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellSampler1,TFE_MonitoringGetCellSampler1,1356,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringNewSampler2,lambda expression,1358,162.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringDeleteSampler2,TFE_MonitoringDeleteSampler2,1370,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_MonitoringGetCellSampler2,TFE_MonitoringGetCellSampler2,1372,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_NewCancellationManager,lambda expression,1376,46.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_CancellationManagerIsCancelled,IsCancelled,1378,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_CancellationManagerStartCancel,StartCancel,1380,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ClearScalarCache,TFE_ClearScalarCache,1383,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TF_NewBufferFromString,TF_NewBufferFromString,1386,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_ToDlpackCapsule,lambda expression,1390,121.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_FromDlpackCapsule,lambda expression,1419,119.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,_pywrap_tfe,TFE_Py_RegisterCustomDevice,lambda expression,1444,165.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,Init,lambda expression,31,291.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,WriteSourceFile,lambda expression,42,287.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,WriteStackFrameWithId,lambda expression,52,288.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,WriteGraphOpCreation,lambda expression,62,282.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,WriteDebuggedGraph,lambda expression,72,282.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,WriteExecution,lambda expression,82,282.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,WriteGraphExecutionTrace,lambda expression,92,295.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,RegisterDeviceAndGetId,lambda expression,102,201.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,FlushNonExecutionFiles,lambda expression,108,157.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,FlushExecutionFiles,lambda expression,113,154.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\debug_events_writer_wrapper.cc,_pywrap_debug_events_writer,Close,lambda expression,118,140.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\device_lib_wrapper.cc,_pywrap_device_lib,list_devices,lambda expression,31,613.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationGetControlInputs_wrapper,TF_OperationGetControlInputs_wrapper,137,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationGetControlOutputs_wrapper,TF_OperationGetControlOutputs_wrapper,140,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationOutputConsumers_wrapper,TF_OperationOutputConsumers_wrapper,142,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,GetOperationInputs,GetOperationInputs,145,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ImportGraphDefOptionsSetValidateColocationConstraints,TF_ImportGraphDefOptionsSetValidateColocationConstraints,147,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ImportGraphDefResultsMissingUnusedInputMappings_wrapper,TF_ImportGraphDefResultsMissingUnusedInputMappings_wrapper,150,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SessionMakeCallable,lambda expression,152,130.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,_TF_SetTarget,TF_SetTarget,168,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,_TF_SetConfig,lambda expression,169,109.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,_TF_NewSessionOptions,TF_NewSessionOptions,177,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteSessionOptions,TF_DeleteSessionOptions,180,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,EqualGraphDefWrapper,EqualGraphDefWrapper,183,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,EqualAttrValueWrapper,EqualAttrValueWrapper,185,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphToFunction_wrapper,lambda expression,188,408.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphGetTensorShapeHelper,lambda expression,223,99.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphSetTensorShape_wrapper,lambda expression,243,139.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphGetTensorShape_wrapper,lambda expression,256,139.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphSetOutputHandleShapesAndTypes_wrapper,lambda expression,268,193.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_CreatePlaceholders,lambda expression,314,111.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_NewSession,lambda expression,324,107.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_NewSessionRef,lambda expression,337,107.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_CloseSession,lambda expression,350,88.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteSession,lambda expression,361,88.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,SetRequireShapeInferenceFns,SetRequireShapeInferenceFns,370,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_TryEvaluateConstant_wrapper,lambda expression,373,98.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,ExtendSession,lambda expression,383,88.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,GetHandleShapeAndType,lambda expression,392,128.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,SetHandleShapeAndType,lambda expression,400,107.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SessionRun_wrapper,lambda expression,412,598.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SessionPRun_wrapper,lambda expression,466,534.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SessionPRunSetup_wrapper,lambda expression,516,187.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SessionRunCallable,lambda expression,530,180.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SessionReleaseCallable,lambda expression,549,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_NewGraph,TF_NewGraph,558,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteGraph,TF_DeleteGraph,560,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphGetOpDef,lambda expression,563,118.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_NewOperation,lambda expression,573,116.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_FinishOperation,lambda expression,587,94.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationGetAttrInt,lambda expression,600,100.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SetAttrValueProto,lambda expression,616,131.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationNumOutputs,TF_OperationNumOutputs,627,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationInputType,TF_OperationInputType,631,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationOutputType,TF_OperationOutputType,633,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationName,TF_OperationName,636,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationOpType,TF_OperationOpType,638,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationDevice,TF_OperationDevice,640,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_AddInput,TF_AddInput,643,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationToNodeDef,lambda expression,645,106.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationGetAttrValueProto,lambda expression,653,127.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,SetRequestedDevice,SetRequestedDevice,663,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_NewBuffer,TF_NewBuffer,667,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GetBuffer,lambda expression,668,146.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteBuffer,TF_DeleteBuffer,673,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_NewBufferFromString,lambda expression,674,117.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,SetAttr,lambda expression,683,144.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,ClearAttr,lambda expression,693,112.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_LoadLibrary,lambda expression,703,92.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_LoadPluggableDeviceLibrary,lambda expression,714,92.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GetOpList,lambda expression,726,182.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteLibraryHandle,TF_DeleteLibraryHandle,733,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_PluggableDeviceLibraryHandle,TF_DeletePluggableDeviceLibraryHandle,736,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_AddControlInput,TF_AddControlInput,740,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_AddInputList,lambda expression,741,98.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,UpdateEdge,lambda expression,752,111.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,RemoveAllControlInputs,RemoveAllControlInputs,761,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,AddControlInput,AddControlInput,763,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_NewImportGraphDefOptions,TF_NewImportGraphDefOptions,766,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ImportGraphDefOptionsSetPrefix,TF_ImportGraphDefOptionsSetPrefix,769,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ImportGraphDefOptionsSetUniquifyNames,TF_ImportGraphDefOptionsSetUniquifyNames,771,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ImportGraphDefOptionsRemapControlDependency,TF_ImportGraphDefOptionsRemapControlDependency,774,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ImportGraphDefOptionsAddInputMapping,TF_ImportGraphDefOptionsAddInputMapping,777,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ImportGraphDefOptionsAddReturnOperation,TF_ImportGraphDefOptionsAddReturnOperation,780,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ImportGraphDefOptionsAddReturnOutput,TF_ImportGraphDefOptionsAddReturnOutput,783,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphImportGraphDefWithResults,lambda expression,787,141.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphNextOperation,lambda expression,800,89.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ImportGraphDefResultsReturnOutputs,lambda expression,816,228.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ImportGraphDefResultsReturnOperations,lambda expression,830,191.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphToGraphDef,lambda expression,844,110.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationNumInputs,TF_OperationNumInputs,853,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphVersions,lambda expression,856,110.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteFunction,TF_DeleteFunction,865,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteImportGraphDefResults,TF_DeleteImportGraphDefResults,867,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteImportGraphDefOptions,TF_DeleteImportGraphDefOptions,869,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_FunctionSetAttrValueProto,lambda expression,872,113.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_FunctionToFunctionDef,lambda expression,885,106.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GraphCopyFunction,lambda expression,895,120.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_FunctionImportFunctionDef,lambda expression,905,80.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,EqualAttrValueWrapper,EqualAttrValueWrapper,925,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GetAllRegisteredKernels,lambda expression,928,66.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GetRegisteredKernelsForOp,lambda expression,941,80.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GetAllOpList,TF_GetAllOpList,954,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_NewApiDefMap,lambda expression,957,90.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteApiDefMap,TF_DeleteApiDefMap,970,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ApiDefMapGet,lambda expression,973,118.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ApiDefMapPut,lambda expression,987,116.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationGetAttrType,lambda expression,997,100.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_NewServer,lambda expression,1009,80.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ServerStart,lambda expression,1023,86.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ServerStop,lambda expression,1032,86.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ServerJoin,lambda expression,1041,86.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_ServerTarget,lambda expression,1050,49.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SessionListDevices,lambda expression,1055,84.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeviceListCount,lambda expression,1066,57.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeviceListName,lambda expression,1069,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeviceListType,lambda expression,1077,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeviceListMemoryBytes,lambda expression,1085,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeviceListIncarnation,lambda expression,1093,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SetDevice,TF_SetDevice,1101,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteDeviceList,TF_DeleteDeviceList,1103,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_OperationGetAttrBool,lambda expression,1105,100.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_NewStatus,TF_NewStatus,1117,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteStatus,TF_DeleteStatus,1118,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_DeleteDeviceList,TF_DeleteDeviceList,1120,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,AddWhileInputHack,lambda expression,1122,110.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_Reset_wrapper,lambda expression,1132,132.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GetCode,TF_GetCode,1143,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SetXlaAutoJitMode,TF_SetXlaAutoJitMode,1145,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SetXlaAutoJitMode,TF_SetXlaAutoJitMode,1146,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SetXlaEnableLazyCompilation,TF_SetXlaEnableLazyCompilation,1147,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SetTfXlaCpuGlobalJit,TF_SetTfXlaCpuGlobalJit,1148,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SetXlaMinClusterSize,TF_SetXlaMinClusterSize,1149,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_GetXlaConstantFoldingDisabled,TF_GetXlaConstantFoldingDisabled,1150,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_SetXlaConstantFoldingDisabled,TF_SetXlaConstantFoldingDisabled,1151,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,get_version,lambda expression,1156,27.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,get_git_version,lambda expression,1157,26.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,get_compiler_version,lambda expression,1158,31.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,get_cxx11_abi_flag,lambda expression,1159,29.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,get_monolithic_build,lambda expression,1160,31.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,get_graph_def_version,lambda expression,1161,30.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,get_graph_def_version_min_consumer,lambda expression,1162,43.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,get_graph_def_version_min_producer,lambda expression,1164,43.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,get_tensor_handle_key,lambda expression,1166,21.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\client\tf_session_wrapper.cc,_pywrap_tf_session,TF_RegisterFilesystemPlugin,lambda expression,1175,95.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\data\experimental\service\server_lib_wrapper.cc,_pywrap_server_lib,TF_DATA_NewDispatchServer,lambda expression,62,474.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\data\experimental\service\server_lib_wrapper.cc,_pywrap_server_lib,TF_DATA_NewWorkerServer,lambda expression,79,452.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\data\experimental\service\utils_wrapper.cc,_pywrap_utils,TF_DATA_DefaultProtocol,lambda expression,22,56.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\distribute\parallel_device\pywrap_parallel_device.cc,_pywrap_parallel_device,GetParallelDeviceCapsules,lambda expression,43,349.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\eager\custom_device_testutil.cc,custom_device_testutil,GetLoggingDeviceCapsules,lambda expression,50,182.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\eager\custom_device_testutil.cc,custom_device_testutil,FlagValue,lambda expression,71,76.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\eager\pywrap_tensor_test_util.cc,pywrap_tensor_test_util,get_scalar_one,lambda expression,28,76.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\errors_test_helper.cc,_errors_test_helper,TestRaiseFromStatus,lambda expression,22,61.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\op_def_registry.cc,_op_def_registry,get,lambda expression,25,93.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\op_def_util_pybind.cc,_op_def_util,ConvertPyObjectToAttributeType,ConvertAttr,51,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\op_def_util_pybind.cc,_op_def_util,SerializedAttrValueToPyObject,SerializedAttrValueToPyObject,53,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\proto_comparators.cc,_proto_comparators,EqualsGraphDef,EqualsGraphDef,73,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\python_api_parameter_converter_wrapper.cc,_pywrap_python_api_parameter_converter,Convert,Convert,52,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\python_memory_checker_helper.cc,_python_memory_checker_helper,mark_stack_trace_and_call,lambda expression,21,27.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\python_op_gen_wrapper.cc,_pywrap_python_op_gen,GetPythonWrappers,lambda expression,25,203.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\py_context_manager_pybind.cc,_py_context_manager,test_py_context_manager,TestPyContextManager,50,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\math_ops.cc,_math_ops,add,lambda expression,33,218.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\math_ops.cc,_math_ops,mat_mul,lambda expression,44,236.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\math_ops.cc,_math_ops,neg,lambda expression,56,176.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\math_ops.cc,_math_ops,sub,lambda expression,67,218.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\math_ops.cc,_math_ops,mul,lambda expression,78,218.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\math_ops.cc,_math_ops,log1p,lambda expression,89,180.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\math_ops.cc,_math_ops,div_no_nan,lambda expression,100,228.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\nn_ops.cc,_nn_ops,relu,lambda expression,33,178.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\nn_ops.cc,_nn_ops,sparse_softmax_cross_entropy_with_logits,lambda expression,45,294.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\unified_api.cc,_unified_api,SetTracingImplementation,lambda expression,82,60.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\unified_api.cc,_unified_api,NewTracingContext,lambda expression,87,63.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\unified_api.cc,_unified_api,EagerContextToImmediateExecutionContext,lambda expression,104,71.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\unified_api.cc,_unified_api,EagerTensorToImmediateExecutionTensorHandle,lambda expression,246,223.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\cluster_wrapper.cc,_pywrap_tf_cluster,TF_NewCluster,lambda expression,77,549.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\cluster_wrapper.cc,_pywrap_tf_cluster,TF_NewVirtualCluster,lambda expression,96,680.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\cluster_wrapper.cc,_pywrap_tf_cluster,TF_ShutdownCluster,lambda expression,124,87.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\cluster_wrapper.cc,_pywrap_tf_cluster,TF_ListDevices,lambda expression,130,331.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\cluster_wrapper.cc,_pywrap_tf_cluster,TF_ListAvailableOps,lambda expression,144,320.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\cluster_wrapper.cc,_pywrap_tf_cluster,TF_GetSupportedDevices,lambda expression,157,673.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\cluster_wrapper.cc,_pywrap_tf_cluster,TF_EstimatePerformance,lambda expression,243,315.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\cluster_wrapper.cc,_pywrap_tf_cluster,TF_MeasureCosts,lambda expression,255,1005.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\cluster_wrapper.cc,_pywrap_tf_cluster,TF_DeterminePeakMemoryUsage,lambda expression,294,588.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\cost_analyzer_wrapper.cc,_pywrap_cost_analyzer,GenerateCostReport,lambda expression,31,699.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\graph_analyzer_tool_wrapper.cc,_pywrap_graph_analyzer_tool,GraphAnalyzer,GraphAnalyzerTool,20,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\item_wrapper.cc,_pywrap_tf_item,TF_NewItem,lambda expression,128,729.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\item_wrapper.cc,_pywrap_tf_item,TF_IdentifyImportantOps,lambda expression,155,437.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\item_wrapper.cc,_pywrap_tf_item,TF_GetOpProperties,lambda expression,191,295.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\item_wrapper.cc,_pywrap_tf_item,TF_GetColocationGroups,lambda expression,213,190.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\model_analyzer_wrapper.cc,_pywrap_model_analyzer,GenerateModelReport,lambda expression,28,636.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\grappler\tf_optimizer_wrapper.cc,_pywrap_tf_optimizer,TF_OptimizeGraph,lambda expression,61,1191.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\core\bfloat16_wrapper.cc,_pywrap_bfloat16,TF_bfloat16_type,lambda expression,22,53.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\core\py_func_wrapper.cc,_pywrap_py_func,initialize_py_trampoline,lambda expression,22,79.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,FileExists,lambda expression,59,204.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,DeleteFile,lambda expression,70,124.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,ReadFileToString,lambda expression,79,148.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,WriteStringToFile,lambda expression,91,161.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,GetChildren,lambda expression,102,145.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,GetMatchingFiles,lambda expression,114,145.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,CreateDir,lambda expression,126,114.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,RecursivelyCreateDir,lambda expression,137,114.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,CopyFile,lambda expression,146,345.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,RenameFile,lambda expression,162,347.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,DeleteRecursively,lambda expression,178,174.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,IsDirectory,lambda expression,193,114.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,HasAtomicMove,lambda expression,207,111.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\file_io_wrapper.cc,_pywrap_file_io,Stat,lambda expression,221,188.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lite\toco_python_api_wrapper.cc,_pywrap_toco_api,TocoConvert,lambda expression,23,356.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lite\toco_python_api_wrapper.cc,_pywrap_toco_api,TocoGetPotentiallySupportedOps,lambda expression,49,65.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lite\toco_python_api_wrapper.cc,_pywrap_toco_api,ExperimentalMlirQuantizeModel,lambda expression,57,319.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lite\toco_python_api_wrapper.cc,_pywrap_toco_api,ExperimentalMlirSparsifyModel,lambda expression,74,100.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lite\toco_python_api_wrapper.cc,_pywrap_toco_api,RegisterCustomOpdefs,lambda expression,84,101.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\platform\enable_tf2.cc,_pywrap_tf2,enable,set_tf2_execution,20,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\platform\enable_tf2.cc,_pywrap_tf2,is_enabled,tf2_execution_enabled,21,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\platform\stacktrace_handler_wrapper.cc,_pywrap_stacktrace_handler,InstallStacktraceHandler,InstallStacktraceHandler,22,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\profiler\internal\profiler_wrapper.cc,_pywrap_profiler,start_server,lambda expression,91,149.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\profiler\internal\profiler_wrapper.cc,_pywrap_profiler,trace,lambda expression,100,409.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\profiler\internal\profiler_wrapper.cc,_pywrap_profiler,monitor,lambda expression,117,314.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\profiler\internal\profiler_wrapper.cc,_pywrap_profiler,xspace_to_tools_data,lambda expression,132,405.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\training\quantize_training_wrapper.cc,_pywrap_quantize_training,DoQuantizeTrainingOnGraphDefHelper,lambda expression,42,116.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\fast_module_type.cc,fast_module_type,get_fast_module_type_class,lambda expression,285,55.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\kernel_registry_wrapper.cc,_pywrap_kernel_registry,TryFindKernelClass,lambda expression,22,111.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\nest_wrapper.cc,_pywrap_nest,FlattenDictItems,lambda expression,27,87.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\port_wrapper.cc,_pywrap_util_port,IsGoogleCudaEnabled,IsGoogleCudaEnabled,21,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\port_wrapper.cc,_pywrap_util_port,IsBuiltWithROCm,IsBuiltWithROCm,22,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\port_wrapper.cc,_pywrap_util_port,IsBuiltWithXLA,IsBuiltWithXLA,23,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\port_wrapper.cc,_pywrap_util_port,IsBuiltWithNvcc,IsBuiltWithNvcc,24,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\port_wrapper.cc,_pywrap_util_port,GpuSupportsHalfMatMulAndConv,GpuSupportsHalfMatMulAndConv,25,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\port_wrapper.cc,_pywrap_util_port,IsMklEnabled,IsMklEnabled,27,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tensor_float_32.cc,_pywrap_tensor_float_32_execution,enable,enable_tensor_float_32_execution,20,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tensor_float_32.cc,_pywrap_tensor_float_32_execution,is_enabled,tensor_float_32_execution_enabled,21,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tfprof_wrapper.cc,_pywrap_tfprof,PrintModelAnalysis,lambda expression,25,220.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tfprof_wrapper.cc,_pywrap_tfprof,NewProfiler,NewProfiler,33,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tfprof_wrapper.cc,_pywrap_tfprof,ProfilerFromFile,ProfilerFromFile,34,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tfprof_wrapper.cc,_pywrap_tfprof,DeleteProfiler,DeleteProfiler,35,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tfprof_wrapper.cc,_pywrap_tfprof,AddStep,AddStep,36,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tfprof_wrapper.cc,_pywrap_tfprof,SerializeToString,lambda expression,37,74.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tfprof_wrapper.cc,_pywrap_tfprof,WriteProfile,WriteProfile,41,
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tfprof_wrapper.cc,_pywrap_tfprof,Profile,lambda expression,42,126.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tf_stack.cc,_tf_stack,extract_stack_for_node,lambda expression,383,301.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\tf_stack.cc,_tf_stack,extract_stack,lambda expression,396,134.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\transform_graph_wrapper.cc,_pywrap_transform_graph,TransformGraphWithStringInputs,lambda expression,64,302.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,RegisterType,lambda expression,29,113.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,RegisterPyObject,lambda expression,34,119.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsTensor,lambda expression,38,56.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsSequence,lambda expression,50,58.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsSequenceOrComposite,lambda expression,66,69.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsCompositeTensor,lambda expression,85,65.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsTypeSpec,lambda expression,103,58.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsNamedtuple,lambda expression,121,87.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsMapping,lambda expression,130,57.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsMutableMapping,lambda expression,148,64.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsMappingView,lambda expression,166,61.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsAttrs,lambda expression,184,55.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,SameNamedtuples,lambda expression,202,102.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,AssertSameStructure,lambda expression,211,124.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,Flatten,lambda expression,225,104.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsSequenceForData,lambda expression,261,65.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,FlattenForData,lambda expression,285,73.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,AssertSameStructureForData,lambda expression,303,110.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsResourceVariable,lambda expression,316,66.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsVariable,lambda expression,334,58.0
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\util\util_wrapper.cc,_pywrap_utils,IsBF16SupportedByOneDNNOnThisCPU,lambda expression,352,126.0

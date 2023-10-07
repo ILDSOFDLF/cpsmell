@@ -1,0 +1,11 @@
+path,class_name,lineno
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,PjRtDevice,105
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,PyClient,203
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\xla.cc,PyExecutable,349
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,PyTpuClient,28
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,PyTpuBuffer,144
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,PyTpuExecutable,184
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\lite\python\interpreter_wrapper\interpreter_wrapper_pybind11.cc,InterpreterWrapper,91
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\tfe_wrapper.cc,EagerContextThreadLocalDataWrapper,1477
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\framework\experimental\unified_api.cc,AbstractOperation,184
+F:\DLFs_dataset\tensorflow\tensorflow-2.5.0\tensorflow\python\lib\io\record_io_wrapper.cc,ZlibCompressionOptions,269

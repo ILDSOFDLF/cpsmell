@@ -1,0 +1,170 @@
+==================tensorflow==================
+---------------tensorflow-2.2.0---------------
+the number of LILBC smell:5	the density of LILBC KLOC:0.117603
+the number of EILC smell:0	the density of EILC KLOC:0.0
+the number of LLFFILB smell:195	the density of LLFFILB KLOC:4.586509
+the number of NURP smell:3	the density of NURP KLOC:0.070562
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:64	the density of UE KLOC:1.505316
+the number of UM smell:1	the density of UM KLOC:0.023521
+the number of LOSD smell:1	the density of LOSD KLOC:0.023521
+the number of all smell:269	the density of all smell KLOC:6.32703
+""
+---------------tensorflow-2.8.0---------------
+the number of LILBC smell:11	the density of LILBC KLOC:0.114682
+the number of EILC smell:1	the density of EILC KLOC:0.010426
+the number of LLFFILB smell:277	the density of LLFFILB KLOC:2.887914
+the number of NURP smell:3	the density of NURP KLOC:0.031277
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:115	the density of UE KLOC:1.198953
+the number of UM smell:4	the density of UM KLOC:0.041703
+the number of LOSD smell:1	the density of LOSD KLOC:0.010426
+the number of all smell:412	the density of all smell KLOC:4.29538
+""
+---------------tensorflow-2.12.0---------------
+the number of LILBC smell:11	the density of LILBC KLOC:0.092938
+the number of EILC smell:3	the density of EILC KLOC:0.025347
+the number of LLFFILB smell:325	the density of LLFFILB KLOC:2.745906
+the number of NURP smell:3	the density of NURP KLOC:0.025347
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:133	the density of UE KLOC:1.123709
+the number of UM smell:4	the density of UM KLOC:0.033796
+the number of LOSD smell:1	the density of LOSD KLOC:0.008449
+the number of all smell:480	the density of all smell KLOC:4.055493
+""
+==================pytorch==================
+---------------pytorch-1.5.0---------------
+the number of LILBC smell:1	the density of LILBC KLOC:0.032771
+the number of EILC smell:2	the density of EILC KLOC:0.065542
+the number of LLFFILB smell:76	the density of LLFFILB KLOC:2.490578
+the number of NURP smell:1	the density of NURP KLOC:0.032771
+the number of LOREC smell:6	the density of LOREC KLOC:0.196625
+the number of UE smell:39	the density of UE KLOC:1.27806
+the number of UM smell:1	the density of UM KLOC:0.032771
+the number of LOSD smell:61	the density of LOSD KLOC:1.999017
+the number of all smell:187	the density of all smell KLOC:6.128134
+""
+---------------pytorch-1.11.0---------------
+the number of LILBC smell:1	the density of LILBC KLOC:0.012205
+the number of EILC smell:6	the density of EILC KLOC:0.07323
+the number of LLFFILB smell:88	the density of LLFFILB KLOC:1.074035
+the number of NURP smell:8	the density of NURP KLOC:0.09764
+the number of LOREC smell:7	the density of LOREC KLOC:0.085435
+the number of UE smell:44	the density of UE KLOC:0.537018
+the number of UM smell:2	the density of UM KLOC:0.02441
+the number of LOSD smell:88	the density of LOSD KLOC:1.074035
+the number of all smell:244	the density of all smell KLOC:2.978007
+""
+---------------pytorch-2.0.1---------------
+the number of LILBC smell:1	the density of LILBC KLOC:0.010398
+the number of EILC smell:15	the density of EILC KLOC:0.155972
+the number of LLFFILB smell:93	the density of LLFFILB KLOC:0.967027
+the number of NURP smell:11	the density of NURP KLOC:0.11438
+the number of LOREC smell:9	the density of LOREC KLOC:0.093583
+the number of UE smell:47	the density of UE KLOC:0.488713
+the number of UM smell:1	the density of UM KLOC:0.010398
+the number of LOSD smell:124	the density of LOSD KLOC:1.28937
+the number of all smell:301	the density of all smell KLOC:3.129842
+""
+==================mindspore==================
+---------------mindspore-1.0.0---------------
+the number of LILBC smell:5	the density of LILBC KLOC:0.172052
+the number of EILC smell:0	the density of EILC KLOC:0.0
+the number of LLFFILB smell:0	the density of LLFFILB KLOC:0.0
+the number of NURP smell:0	the density of NURP KLOC:0.0
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:1	the density of UE KLOC:0.03441
+the number of UM smell:0	the density of UM KLOC:0.0
+the number of LOSD smell:0	the density of LOSD KLOC:0.0
+the number of all smell:6	the density of all smell KLOC:0.206462
+""
+---------------mindspore-1.7.0---------------
+the number of LILBC smell:8	the density of LILBC KLOC:0.085036
+the number of EILC smell:0	the density of EILC KLOC:0.0
+the number of LLFFILB smell:0	the density of LLFFILB KLOC:0.0
+the number of NURP smell:1	the density of NURP KLOC:0.010629
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:1	the density of UE KLOC:0.010629
+the number of UM smell:0	the density of UM KLOC:0.0
+the number of LOSD smell:0	the density of LOSD KLOC:0.0
+the number of all smell:10	the density of all smell KLOC:0.106295
+""
+---------------mindspore-1.10.1---------------
+the number of LILBC smell:17	the density of LILBC KLOC:0.1298
+the number of EILC smell:0	the density of EILC KLOC:0.0
+the number of LLFFILB smell:0	the density of LLFFILB KLOC:0.0
+the number of NURP smell:1	the density of NURP KLOC:0.007635
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:5	the density of UE KLOC:0.038176
+the number of UM smell:0	the density of UM KLOC:0.0
+the number of LOSD smell:0	the density of LOSD KLOC:0.0
+the number of all smell:23	the density of all smell KLOC:0.175611
+""
+==================Paddle==================
+---------------Paddle-1.8.0---------------
+the number of LILBC smell:34	the density of LILBC KLOC:1.637528
+the number of EILC smell:0	the density of EILC KLOC:0.0
+the number of LLFFILB smell:44	the density of LLFFILB KLOC:2.119154
+the number of NURP smell:0	the density of NURP KLOC:0.0
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:28	the density of UE KLOC:1.348553
+the number of UM smell:0	the density of UM KLOC:0.0
+the number of LOSD smell:0	the density of LOSD KLOC:0.0
+the number of all smell:106	the density of all smell KLOC:5.105235
+""
+---------------Paddle-2.3.0---------------
+the number of LILBC smell:78	the density of LILBC KLOC:1.285432
+the number of EILC smell:1	the density of EILC KLOC:0.01648
+the number of LLFFILB smell:110	the density of LLFFILB KLOC:1.812788
+the number of NURP smell:1	the density of NURP KLOC:0.01648
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:108	the density of UE KLOC:1.779829
+the number of UM smell:0	the density of UM KLOC:0.0
+the number of LOSD smell:3	the density of LOSD KLOC:0.04944
+the number of all smell:301	the density of all smell KLOC:4.960448
+""
+---------------Paddle-2.4.2---------------
+the number of LILBC smell:41	the density of LILBC KLOC:0.641347
+the number of EILC smell:1	the density of EILC KLOC:0.015643
+the number of LLFFILB smell:61	the density of LLFFILB KLOC:0.954198
+the number of NURP smell:1	the density of NURP KLOC:0.015643
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:57	the density of UE KLOC:0.891628
+the number of UM smell:0	the density of UM KLOC:0.0
+the number of LOSD smell:2	the density of LOSD KLOC:0.031285
+the number of all smell:163	the density of all smell KLOC:2.549743
+""
+==================chainer==================
+---------------chainer-6.0.0---------------
+the number of LILBC smell:1	the density of LILBC KLOC:0.204583
+the number of EILC smell:0	the density of EILC KLOC:0.0
+the number of LLFFILB smell:11	the density of LLFFILB KLOC:2.250409
+the number of NURP smell:0	the density of NURP KLOC:0.0
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:6	the density of UE KLOC:1.227496
+the number of UM smell:0	the density of UM KLOC:0.0
+the number of LOSD smell:0	the density of LOSD KLOC:0.0
+the number of all smell:18	the density of all smell KLOC:3.682488
+""
+---------------chainer-6.7.0---------------
+the number of LILBC smell:1	the density of LILBC KLOC:0.193311
+the number of EILC smell:0	the density of EILC KLOC:0.0
+the number of LLFFILB smell:11	the density of LLFFILB KLOC:2.126426
+the number of NURP smell:0	the density of NURP KLOC:0.0
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:6	the density of UE KLOC:1.159869
+the number of UM smell:0	the density of UM KLOC:0.0
+the number of LOSD smell:0	the density of LOSD KLOC:0.0
+the number of all smell:18	the density of all smell KLOC:3.479606
+""
+---------------chainer-7.8.1---------------
+the number of LILBC smell:0	the density of LILBC KLOC:0.0
+the number of EILC smell:0	the density of EILC KLOC:0.0
+the number of LLFFILB smell:9	the density of LLFFILB KLOC:2.784653
+the number of NURP smell:0	the density of NURP KLOC:0.0
+the number of LOREC smell:0	the density of LOREC KLOC:0.0
+the number of UE smell:6	the density of UE KLOC:1.856436
+the number of UM smell:0	the density of UM KLOC:0.0
+the number of LOSD smell:0	the density of LOSD KLOC:0.0
+the number of all smell:15	the density of all smell KLOC:4.641089
+""

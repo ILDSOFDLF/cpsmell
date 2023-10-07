@@ -1,0 +1,48 @@
+path,c_class_name,py_class_name,lineno
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,ObserverBase,Observer,385
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,DLPackWrapper,DLPackTensorCPU,460
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,BackgroundPlan,BackgroundPlan,656
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,Transaction,Transaction,690
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,Cursor,Cursor,693
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,DB,DB,705
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,Caffe2BackendRep,Caffe2BackenRep,795
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state_gpu.cc,DLPackWrapper,DLPackTensorCUDA,133
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state_hip.cc,DLPackWrapper,DLPackTensorHIP,56
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,TensorQuantizationParams,QueryTensorQparam,257
+path,c_fun_name,py_fun_name,lineno
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\benchmarks\operator_benchmark\pt_extension\extension.cpp,consume,_consume,21.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\benchmarks\operator_benchmark\pt_extension\extension.cpp,consume_list,_consume.list,22.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\benchmarks\operator_benchmark\pt_extension\extension.cpp,consume,_consume,26.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\benchmarks\operator_benchmark\pt_extension\extension.cpp,consume_list,_consume_list,27.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,lambda expression,on_module_exit,1123.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,lambda expression,create_child_workspace,1129.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,lambda expression,local_blobs,1190.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,lambda expression,delete_net,1326.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state.cc,lambda expression,transform_addNNPACK,1869.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\python\pybind_state_hip.cc,miopenCompiledVersion,get_miopen_version,32.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,ClearNetObservers,24.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,DumpHistogramFile,65.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,AddHistogramObserver,74.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,DumpOutputColumnMaxHistogramFile,102.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,ChooseQuantizationParams,150.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,RegisterQuantizationParams,179.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,RegisterQuantizationParamsWithHistogram,195.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,AddRegisterQuantizationParamsWithHistogramObserver,212.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,AddScaleZeroOffsetArgumentsWithHistogram,239.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,get_fakefp16_mapping,283.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,ObserveFp16FCPackedWeights,343.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\caffe2\quantization\server\pybind.cc,lambda expression,ObserveInt8FCPackedWeights,388.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\test\cpp_extensions\cpp_c10d_extension.cpp,createProcessGroupTest,createProcessGroupTest,119.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\utils\benchmark\utils\valgrind_wrapper\compat_bindings.cpp,_valgrind_toggle,_valgrind_toggle,24.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\tools\autograd\templates\python_nn_functions.cpp,THPVariable__parse_to,_parse_to,75.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\Module.cpp,THPModule_hasDistributed,_has_distributed,607.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\Module.cpp,THPModule_crashIfCsrcASAN,_crash_if_csrc_asan,611.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\Module.cpp,THPModule_crashIfCsrcUBSAN,_crash_if_csrc_ubsan,612.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\Module.cpp,THPModule_crashIfATenASAN,_crash_if_aten_asan,613.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\Module.cpp,THPModule_isEnabledTorchFunction,_is_torch_function_enabled,652.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\autograd\init.cpp,set_forward_AD_enabled,_set_forward_AD_enabled,335.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\autograd\init.cpp,is_forward_AD_enabled,_is_forward_AD_enabled,336.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\cuda\Module.cpp,THCPModule_isInBadFork,_cuda_isInBadFork,541.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\cuda\Stream.cpp,THCPStream_priority_range,priority_range,123.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\generic\StorageMethods.cpp,_setCdata,_set_cdata,362.0
+F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\generic\StorageSharing.cpp,sharedFd,_get_shared_fd,557.0

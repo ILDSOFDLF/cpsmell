@@ -1,0 +1,10 @@
+c_path,module_name,py_fun_name,c_fun_name,lineno,lambda_len
+F:\DLFs_dataset\chainer\chainer-7.2.0\chainerx_cc\chainerx\python\core_module.cc,_core,_set_pybind_doc,lambda expression,81,163.0
+F:\DLFs_dataset\chainer\chainer-7.2.0\chainerx_cc\chainerx\python\backward.cc,_core,backward,lambda expression,43,280.0
+F:\DLFs_dataset\chainer\chainer-7.2.0\chainerx_cc\chainerx\python\backward.cc,_core,backward,lambda expression,57,346.0
+F:\DLFs_dataset\chainer\chainer-7.2.0\chainerx_cc\chainerx\python\backward.cc,_core,grad,lambda expression,71,760.0
+F:\DLFs_dataset\chainer\chainer-7.2.0\chainerx_cc\chainerx\python\check_backward.cc,_core,check_backward,lambda expression,46,341.0
+F:\DLFs_dataset\chainer\chainer-7.2.0\chainerx_cc\chainerx\python\context.cc,_core,get_device,lambda expression,81,81.0
+F:\DLFs_dataset\chainer\chainer-7.2.0\chainerx_cc\chainerx\python\device.cc,_core,using_device,lambda expression,90,95.0
+F:\DLFs_dataset\chainer\chainer-7.2.0\chainerx_cc\chainerx\python\device.cc,_core,using_device,lambda expression,91,105.0
+F:\DLFs_dataset\chainer\chainer-7.2.0\chainerx_cc\chainerx\python\graph.cc,_core,backprop_scope,lambda expression,72,106.0

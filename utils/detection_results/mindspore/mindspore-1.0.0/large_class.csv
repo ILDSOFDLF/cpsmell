@@ -1,0 +1,6 @@
+path,class_name,lineno
+F:\DLFs_dataset\mindspore\mindspore-1.0.0\mindspore\ccsrc\minddata\mindrecord\common\shard_pybind.cc,ShardHeader,57
+F:\DLFs_dataset\mindspore\mindspore-1.0.0\mindspore\ccsrc\minddata\mindrecord\common\shard_pybind.cc,ShardSegment,107
+F:\DLFs_dataset\mindspore\mindspore-1.0.0\mindspore\ccsrc\pipeline\jit\init.cc,ExecutorPy,70
+F:\DLFs_dataset\mindspore\mindspore-1.0.0\mindspore\ccsrc\pipeline\jit\init.cc,ParallelContext,115
+F:\DLFs_dataset\mindspore\mindspore-1.0.0\mindspore\ccsrc\pipeline\jit\init.cc,CostModelContext,163

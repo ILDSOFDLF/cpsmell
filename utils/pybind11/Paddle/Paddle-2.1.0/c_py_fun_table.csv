@@ -1,0 +1,227 @@
+c_path,module_name,py_fun_name,c_fun_name,lineno,lambda_len
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,set_num_threads,SetNumThreads,476,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,cudnn_version,CudnnVersion,479,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,from_dlpack,lambda expression,482,91.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_save_lod_tensor,lambda expression,499,265.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_load_lod_tensor,lambda expression,511,260.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_save_selected_rows,lambda expression,523,303.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_load_selected_rows,lambda expression,536,268.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_save_static_dict,lambda expression,549,186.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_load_static_dict,lambda expression,556,260.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_create_loaded_parameter,lambda expression,564,112.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_save_dygraph_dict,lambda expression,570,169.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_load_dygraph_dict,lambda expression,577,266.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,save_op_version_info,lambda expression,590,208.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,set_printoptions,lambda expression,598,657.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,broadcast_shape,lambda expression,623,142.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_append_python_callable_object_and_return_id,lambda expression,629,89.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_get_use_default_grad_op_desc_maker_ops,lambda expression,635,63.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_get_all_register_op_kernels,lambda expression,638,446.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_set_eager_deletion_mode,SetEagerDeletionMode,657,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_set_fuse_parameter_group_size,SetFuseParameterGroupsSize,659,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_set_fuse_parameter_memory_size,SetFuseParameterMemorySize,661,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_set_paddle_lib_path,SetPaddleLibPath,667,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_promote_types_if_complex_exists,PromoteTypesIfComplexExists,669,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,Scope,lambda expression,1355,79.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_all_op_protos,lambda expression,1371,297.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_op_attrs_default_value,lambda expression,1386,133.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_grad_op_desc,lambda expression,1399,235.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,has_grad_op_maker,lambda expression,1415,92.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,has_non_empty_grad_op_maker,lambda expression,1418,100.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,has_infer_inplace,lambda expression,1423,93.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,infer_no_need_buffer_slots,lambda expression,1426,174.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,prune,lambda expression,1440,317.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,prune_backward,lambda expression,1454,58.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,empty_var_name,lambda expression,1471,47.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,grad_var_suffix,lambda expression,1473,48.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_xpu_device_count,GetXPUDeviceCount,1680,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,init_gflags,InitGflags,1980,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,init_glog,InitGLOG,1981,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,load_op_meta_info_and_register_op,LoadOpMetaInfoAndRegisterOp,1982,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,init_devices,lambda expression,1984,29.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,is_compiled_with_cuda,IsCompiledWithCUDA,1986,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,is_compiled_with_ascend,IsCompiledWithAscend,1987,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,is_compiled_with_rocm,IsCompiledWithROCM,1988,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,is_compiled_with_npu,IsCompiledWithNPU,1989,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,is_compiled_with_xpu,IsCompiledWithXPU,1990,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,is_compiled_with_mkldnn,IsCompiledWithMKLDNN,1991,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,supports_bfloat16,SupportsBfloat16,1992,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,supports_bfloat16_fast_performance,SupportsBfloat16FastPerformance,1993,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,op_supported_infos,OpSupportedInfos,1994,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,is_compiled_with_brpc,IsCompiledWithBrpc,1995,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,is_compiled_with_dist,IsCompiledWithDIST,1996,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_cuda_synchronize,lambda expression,1997,90.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_float_stats,lambda expression,2001,248.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_int_stats,lambda expression,2010,248.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,run_cmd,lambda expression,2019,133.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,shell_execute_cmd,lambda expression,2026,156.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,is_float16_supported,lambda expression,2036,93.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,set_feed_variable,SetFeedVariable,2042,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_fetch_variable,lambda expression,2043,204.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_variable_tensor,GetVariableTensor,2053,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,_is_program_version_supported,IsProgramVersionSupported,2055,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,op_support_gpu,OpSupportGPU,2208,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_cuda_device_count,GetCUDADeviceCount,2210,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,nvprof_init,CudaProfilerInit,2213,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,nvprof_start,CudaProfilerStart,2214,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,nvprof_stop,CudaProfilerStop,2215,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,nvprof_nvtx_push,CudaNvtxRangePush,2216,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,nvprof_nvtx_pop,CudaNvtxRangePop,2217,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,nvprof_enable_record_event,NvprofEnableRecordEvent,2218,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,nvprof_disable_record_event,NvprofDisableRecordEvent,2219,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_npu_device_count,GetNPUDeviceCount,2224,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,npu_finalize,lambda expression,2225,49.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,npu_prof_init,NPUProfilerInit,2229,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,npu_prof_start,lambda expression,2230,68.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,npu_prof_stop,lambda expression,2233,67.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,npu_prof_finalize,NPUProfilerFinalize,2236,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,npu_prof_create_config,lambda expression,2237,74.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,npu_prof_destropy_config,lambda expression,2241,76.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,set_tracer_option,SetTracerOption,2268,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,enable_profiler,EnableProfiler,2269,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,disable_profiler,DisableProfiler,2270,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,is_profiler_enabled,IsProfileEnabled,2271,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,reset_profiler,ResetProfiler,2272,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_pass,lambda expression,2273,73.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,size_of_dtype,SizeOfType,2278,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,set_cublas_switch,SetAllowTF32Cublas,2281,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_cublas_switch,AllowTF32Cublas,2282,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,set_cudnn_switch,SetAllowTF32Cudnn,2283,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_avx,get_cudnn_switch,AllowTF32Cudnn,2284,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,set_num_threads,SetNumThreads,476,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,cudnn_version,CudnnVersion,479,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,from_dlpack,lambda expression,482,91.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_save_lod_tensor,lambda expression,499,265.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_load_lod_tensor,lambda expression,511,260.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_save_selected_rows,lambda expression,523,303.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_load_selected_rows,lambda expression,536,268.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_save_static_dict,lambda expression,549,186.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_load_static_dict,lambda expression,556,260.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_create_loaded_parameter,lambda expression,564,112.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_save_dygraph_dict,lambda expression,570,169.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_load_dygraph_dict,lambda expression,577,266.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,save_op_version_info,lambda expression,590,208.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,set_printoptions,lambda expression,598,657.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,broadcast_shape,lambda expression,623,142.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_append_python_callable_object_and_return_id,lambda expression,629,89.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_get_use_default_grad_op_desc_maker_ops,lambda expression,635,63.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_get_all_register_op_kernels,lambda expression,638,446.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_set_eager_deletion_mode,SetEagerDeletionMode,657,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_set_fuse_parameter_group_size,SetFuseParameterGroupsSize,659,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_set_fuse_parameter_memory_size,SetFuseParameterMemorySize,661,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_set_paddle_lib_path,SetPaddleLibPath,667,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_promote_types_if_complex_exists,PromoteTypesIfComplexExists,669,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,Scope,lambda expression,1355,79.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_all_op_protos,lambda expression,1371,297.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_op_attrs_default_value,lambda expression,1386,133.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_grad_op_desc,lambda expression,1399,235.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,has_grad_op_maker,lambda expression,1415,92.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,has_non_empty_grad_op_maker,lambda expression,1418,100.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,has_infer_inplace,lambda expression,1423,93.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,infer_no_need_buffer_slots,lambda expression,1426,174.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,prune,lambda expression,1440,317.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,prune_backward,lambda expression,1454,58.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,empty_var_name,lambda expression,1471,47.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,grad_var_suffix,lambda expression,1473,48.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_xpu_device_count,GetXPUDeviceCount,1680,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,init_gflags,InitGflags,1980,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,init_glog,InitGLOG,1981,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,load_op_meta_info_and_register_op,LoadOpMetaInfoAndRegisterOp,1982,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,init_devices,lambda expression,1984,29.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,is_compiled_with_cuda,IsCompiledWithCUDA,1986,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,is_compiled_with_ascend,IsCompiledWithAscend,1987,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,is_compiled_with_rocm,IsCompiledWithROCM,1988,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,is_compiled_with_npu,IsCompiledWithNPU,1989,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,is_compiled_with_xpu,IsCompiledWithXPU,1990,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,is_compiled_with_mkldnn,IsCompiledWithMKLDNN,1991,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,supports_bfloat16,SupportsBfloat16,1992,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,supports_bfloat16_fast_performance,SupportsBfloat16FastPerformance,1993,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,op_supported_infos,OpSupportedInfos,1994,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,is_compiled_with_brpc,IsCompiledWithBrpc,1995,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,is_compiled_with_dist,IsCompiledWithDIST,1996,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_cuda_synchronize,lambda expression,1997,90.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_float_stats,lambda expression,2001,248.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_int_stats,lambda expression,2010,248.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,run_cmd,lambda expression,2019,133.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,shell_execute_cmd,lambda expression,2026,156.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,is_float16_supported,lambda expression,2036,93.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,set_feed_variable,SetFeedVariable,2042,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_fetch_variable,lambda expression,2043,204.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_variable_tensor,GetVariableTensor,2053,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,_is_program_version_supported,IsProgramVersionSupported,2055,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,op_support_gpu,OpSupportGPU,2208,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_cuda_device_count,GetCUDADeviceCount,2210,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,nvprof_init,CudaProfilerInit,2213,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,nvprof_start,CudaProfilerStart,2214,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,nvprof_stop,CudaProfilerStop,2215,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,nvprof_nvtx_push,CudaNvtxRangePush,2216,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,nvprof_nvtx_pop,CudaNvtxRangePop,2217,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,nvprof_enable_record_event,NvprofEnableRecordEvent,2218,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,nvprof_disable_record_event,NvprofDisableRecordEvent,2219,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_npu_device_count,GetNPUDeviceCount,2224,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,npu_finalize,lambda expression,2225,49.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,npu_prof_init,NPUProfilerInit,2229,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,npu_prof_start,lambda expression,2230,68.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,npu_prof_stop,lambda expression,2233,67.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,npu_prof_finalize,NPUProfilerFinalize,2236,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,npu_prof_create_config,lambda expression,2237,74.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,npu_prof_destropy_config,lambda expression,2241,76.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,set_tracer_option,SetTracerOption,2268,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,enable_profiler,EnableProfiler,2269,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,disable_profiler,DisableProfiler,2270,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,is_profiler_enabled,IsProfileEnabled,2271,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,reset_profiler,ResetProfiler,2272,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_pass,lambda expression,2273,73.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,size_of_dtype,SizeOfType,2278,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,set_cublas_switch,SetAllowTF32Cublas,2281,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_cublas_switch,AllowTF32Cublas,2282,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,set_cudnn_switch,SetAllowTF32Cudnn,2283,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\pybind.cc,core_noavx,get_cudnn_switch,AllowTF32Cudnn,2284,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ascend_wrapper_py.cc,core_avx,ge_initialize,ge_initialize,121,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ascend_wrapper_py.cc,core_avx,ge_finalize,GEFinalize,122,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ascend_wrapper_py.cc,core_noavx,ge_initialize,ge_initialize,121,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ascend_wrapper_py.cc,core_noavx,ge_finalize,GEFinalize,122,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_avx,kEmptyVarName,lambda expression,29,32.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_avx,kTempVarName,lambda expression,30,31.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_avx,kGradVarSuffix,lambda expression,31,33.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_avx,kZeroVarSuffix,lambda expression,32,33.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_avx,kControlDepVarName,lambda expression,33,47.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_avx,kNewGradSuffix,lambda expression,35,33.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_noavx,kEmptyVarName,lambda expression,29,32.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_noavx,kTempVarName,lambda expression,30,31.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_noavx,kGradVarSuffix,lambda expression,31,33.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_noavx,kZeroVarSuffix,lambda expression,32,33.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_noavx,kControlDepVarName,lambda expression,33,47.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\const_value.cc,core_noavx,kNewGradSuffix,lambda expression,35,33.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\exception.cc,core_avx,__unittest_throw_exception__,lambda expression,78,66.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\exception.cc,core_noavx,__unittest_throw_exception__,lambda expression,78,66.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\generator_py.cc,core_avx,default_cpu_generator,DefaultCPUGenerator,61,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\generator_py.cc,core_avx,default_cuda_generator,GetDefaultCUDAGenerator,62,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\generator_py.cc,core_noavx,default_cpu_generator,DefaultCPUGenerator,61,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\generator_py.cc,core_noavx,default_cuda_generator,GetDefaultCUDAGenerator,62,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\imperative.cc,core_avx,_set_process_pids,lambda expression,480,385.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\imperative.cc,core_avx,_erase_process_pids,lambda expression,494,52.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\imperative.cc,core_avx,_set_process_signal_handler,lambda expression,496,46.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\imperative.cc,core_avx,_throw_error_if_process_failed,lambda expression,498,48.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\imperative.cc,core_avx,_convert_to_tensor_list,lambda expression,502,744.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\imperative.cc,core_noavx,_set_process_pids,lambda expression,480,385.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\imperative.cc,core_noavx,_erase_process_pids,lambda expression,494,52.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\imperative.cc,core_noavx,_set_process_signal_handler,lambda expression,496,46.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\imperative.cc,core_noavx,_throw_error_if_process_failed,lambda expression,498,48.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\imperative.cc,core_noavx,_convert_to_tensor_list,lambda expression,502,744.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\inference_api.cc,core_avx,create_paddle_predictor,AnalysisConfig,268,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\inference_api.cc,core_avx,create_paddle_predictor,NativeConfig,270,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\inference_api.cc,core_avx,create_predictor,lambda expression,272,118.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\inference_api.cc,core_noavx,create_paddle_predictor,AnalysisConfig,268,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\inference_api.cc,core_noavx,create_paddle_predictor,NativeConfig,270,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\inference_api.cc,core_noavx,create_predictor,lambda expression,272,118.0
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ir.cc,core_avx,graph_safe_remove_nodes,GraphSafeRemoveNodes,48,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ir.cc,core_avx,has_circle,HasCircle,49,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ir.cc,core_avx,graph_num,GraphNum,50,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ir.cc,core_avx,topology_sort,TopologySortOperations,51,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ir.cc,core_avx,build_adjacency_list,BuildOperationAdjList,53,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ir.cc,core_noavx,graph_safe_remove_nodes,GraphSafeRemoveNodes,48,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ir.cc,core_noavx,has_circle,HasCircle,49,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ir.cc,core_noavx,graph_num,GraphNum,50,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ir.cc,core_noavx,topology_sort,TopologySortOperations,51,
+F:\DLFs_dataset\paddle\Paddle-2.1.0\paddle\fluid\pybind\ir.cc,core_noavx,build_adjacency_list,BuildOperationAdjList,53,

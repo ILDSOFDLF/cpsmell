@@ -1,0 +1,188 @@
+call_path,py_component,c_component,c_path
+F:\python_workplace\pytorch-master\torch\__config__.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\functorch\dim\tree_map.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributions\relaxed_categorical.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\linalg\__init__.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\linalg\__init__.py,_add_docstr,THPModule_addDocStr,F:\python_workplace\pytorch-master\torch\csrc\Module.cpp
+F:\python_workplace\pytorch-master\torch\testing\_internal\common_cuda.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\testing\_internal\common_cuda.py,cuda,THPVariable_cuda,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\testing\_internal\common_cuda.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\caffe2\python\operator_test\normalize_op_test.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\caffe2\python\operator_test\normalize_op_test.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\distributed\elastic\utils\distributed.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributed\elastic\utils\distributed.py,bind,DimList_bind,F:\python_workplace\pytorch-master\functorch\csrc\dim\dim.cpp
+F:\python_workplace\pytorch-master\torch\distributed\_shard\sharded_tensor\shard.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributed\_shard\sharded_tensor\shard.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\benchmarks\distributed\ddp\compare\python_ddp.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\benchmarks\distributed\ddp\compare\python_ddp.py,add,add,F:\python_workplace\pytorch-master\test\cpp_extensions\cuda_dlink_extension.cpp
+F:\python_workplace\pytorch-master\benchmarks\distributed\ddp\compare\python_ddp.py,register_hook,THPFunction_register_hook,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_function.cpp
+F:\python_workplace\pytorch-master\benchmarks\distributed\ddp\compare\python_ddp.py,wait,THCPEvent_wait,F:\python_workplace\pytorch-master\torch\csrc\cuda\Event.cpp
+F:\python_workplace\pytorch-master\benchmarks\distributed\ddp\compare\python_ddp.py,new,THPVariable_new,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\benchmarks\distributed\ddp\compare\python_ddp.py,numel,THPVariable_numel,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\benchmarks\distributed\ddp\compare\python_ddp.py,copy_,THPVariable_copy_,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\_tensor_docs.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\sparse\__init__.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\sparse\__init__.py,_add_docstr,THPModule_addDocStr,F:\python_workplace\pytorch-master\torch\csrc\Module.cpp
+F:\python_workplace\pytorch-master\torch\utils\benchmark\utils\sparse_fuzzer.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\utils\benchmark\utils\sparse_fuzzer.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\_functorch\compile_utils.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\_functorch\compile_utils.py,tree_flatten,py_tree_flatten,F:\python_workplace\pytorch-master\functorch\csrc\dim\dim.cpp
+F:\python_workplace\pytorch-master\torch\_functorch\compile_utils.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\ao\quantization\fx\_equalize.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\ao\quantization\fx\_equalize.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\ao\quantization\fx\_equalize.py,nelement,THPVariable_numel,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\benchmarks\dynamo\microbenchmarks\bench_conv_fusion.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\benchmarks\dynamo\microbenchmarks\bench_conv_fusion.py,cuda,THPVariable_cuda,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\benchmarks\dynamo\microbenchmarks\bench_conv_fusion.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\caffe2\python\numa_benchmark.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\caffe2\python\numa_benchmark.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\benchmarks\cpp\tensorexpr\bench_ops.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\benchmarks\cpp\tensorexpr\bench_ops.py,timeit,timeit,F:\python_workplace\pytorch-master\torch\utils\benchmark\utils\timeit_template.cpp
+F:\python_workplace\pytorch-master\benchmarks\cpp\tensorexpr\bench_ops.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\distributions\utils.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributed\_shard\sharded_tensor\_ops\init.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributed\_shard\sharded_tensor\_ops\init.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\caffe2\contrib\nnpack\nnpack_ops_test.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\caffe2\contrib\nnpack\nnpack_ops_test.py,Net,NetBase,F:\python_workplace\pytorch-master\caffe2\python\pybind_state.cc
+F:\python_workplace\pytorch-master\caffe2\contrib\nnpack\nnpack_ops_test.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\functorch\examples\maml_omniglot\maml-omniglot-transforms.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\functorch\examples\maml_omniglot\maml-omniglot-transforms.py,float,THPVariable_float,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\functorch\examples\maml_omniglot\maml-omniglot-transforms.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\distributed\_shard\sharded_tensor\_ops\math_ops.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributions\bernoulli.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributions\bernoulli.py,new,THPVariable_new,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\benchmarks\functional_autograd_benchmark\vision_models.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\benchmarks\functional_autograd_benchmark\vision_models.py,int,THPVariable_int,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\benchmarks\functional_autograd_benchmark\vision_models.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\special\__init__.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\special\__init__.py,_add_docstr,THPModule_addDocStr,F:\python_workplace\pytorch-master\torch\csrc\Module.cpp
+F:\python_workplace\pytorch-master\torch\_inductor\utils.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\_inductor\utils.py,cuda,THPVariable_cuda,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\_inductor\utils.py,synchronize,THCPEvent_synchronize,F:\python_workplace\pytorch-master\torch\csrc\cuda\Event.cpp
+F:\python_workplace\pytorch-master\torch\_inductor\utils.py,record,THCPEvent_record,F:\python_workplace\pytorch-master\torch\csrc\cuda\Event.cpp
+F:\python_workplace\pytorch-master\torch\_inductor\utils.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\testing\_internal\common_jit.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\testing\_internal\common_jit.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\distributed\elastic\rendezvous\etcd_rendezvous_backend.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\_inductor\cuda_properties.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\caffe2\python\operator_test\_utils.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\benchmarks\distributed\rpc\parameter_server\trainer\preprocess_data.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\benchmarks\distributed\rpc\parameter_server\trainer\preprocess_data.py,cuda,THPVariable_cuda,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\benchmarks\distributed\rpc\parameter_server\trainer\preprocess_data.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\autograd\anomaly_mode.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\jit\_async.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributions\poisson.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\testing\_internal\schema_check_mode.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\testing\_internal\schema_check_mode.py,tree_flatten,py_tree_flatten,F:\python_workplace\pytorch-master\functorch\csrc\dim\dim.cpp
+F:\python_workplace\pytorch-master\torch\testing\_internal\schema_check_mode.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\ao\ns\fx\pattern_utils.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\ao\ns\fx\pattern_utils.py,add,add,F:\python_workplace\pytorch-master\test\cpp_extensions\cuda_dlink_extension.cpp
+F:\python_workplace\pytorch-master\torch\ao\ns\fx\pattern_utils.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\benchmarks\operator_benchmark\c2\matmul_test.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributions\independent.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\tools\dynamo\verify_dynamo.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\tools\dynamo\verify_dynamo.py,to,THPVariable_to,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\caffe2\python\benchmarks\fused_rowwise_nbit_conversion_bench.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\_storage_docs.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\_storage_docs.py,_add_docstr,THPModule_addDocStr,F:\python_workplace\pytorch-master\torch\csrc\Module.cpp
+F:\python_workplace\pytorch-master\torch\utils\dlpack.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\cuda\nccl.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\cuda\nccl.py,get_device,lambda expression,F:\python_workplace\pytorch-master\test\cpp_extensions\extension.cpp
+F:\python_workplace\pytorch-master\torch\cuda\nccl.py,add,add,F:\python_workplace\pytorch-master\test\cpp_extensions\cuda_dlink_extension.cpp
+F:\python_workplace\pytorch-master\torch\cuda\nccl.py,get_device,THPVariable_get_device,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\cuda\nccl.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\cuda\nccl.py,is_contiguous,THPVariable_is_contiguous,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\cuda\random.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\cuda\random.py,cuda,THPVariable_cuda,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\cuda\random.py,manual_seed,THPGenerator_manualSeed,F:\python_workplace\pytorch-master\torch\csrc\Generator.cpp
+F:\python_workplace\pytorch-master\torch\cuda\random.py,seed,THPGenerator_seed,F:\python_workplace\pytorch-master\torch\csrc\Generator.cpp
+F:\python_workplace\pytorch-master\torch\cuda\random.py,initial_seed,THPGenerator_initialSeed,F:\python_workplace\pytorch-master\torch\csrc\Generator.cpp
+F:\python_workplace\pytorch-master\torch\cuda\random.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\onnx\symbolic_opset11.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\onnx\symbolic_opset11.py,add,add,F:\python_workplace\pytorch-master\test\cpp_extensions\cuda_dlink_extension.cpp
+F:\python_workplace\pytorch-master\torch\onnx\symbolic_opset11.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\onnx\symbolic_opset11.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\multiprocessing\reductions.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\multiprocessing\reductions.py,type,THPVariable_type,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\multiprocessing\reductions.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\caffe2\contrib\fakelowp\test\test_op_nnpi_fp16.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\caffe2\contrib\fakelowp\test\test_op_nnpi_fp16.py,add,add,F:\python_workplace\pytorch-master\test\cpp_extensions\cuda_dlink_extension.cpp
+F:\python_workplace\pytorch-master\caffe2\contrib\fakelowp\test\test_op_nnpi_fp16.py,seed,THPGenerator_seed,F:\python_workplace\pytorch-master\torch\csrc\Generator.cpp
+F:\python_workplace\pytorch-master\caffe2\contrib\fakelowp\test\test_op_nnpi_fp16.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\caffe2\python\nomnigraph.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\testing\_internal\opinfo\definitions\special.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\testing\_internal\opinfo\definitions\special.py,bfloat16,THPVariable_bfloat16,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\benchmarks\transformer\sdp.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\benchmarks\transformer\sdp.py,cuda,THPVariable_cuda,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\benchmarks\transformer\sdp.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\nn\init.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\nn\init.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\nn\init.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\android\pytorch_android\generate_test_torchscripts.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\testing\_internal\distributed\rpc\faulty_agent_rpc_test.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\testing\_internal\distributed\rpc\faulty_agent_rpc_test.py,add,add,F:\python_workplace\pytorch-master\test\cpp_extensions\cuda_dlink_extension.cpp
+F:\python_workplace\pytorch-master\torch\testing\_internal\distributed\rpc\faulty_agent_rpc_test.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\testing\_internal\distributed\rpc\faulty_agent_rpc_test.py,wait,THCPEvent_wait,F:\python_workplace\pytorch-master\torch\csrc\cuda\Event.cpp
+F:\python_workplace\pytorch-master\torch\_functorch\eager_transforms.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\_functorch\eager_transforms.py,type,THPVariable_type,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\_functorch\eager_transforms.py,fill_,THPStorage_fill_,F:\python_workplace\pytorch-master\torch\csrc\StorageMethods.cpp
+F:\python_workplace\pytorch-master\torch\_functorch\eager_transforms.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\_functorch\eager_transforms.py,tree_flatten,py_tree_flatten,F:\python_workplace\pytorch-master\functorch\csrc\dim\dim.cpp
+F:\python_workplace\pytorch-master\torch\_functorch\eager_transforms.py,_sync,THPVariable__sync,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\benchmarks\distributed\rpc\parameter_server\metrics\CUDAMetric.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\caffe2\python\onnx\bin\conversion.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\_dynamo\variables\builtin.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\autograd\_functions\utils.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\autograd\_functions\utils.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\autograd\_functions\utils.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\distributions\laplace.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\fft\__init__.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\fft\__init__.py,_add_docstr,THPModule_addDocStr,F:\python_workplace\pytorch-master\torch\csrc\Module.cpp
+F:\python_workplace\pytorch-master\torch\utils\benchmark\examples\simple_timeit.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\utils\benchmark\examples\simple_timeit.py,timeit,timeit,F:\python_workplace\pytorch-master\torch\utils\benchmark\utils\timeit_template.cpp
+F:\python_workplace\pytorch-master\torch\utils\benchmark\examples\simple_timeit.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\caffe2\python\operator_test\blobs_queue_db_test.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\caffe2\python\operator_test\blobs_queue_db_test.py,int,THPVariable_int,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\caffe2\python\operator_test\blobs_queue_db_test.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\distributed\rpc\_testing\__init__.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributed\fsdp\sharded_grad_scaler.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributed\fsdp\sharded_grad_scaler.py,cuda,THPVariable_cuda,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\distributed\fsdp\sharded_grad_scaler.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\distributed\fsdp\sharded_grad_scaler.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\distributed\fsdp\sharded_grad_scaler.py,copy_,THPVariable_copy_,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\distributed\fsdp\sharded_grad_scaler.py,cpu,THPVariable_cpu,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\caffe2\python\_import_c_extension.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\functorch\dim\__init__.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributed\nn\functional.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributed\nn\functional.py,contiguous,THPVariable_contiguous,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\distributed\nn\functional.py,apply,THPFunction_apply,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_function.cpp
+F:\python_workplace\pytorch-master\torch\distributed\nn\functional.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\overrides.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\overrides.py,add,add,F:\python_workplace\pytorch-master\test\cpp_extensions\cuda_dlink_extension.cpp
+F:\python_workplace\pytorch-master\torch\overrides.py,__torch_function__,py___torch_function__,F:\python_workplace\pytorch-master\functorch\csrc\dim\dim.cpp
+F:\python_workplace\pytorch-master\torch\overrides.py,_disabled_torch_function_impl,THPModule_disable_torch_function,F:\python_workplace\pytorch-master\torch\csrc\Module.cpp
+F:\python_workplace\pytorch-master\torch\overrides.py,type,THPVariable_type,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\autograd\grad_mode.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\nn\utils\parametrizations.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\nn\utils\parametrizations.py,range,THPVariable_range,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\fx\passes\infra\partitioner.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\fx\passes\infra\partitioner.py,add,add,F:\python_workplace\pytorch-master\test\cpp_extensions\cuda_dlink_extension.cpp
+F:\python_workplace\pytorch-master\torch\nn\parameter.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributions\binomial.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributions\binomial.py,new,THPVariable_new,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\_refs\nn\functional\__init__.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\_refs\nn\functional\__init__.py,check,TensorGuards_check,F:\python_workplace\pytorch-master\torch\csrc\dynamo\guards.cpp
+F:\python_workplace\pytorch-master\torch\_refs\nn\functional\__init__.py,type,THPVariable_type,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\_dynamo\variables\constant.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\_dynamo\variables\constant.py,type,THPVariable_type,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\distributed\_shard\sharded_tensor\_ops\_common.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\distributed\_shard\sharded_tensor\_ops\_common.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\storage.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\storage.py,type,THPVariable_type,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\torch\storage.py,tensor,THPVariable_tensor,F:\python_workplace\pytorch-master\torch\csrc\autograd\python_torch_functions_manual.cpp
+F:\python_workplace\pytorch-master\torch\storage.py,copy_,THPVariable_copy_,F:\python_workplace\pytorch-master\tools\autograd\templates\python_variable_methods.cpp
+F:\python_workplace\pytorch-master\caffe2\python\session_test.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\benchmarks\operator_benchmark\c2\add_test.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torchgen\api\unboxing.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\utils\data\datapipes\gen_pyi.py,all calls is excessive,,
+F:\python_workplace\pytorch-master\torch\utils\data\datapipes\gen_pyi.py,add,add,F:\python_workplace\pytorch-master\test\cpp_extensions\cuda_dlink_extension.cpp

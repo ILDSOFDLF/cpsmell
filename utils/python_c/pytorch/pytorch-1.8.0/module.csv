@@ -1,0 +1,6 @@
+module_name,methods_table,lineno,path
+torch._C._fft,fft_functions,51,F:\DLFs_dataset\pytorch\pytorch-1.8.0\tools\autograd\templates\python_fft_functions.cpp
+torch._C._linalg,linalg_functions,37,F:\DLFs_dataset\pytorch\pytorch-1.8.0\tools\autograd\templates\python_linalg_functions.cpp
+torch._C._nn,nn_functions,82,F:\DLFs_dataset\pytorch\pytorch-1.8.0\tools\autograd\templates\python_nn_functions.cpp
+torch._dl,TorchDlMethods,10,F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\dl.c
+torch._C,,744,F:\DLFs_dataset\pytorch\pytorch-1.8.0\torch\csrc\Module.cpp

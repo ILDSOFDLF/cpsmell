@@ -1,0 +1,3 @@
+path,c_class_name,py_class_name,lineno
+F:\DLFs_dataset\mindspore\mindspore-1.3.0\mindspore\ccsrc\minddata\mindrecord\common\shard_pybind.cc,Statistics,Statistics,49
+path,c_fun_name,py_fun_name,lineno

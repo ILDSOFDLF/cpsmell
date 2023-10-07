@@ -1,0 +1,225 @@
+call_path,py_component,c_component,c_path
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_dataloader_dataset.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_ema.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_ema.py,get_tensor,tensor_method_get_underline_tensor,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\distribution\normal.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distribution\normal.py,scale,eager_api_scale,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_functions.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_get_tensor_from_selected_rows_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_comm_cost.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_comm_cost.py,CommContext,CommContext,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\communicator_py.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_argsort_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_argsort_op.py,is_compiled_with_cuda,IsCompiledWithCUDA,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\npu\test_truncated_gaussian_random_op_npu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_fake_init_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_auto_parallel_graph.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\autograd\backward_mode.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\autograd\backward_mode.py,Tensor,DenseTensor,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\tensor.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_cuda_graph_static_mode.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_cuda_graph_static_mode.py,CUDAGraph,CUDAGraph,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\custom_op\test_custom_inplace.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\custom_op\test_custom_inplace.py,custom_add,custom_add,F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\custom_extension.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\ir\inference\inference_pass_test.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\ir\inference\inference_pass_test.py,values,tensor_method_get_non_zero_elements,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\distributed\auto_parallel\operators\dist_pnorm.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\profiler\profiler.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\auto_parallel_grad_clip.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\auto_parallel_grad_clip.py,ProcessMesh,ProcessMesh,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\auto_parallel_py.cc
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\auto_parallel_grad_clip.py,TensorDistAttr,TensorDistAttr,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\auto_parallel_py.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_detach.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\xpu\test_cast_op_xpu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\xpu\test_cast_op_xpu.py,VarDesc,VarDesc,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\protobuf.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\contrib\tests\test_multi_precision_fp16_train.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\contrib\tests\test_multi_precision_fp16_train.py,VarDesc,VarDesc,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\protobuf.cc
+F:\python_workplace\Paddle-develop\python\paddle\distributed\fleet\fleet_executor_utils.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\fleet\fleet_executor_utils.py,TaskNode,TaskNode,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\bind_fleet_executor.cc
+F:\python_workplace\Paddle-develop\python\paddle\distributed\fleet\meta_optimizers\fp16_allreduce_optimizer.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\fleet\meta_optimizers\fp16_allreduce_optimizer.py,VarDesc,VarDesc,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\protobuf.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_fleet_exe_dist_model_run.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\auto_parallel_amp.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\auto_parallel_amp.py,VarDesc,VarDesc,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\protobuf.cc
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\auto_parallel_amp.py,Operator,OperatorBase,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_full_like_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_square_error_cost.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_square_error_cost.py,Executor,Executor,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_square_error_cost.py,is_compiled_with_cuda,IsCompiledWithCUDA,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_cumprod_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_ones_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\static\quantization\tests\quant2_int8_lstm_model.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\static\quantization\tests\quant2_int8_lstm_model.py,PaddleBuf,PaddleBuf,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\inference_api.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_dist_reshape.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_beam_search_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_beam_search_op.py,get_tensor,tensor_method_get_underline_tensor,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\prim\composite_ops\test_composite_gelu_grad.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\distributed_passes\test_white_lists.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_beam_search_decode_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_imperative_layer_trainable.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_imperative_layer_trainable.py,linear,eager_api_linear,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_custom_python_api.h
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_tensor_copy_from.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\standalone_executor\test_standalone_cuda_graph_multi_stream.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\standalone_executor\test_standalone_cuda_graph_multi_stream.py,CUDAGraph,CUDAGraph,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\standalone_executor\test_standalone_cuda_graph_multi_stream.py,run_program,eager_api_run_program,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_legacy_custom_python_api.h
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\npu\test_beam_search_decode_op_npu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\prim\prim\vjp\eager\test_comp_eager_batch_norm_grad.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_matmul_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\ir\inference\test_trt_fc_fuse_pass.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\ir\inference\test_trt_fc_fuse_pass.py,AnalysisConfig,AnalysisConfig,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\inference_api.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\ir\inference\test_trt_fc_fuse_pass.py,is_compiled_with_cuda,IsCompiledWithCUDA,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_sparse_is_same_shape.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_sparse_is_same_shape.py,is_same_shape,tensor_method_is_same_shape,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_sparse_is_same_shape.py,to_sparse_csr,tensor_method_to_sparse_csr,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_sparse_copy_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\custom_op\test_custom_tensor_operator.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\core.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\core.py,_is_bwd_prim_enabled,IsBwdPrimEnabled,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\core.py,_is_fwd_prim_enabled,IsFwdPrimEnabled,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\core.py,_set_paddle_lib_path,SetPaddleLibPath,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_fill_constant_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\static\nn\common.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\dygraph_to_static\predictor_utils.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\jit\layer.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\jit\layer.py,Function,Function,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\jit.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\xpu\collective_softmax_with_cross_entropy_op_xpu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\xpu\collective_softmax_with_cross_entropy_op_xpu.py,VarDesc,VarDesc,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\protobuf.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\npu\test_run_program_op_npu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\npu\test_run_program_op_npu.py,grad_var_suffix,lambda expression,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\npu\test_run_program_op_npu.py,_set_grad_type,tensor__set_grad_type,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\test_cpp_extension_setup.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\test_cpp_extension_setup.py,Power,Power,F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\custom_extension.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\test_cpp_extension_setup.py,custom_add,custom_add,F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\custom_extension.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\test_cpp_extension_setup.py,custom_sub,custom_sub,F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\custom_extension.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\test_cpp_extension_setup.py,custom_add2,custom_add2,F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\mix_relu_and_extension.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\test_cpp_extension_setup.py,custom_sub2,custom_sub2,F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\cpp_extension\mix_relu_and_extension.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_eager_deletion_recurrent_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_eager_deletion_recurrent_op.py,scale,eager_api_scale,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_functions.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_interface.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\cost_model\cost_model.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_eager_deletion_dynamic_rnn_base.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_eager_deletion_dynamic_rnn_base.py,Scope,lambda expression,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_logspace.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_new_cost_model.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\framework\ir.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\framework\ir.py,apply_pass,lambda expression,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\ir.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\mlu\test_logical_op_mlu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\mlu\test_logical_op_mlu.py,values,tensor_method_get_non_zero_elements,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\cpp_pass.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\cpp_pass.py,register_pass,lambda expression,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_dist_mnist_with_program.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_activation_sparse_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\ir\inference\test_trt_flatten_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_dist_shape.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\npu\test_is_empty_op_npu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_pylayer_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_pylayer_op.py,Layer,Layer,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\jit.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_pylayer_op.py,detach,tensor_method_detach,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_pylayer_op.py,apply,pylayer_method_apply,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_py_layer.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_pylayer_op.py,clone,tensor_method_clone,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\framework\dtype.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\framework\dtype.py,VarDesc,VarDesc,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\protobuf.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\xpu\test_fleet_exe_dist_model_run_xpu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\tensor\array.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_parameter.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\sparse\creation.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\sparse\creation.py,indices,tensor_method_get_non_zero_indices,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\sparse\creation.py,values,tensor_method_get_non_zero_elements,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\sparse\creation.py,crows,tensor_method_get_non_zero_crows,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_group_norm_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_imperative_tensor_clear_gradient.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_imperative_tensor_clear_gradient.py,linear,eager_api_linear,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_custom_python_api.h
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_truncated_gaussian_random_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\fuse_all_reduce.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\fuse_all_reduce.py,Node,Node,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\ir.cc
+F:\python_workplace\Paddle-develop\python\paddle\distributed\passes\fuse_all_reduce.py,size_of_dtype,SizeOfType,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_cluster_v2.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_cluster_v2.py,Device,Device,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\auto_parallel_py.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\collective\fleet\test_parallel_dygraph_qat.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\tests\test_read_file.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_uniform_random_bf16_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_uniform_random_bf16_op.py,VarDesc,VarDesc,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\protobuf.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_uniform_random_bf16_op.py,get_tensor,tensor_method_get_underline_tensor,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_imperative_signal_handler.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\net_drawer.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_fleet_executor_cond_interceptor.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\npu\test_while_op_npu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_buffer_shared_memory_reuse_pass.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_buffer_shared_memory_reuse_pass.py,BuildStrategy,BuildStrategy,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\parallel_executor.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_ftrl_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_merge_selectedrows_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_fleet_executor_task_node.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_auto_parallel_searcher.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_auto_parallel_searcher.py,OperatorDistAttr,OperatorDistAttr,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\auto_parallel_py.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_auto_parallel_searcher.py,TensorDistAttr,TensorDistAttr,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\auto_parallel_py.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_dist_scale.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_corr.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\device\__init__.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\device\__init__.py,CustomPlace,CustomPlace,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\place.cc
+F:\python_workplace\Paddle-develop\python\paddle\device\__init__.py,is_compiled_with_cuda,IsCompiledWithCUDA,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\device\__init__.py,get_all_custom_device_type,lambda expression,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_adagrad_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_adagrad_op.py,clear_gradients,lambda expression,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_adagrad_op.py,scale,eager_api_scale,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_functions.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_prune_gate_by_capacity_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_fleet_executor_with_task_nodes.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_profiler_statistic.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_profiler_statistic.py,DevicePythonNode,DevicePythonNode,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_profiler_statistic.py,HostPythonNode,HostPythonNode,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_profiler_statistic.py,Operator,OperatorBase,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\xpu\test_concat_op_xpu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\nn\layer\conv.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\mkldnn\test_cast_mkldnn_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\npu\test_pad3d_op_npu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\ps\the_one_ps.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\ps\the_one_ps.py,PSHost,PSHost,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\fleet_py.cc
+F:\python_workplace\Paddle-develop\python\paddle\distributed\ps\the_one_ps.py,values,tensor_method_get_non_zero_elements,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\distributed\ps\the_one_ps.py,is_sparse,tensor_method_is_sparse,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\parallel_executor.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\dist_text_classification.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\detected_gpu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_dist_split.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\xpu\test_fill_op_xpu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\custom_op\test_context_pool.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_serialization.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_serialization.py,values,tensor_method_get_non_zero_elements,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\tensor\stat.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\tensor\stat.py,indices,tensor_method_get_non_zero_indices,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_fill_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\xpu\test_adadelta_op_xpu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\benchmark.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\benchmark.py,Operator,OperatorBase,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_linear.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\testsuite.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\testsuite.py,Operator,OperatorBase,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\ir\inference\test_trt_conv3d_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_memory_usage.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\mlu\test_truncated_gaussian_random_op_mlu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\ir\inference\test_trt_activation_pass.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\ir\inference\test_trt_activation_pass.py,AnalysisConfig,AnalysisConfig,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\inference_api.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_rmsprop_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_rmsprop_op.py,Scope,lambda expression,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_rmsprop_op.py,clear_gradients,lambda expression,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_rmsprop_op.py,scale,eager_api_scale,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_functions.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_rmsprop_op.py,get_tensor,tensor_method_get_underline_tensor,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\collective\collective_reduce_op_calc_stream.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\auto_parallel\reshard.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\distributed\auto_parallel\reshard.py,TensorDistAttr,TensorDistAttr,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\auto_parallel_py.cc
+F:\python_workplace\Paddle-develop\python\paddle\distributed\auto_parallel\reshard.py,values,tensor_method_get_non_zero_elements,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_executor_feed_non_tensor.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_executor_feed_non_tensor.py,VarDesc,VarDesc,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\protobuf.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_process_mesh_v2.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\auto_parallel\test_process_mesh_v2.py,ProcessMesh,ProcessMesh,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\auto_parallel_py.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\graphviz.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\mlu\test_where_index_op_mlu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\r\example\mobilenet.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\ir\inference\test_trt_dynamic_shape.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\quantization\base_quanter.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_hinge_embedding_loss.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_hinge_embedding_loss.py,Executor,Executor,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\pybind.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\op_test_xpu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\collective\fleet\test_dgc_momentum_op.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\collective\fleet\test_dgc_momentum_op.py,get_tensor,tensor_method_get_underline_tensor,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\prim\test_comp_skip_op_set.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\gradient_checker.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\gradient_checker.py,clone,tensor_method_clone,F:\python_workplace\Paddle-develop\paddle\fluid\pybind\eager_method.cc
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_cost_model.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\test_eager_deletion_padding_rnn.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\fluid\tests\unittests\xpu\test_device_guard_xpu.py,all calls is excessive,,
+F:\python_workplace\Paddle-develop\python\paddle\inference\wrapper.py,all calls is excessive,,

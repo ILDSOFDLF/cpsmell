@@ -1,0 +1,7 @@
+call_path,number_of_communication_files
+F:\DLFs_dataset\pytorch\pytorch-1.11.0\test\distributed\test_c10d_common.py,5
+F:\DLFs_dataset\pytorch\pytorch-1.11.0\benchmarks\operator_benchmark\benchmark_core.py,5
+F:\DLFs_dataset\pytorch\pytorch-1.11.0\caffe2\contrib\fakelowp\test\test_deq_swish_quant_nnpi.py,5
+F:\DLFs_dataset\pytorch\pytorch-1.11.0\torch\testing\_internal\distributed\rpc\examples\reinforcement_learning_rpc_test.py,5
+F:\DLFs_dataset\pytorch\pytorch-1.11.0\test\distributed\test_c10d_nccl.py,5
+F:\DLFs_dataset\pytorch\pytorch-1.11.0\caffe2\quantization\server\dnnlowp_test_utils.py,5

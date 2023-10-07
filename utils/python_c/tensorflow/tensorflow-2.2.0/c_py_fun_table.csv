@@ -1,0 +1,8 @@
+py_fun_name,c_fun_name,lineno,methods_table,path
+_numpy_internal,EagerTensor_numpy_internal,674,EagerTensor_methods,F:\DLFs_dataset\tensorflow\tensorflow-2.2.0\tensorflow\python\eager\pywrap_tensor.cc
+_datatype_enum,EagerTensor_datatype_enum,676,EagerTensor_methods,F:\DLFs_dataset\tensorflow\tensorflow-2.2.0\tensorflow\python\eager\pywrap_tensor.cc
+_shape_tuple,EagerTensor_shape_tuple,678,EagerTensor_methods,F:\DLFs_dataset\tensorflow\tensorflow-2.2.0\tensorflow\python\eager\pywrap_tensor.cc
+_rank,EagerTensor_rank,680,EagerTensor_methods,F:\DLFs_dataset\tensorflow\tensorflow-2.2.0\tensorflow\python\eager\pywrap_tensor.cc
+_copy_to_device,EagerTensor_copy_to_device,682,EagerTensor_methods,F:\DLFs_dataset\tensorflow\tensorflow-2.2.0\tensorflow\python\eager\pywrap_tensor.cc
+_num_elements,EagerTensor_num_elements,685,EagerTensor_methods,F:\DLFs_dataset\tensorflow\tensorflow-2.2.0\tensorflow\python\eager\pywrap_tensor.cc
+ForwardAccumulatorDeleteGradient,ForwardAccumulatorDeleteGradient,2062,forward_accumulator_delete_gradient_method_def,F:\DLFs_dataset\tensorflow\tensorflow-2.2.0\tensorflow\python\eager\pywrap_tfe_src.cc

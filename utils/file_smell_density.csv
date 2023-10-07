@@ -1,0 +1,170 @@
+==================tensorflow==================
+---------------tensorflow-2.2.0---------------
+Number of LILBC smell for each cross-language file:0.0439
+Number of EILC smell for each cross-language file:0.0
+Number of LLFFILB smell for each cross-language file:1.7105
+Number of NURP smell for each cross-language file:0.0263
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.5614
+Number of UM smell for each cross-language file:0.0088
+Number of LOSD smell for each cross-language file:0.0088
+the number of all smell:269	the smell density of files:2.3596
+""
+---------------tensorflow-2.8.0---------------
+Number of LILBC smell for each cross-language file:0.0442
+Number of EILC smell for each cross-language file:0.004
+Number of LLFFILB smell for each cross-language file:1.1124
+Number of NURP smell for each cross-language file:0.012
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.4618
+Number of UM smell for each cross-language file:0.0161
+Number of LOSD smell for each cross-language file:0.004
+the number of all smell:412	the smell density of files:1.6546
+""
+---------------tensorflow-2.12.0---------------
+Number of LILBC smell for each cross-language file:0.0383
+Number of EILC smell for each cross-language file:0.0105
+Number of LLFFILB smell for each cross-language file:1.1324
+Number of NURP smell for each cross-language file:0.0105
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.4634
+Number of UM smell for each cross-language file:0.0139
+Number of LOSD smell for each cross-language file:0.0035
+the number of all smell:480	the smell density of files:1.6725
+""
+==================pytorch==================
+---------------pytorch-1.5.0---------------
+Number of LILBC smell for each cross-language file:0.0115
+Number of EILC smell for each cross-language file:0.023
+Number of LLFFILB smell for each cross-language file:0.8736
+Number of NURP smell for each cross-language file:0.0115
+Number of LOREC smell for each cross-language file:0.069
+Number of UE smell for each cross-language file:0.4483
+Number of UM smell for each cross-language file:0.0115
+Number of LOSD smell for each cross-language file:0.7011
+the number of all smell:187	the smell density of files:2.1494
+""
+---------------pytorch-1.11.0---------------
+Number of LILBC smell for each cross-language file:0.0061
+Number of EILC smell for each cross-language file:0.0368
+Number of LLFFILB smell for each cross-language file:0.5399
+Number of NURP smell for each cross-language file:0.0491
+Number of LOREC smell for each cross-language file:0.0429
+Number of UE smell for each cross-language file:0.2699
+Number of UM smell for each cross-language file:0.0123
+Number of LOSD smell for each cross-language file:0.5399
+the number of all smell:244	the smell density of files:1.4969
+""
+---------------pytorch-2.0.1---------------
+Number of LILBC smell for each cross-language file:0.0053
+Number of EILC smell for each cross-language file:0.0802
+Number of LLFFILB smell for each cross-language file:0.4973
+Number of NURP smell for each cross-language file:0.0588
+Number of LOREC smell for each cross-language file:0.0481
+Number of UE smell for each cross-language file:0.2513
+Number of UM smell for each cross-language file:0.0053
+Number of LOSD smell for each cross-language file:0.6631
+the number of all smell:301	the smell density of files:1.6096
+""
+==================mindspore==================
+---------------mindspore-1.0.0---------------
+Number of LILBC smell for each cross-language file:0.0769
+Number of EILC smell for each cross-language file:0.0
+Number of LLFFILB smell for each cross-language file:0.0
+Number of NURP smell for each cross-language file:0.0
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.0154
+Number of UM smell for each cross-language file:0.0
+Number of LOSD smell for each cross-language file:0.0
+the number of all smell:6	the smell density of files:0.0923
+""
+---------------mindspore-1.7.0---------------
+Number of LILBC smell for each cross-language file:0.064
+Number of EILC smell for each cross-language file:0.0
+Number of LLFFILB smell for each cross-language file:0.0
+Number of NURP smell for each cross-language file:0.008
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.008
+Number of UM smell for each cross-language file:0.0
+Number of LOSD smell for each cross-language file:0.0
+the number of all smell:10	the smell density of files:0.08
+""
+---------------mindspore-1.10.1---------------
+Number of LILBC smell for each cross-language file:0.1024
+Number of EILC smell for each cross-language file:0.0
+Number of LLFFILB smell for each cross-language file:0.0
+Number of NURP smell for each cross-language file:0.006
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.0301
+Number of UM smell for each cross-language file:0.0
+Number of LOSD smell for each cross-language file:0.0
+the number of all smell:23	the smell density of files:0.1386
+""
+==================Paddle==================
+---------------Paddle-1.8.0---------------
+Number of LILBC smell for each cross-language file:0.3908
+Number of EILC smell for each cross-language file:0.0
+Number of LLFFILB smell for each cross-language file:0.5057
+Number of NURP smell for each cross-language file:0.0
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.3218
+Number of UM smell for each cross-language file:0.0
+Number of LOSD smell for each cross-language file:0.0
+the number of all smell:106	the smell density of files:1.2184
+""
+---------------Paddle-2.3.0---------------
+Number of LILBC smell for each cross-language file:0.4084
+Number of EILC smell for each cross-language file:0.0052
+Number of LLFFILB smell for each cross-language file:0.5759
+Number of NURP smell for each cross-language file:0.0052
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.5654
+Number of UM smell for each cross-language file:0.0
+Number of LOSD smell for each cross-language file:0.0157
+the number of all smell:301	the smell density of files:1.5759
+""
+---------------Paddle-2.4.2---------------
+Number of LILBC smell for each cross-language file:0.2216
+Number of EILC smell for each cross-language file:0.0054
+Number of LLFFILB smell for each cross-language file:0.3297
+Number of NURP smell for each cross-language file:0.0054
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.3081
+Number of UM smell for each cross-language file:0.0
+Number of LOSD smell for each cross-language file:0.0108
+the number of all smell:163	the smell density of files:0.8811
+""
+==================chainer==================
+---------------chainer-6.0.0---------------
+Number of LILBC smell for each cross-language file:0.0345
+Number of EILC smell for each cross-language file:0.0
+Number of LLFFILB smell for each cross-language file:0.3793
+Number of NURP smell for each cross-language file:0.0
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.2069
+Number of UM smell for each cross-language file:0.0
+Number of LOSD smell for each cross-language file:0.0
+the number of all smell:18	the smell density of files:0.6207
+""
+---------------chainer-6.7.0---------------
+Number of LILBC smell for each cross-language file:0.0333
+Number of EILC smell for each cross-language file:0.0
+Number of LLFFILB smell for each cross-language file:0.3667
+Number of NURP smell for each cross-language file:0.0
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.2
+Number of UM smell for each cross-language file:0.0
+Number of LOSD smell for each cross-language file:0.0
+the number of all smell:18	the smell density of files:0.6
+""
+---------------chainer-7.8.1---------------
+Number of LILBC smell for each cross-language file:0.0
+Number of EILC smell for each cross-language file:0.0
+Number of LLFFILB smell for each cross-language file:0.3913
+Number of NURP smell for each cross-language file:0.0
+Number of LOREC smell for each cross-language file:0.0
+Number of UE smell for each cross-language file:0.2609
+Number of UM smell for each cross-language file:0.0
+Number of LOSD smell for each cross-language file:0.0
+the number of all smell:15	the smell density of files:0.6522
+""

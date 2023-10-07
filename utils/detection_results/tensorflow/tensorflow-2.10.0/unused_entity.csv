@@ -1,0 +1,127 @@
+path,c_class_name,py_class_name,lineno
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,CompiledMemoryStats,CompiledMemoryStats,343
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,GpuDevice,GpuDevice,303
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,PjRtTpuDevice,TpuDevice,328
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,PreemptionSyncManager,PreemptionSyncManager,406
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,DistributedRuntimeService,DistributedRuntimeService,422
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,DistributedRuntimeClient,DistributedRuntimeClient,428
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,PyTpuBuffer,PyTpuBuffer,168
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,PyTpuExecutable,TpuExecutable,227
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,TpuDevice,TpuDevice,253
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\lite\python\interpreter_wrapper\interpreter_wrapper_pybind11.cc,InterpreterWrapper,InterpreterWrapper,94
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_Executor,TFE_Executor,576
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_ContextOptions,TFE_ContextOptions,577
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringCounter0,TFE_MonitoringCounter0,579
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringCounter1,TFE_MonitoringCounter1,581
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringCounter2,TFE_MonitoringCounter2,583
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGauge0,TFE_MonitoringStringGauge0,585
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGauge1,TFE_MonitoringStringGauge1,587
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGauge2,TFE_MonitoringStringGauge2,589
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGauge3,TFE_MonitoringStringGauge3,591
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGauge4,TFE_MonitoringStringGauge4,593
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringIntGauge0,TFE_MonitoringIntGauge0,595
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringIntGauge1,TFE_MonitoringIntGauge1,597
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringIntGauge2,TFE_MonitoringIntGauge2,599
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringBoolGauge0,TFE_MonitoringBoolGauge0,601
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringBoolGauge1,TFE_MonitoringBoolGauge1,603
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringBoolGauge2,TFE_MonitoringBoolGauge2,605
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringCounterCell,TFE_MonitoringCounterCell,607
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringIntGaugeCell,TFE_MonitoringIntGaugeCell,609
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringStringGaugeCell,TFE_MonitoringStringGaugeCell,611
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringBoolGaugeCell,TFE_MonitoringBoolGaugeCell,613
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringSamplerCell,TFE_MonitoringSamplerCell,615
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringBuckets,TFE_MonitoringBuckets,617
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringSampler0,TFE_MonitoringSampler0,619
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringSampler1,TFE_MonitoringSampler1,621
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_MonitoringSampler2,TFE_MonitoringSampler2,623
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,CancellationManager,TFE_CancellationManager,625
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TF_DeviceList,TF_DeviceList,628
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TF_Function,TF_Function,629
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Graph,TF_Graph,109
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_ImportGraphDefOptions,TF_ImportGraphDefOptions,122
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_ImportGraphDefResults,TF_ImportGraphDefResults,124
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_DeprecatedSession,TF_DeprecatedSession,126
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Session,TF_Session,128
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_OperationDescription,TF_OperationDescription,129
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Library,TF_Library,131
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_SessionOptions,TF_SessionOptions,132
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Buffer,TF_Buffer,133
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_ApiDefMap,TF_ApiDefMap,134
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Server,TF_Server,135
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_Status,TF_Status,136
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\data\experimental\service\server_lib_wrapper.cc,DispatchGrpcDataServer,DispatchGrpcDataServer,40
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\data\experimental\service\server_lib_wrapper.cc,WorkerGrpcDataServer,WorkerGrpcDataServer,55
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\framework\python_api_info_wrapper.cc,InferredAttributes,InferredAttributes,71
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\framework\experimental\unified_api.cc,AbstractContext,AbstractContext,116
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\framework\experimental\unified_api.cc,AbstractOperation,AbstractOperation,186
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\framework\experimental\unified_api.cc,AbstractTensorHandle,AbstractTensorHandle,228
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\framework\experimental\unified_api.cc,ImmediateExecutionContext,ImmediateExecutionContext,181
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\framework\experimental\unified_api.cc,AbstractFunction,AbstractFunction,260
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\grappler\cluster_wrapper.cc,Cluster,tensorflow::grappler::Cluster,74
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\grappler\item_wrapper.cc,GrapplerItem,tensorflow::grappler::GrapplerItem,125
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\lib\io\file_io_wrapper.cc,PyTransactionToken,TransactionToken,51
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\lib\io\file_io_wrapper.cc,FileStatistics,FileStatistics,216
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\lib\io\record_io_wrapper.cc,ZlibCompressionOptions,ZlibCompressionOptions,304
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\attrs.cc,IntegerAttr,IntegerAttr,22
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,MLIRContext,MLIRContext,25
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,UnknownLoc,UnknownLoc,29
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,Region,Region,34
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,iterator,Block_Iterator,41
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,Block,Block,42
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,OpResult,OpResult,51
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\basic_classes.cc,BlockArgument,BlockArgument,52
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\builders.cc,OpBuilder,OpBuilder,31
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\builders.cc,InsertPoint,OpBuilder_InsertionPoint,51
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,OperationState,OperationState,31
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,ModuleOp,ModuleOp,46
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,FuncOp,FuncOp,59
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,ReturnOp,ReturnOp,76
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,AddV2Op,Tf_AddV2Op,87
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,AnyOp,Tf_AnyOp,94
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,ConstOp,Tf_ConstOp,106
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,EqualOp,Tf_EqualOp,114
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,GreaterEqualOp,Tf_GreaterEqualOp,124
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,GreaterOp,Tf_GreaterOp,133
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,LegacyCallOp,Tf_LegacyCallOp,141
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,LessEqualOp,Tf_LessEqualOp,154
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,LessOp,Tf_LessOp,162
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,NegOp,Tf_NegOp,170
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,NotEqualOp,Tf_NotEqualOp,177
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\ops.cc,SubOp,Tf_SubOp,187
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\types.cc,FloatType,FloatType,29
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\types.cc,UnrankedTensorType,UnrankedTensorType,41
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\types.cc,RankedTensorType,RankedTensorType,44
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\outfeed_receiver_py.cc,OutfeedReceiverForPython,OutfeedReceiverForPython,155
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\pmap_lib.cc,NoSharding,NoSharding,741
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\pmap_lib.cc,Chunked,Chunked,754
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\pmap_lib.cc,Unstacked,Unstacked,769
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\pmap_lib.cc,ShardedAxis,ShardedAxis,783
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\pmap_lib.cc,Replicated,Replicated,794
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\pmap_lib.cc,ShardingSpec,ShardingSpec,805
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\profiler.cc,ProfilerServer,ProfilerServer,50
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\profiler.cc,ProfileOptions,ProfileOptions,82
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\pytree.cc,PyTreeDef,PyTreeDef,718
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\transfer_guard_lib.cc,TransferGuardState,TransferGuardState,160
+path,c_fun_name,py_fun_name,lineno
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\hlo\python\MlirHloModule.cc,lambda expression,register_mhlo_passes,76
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\mlir\python\mlir_wrapper\mlir_wrapper.cc,lambda expression,preloadTensorFlowDialects,32
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\tf2tensorrt\utils\py_utils_wrapper.cc,GetRegisteredOpConverters,get_registered_op_converters,43
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,lambda expression,create_preemption_sync_manager,419
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,lambda expression,get_distributed_runtime_service,463
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,lambda expression,get_distributed_runtime_client,498
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,IsOptimizedBuild,is_optimized_build,549
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,JsonToPprofProfile,json_to_pprof_profile,551
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\compiler\xla\python\xla.cc,PprofProfileToJson,pprof_profile_to_json,554
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\py_exception_registry_wrapper.cc,lambda expression,PyExceptionRegistry_Lookup,30
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,lambda expression,TFE_DeleteContext,713
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,lambda expression,TFE_GetContextId,805
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,TFE_Py_SetEagerTensorProfiler,TFE_Py_SetEagerTensorProfiler,999
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\tfe_wrapper.cc,lambda expression,TFE_Py_TensorShapeOnDevice,1205
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,lambda expression,TF_GraphGetTensorShape_wrapper,263
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_DeletePluggableDeviceLibraryHandle,TF_PluggableDeviceLibraryHandle,762
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\client\tf_session_wrapper.cc,TF_GetXlaAutoJitEnabled,TF_GetXlaAutoJitEnabled,1174
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\lib\io\file_io_wrapper.cc,lambda expression,ReadFileToString,79
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\lib\io\file_io_wrapper.cc,lambda expression,WriteStringToFile,91
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\profiler\internal\profiler_wrapper.cc,lambda expression,xspace_to_tools_data,133
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\profiler\internal\profiler_wrapper.cc,lambda expression,xspace_to_tools_data_from_byte_string,163
+F:\DLFs_dataset\tensorflow\tensorflow-2.10.0\tensorflow\python\eager\pywrap_tfe_src.cc,ForwardAccumulatorDeleteGradient,ForwardAccumulatorDeleteGradient,2351

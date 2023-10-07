@@ -1,0 +1,5 @@
+module_name,module_asname,c_file_path,c_lineno,python_file_path,py_lineno
+_core,,F:\python_workplace\chainer-master\chainerx_cc\chainerx\python\core_module.cc,107,F:\python_workplace\chainer-master\chainerx\__init__.py,41
+_core,,F:\python_workplace\chainer-master\chainerx_cc\chainerx\python\core_module.cc,107,F:\python_workplace\chainer-master\chainerx\__init__.py,22
+_core,,F:\python_workplace\chainer-master\chainerx_cc\chainerx\python\core_module.cc,107,F:\python_workplace\chainer-master\chainerx\__init__.py,42
+_core,,F:\python_workplace\chainer-master\chainerx_cc\chainerx\python\core_module.cc,107,F:\python_workplace\chainer-master\chainerx\_docs\__init__.py,3

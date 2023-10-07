@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<unit xmlns="http://www.srcML.org/srcML/src" xmlns:cpp="http://www.srcML.org/srcML/cpp" xmlns:s="http://www.sdml.info/srcML/src" xmlns:doc="http://www.sdml.info/srcML/doc" revision="1.0.0" language="C" filename="c_test.c" version="211" hash="5643486f36d8119ec6e39cf76ea66d97955b72a8"><comment type="block">/* Copyright 2018 The TensorFlow Authors. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+==============================================================================*/</comment>
+
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>&lt;limits.h&gt;</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>&lt;memory.h&gt;</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>&lt;stdio.h&gt;</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>&lt;stdlib.h&gt;</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>&lt;time.h&gt;</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>&lt;unistd.h&gt;</cpp:file></cpp:include>
+
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"tensorflow/c/c_api.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"tensorflow/c/c_api_experimental.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"tensorflow/c/env.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"tensorflow/c/kernels.h"</cpp:file></cpp:include>
+
+<comment type="line">// A create function. This will never actually get called in this test, it's</comment>
+<comment type="line">// just nice to know that it compiles.</comment>
+<function><type><name>void</name><modifier>*</modifier></type> <name>create</name><parameter_list>(<parameter><decl><type><name>TF_OpKernelConstruction</name><modifier>*</modifier></type> <name>ctx</name></decl></parameter>)</parameter_list> <block>{<block_content>
+  <decl_stmt><decl><type><name>TF_DataType</name></type> <name>type</name></decl>;</decl_stmt>
+  <decl_stmt><decl><type><name>TF_Status</name><modifier>*</modifier></type> <name>s</name> <init>= <expr><call><name>TF_NewStatus</name><argument_list>()</argument_list></call></expr></init></decl>;</decl_stmt>
+  <expr_stmt><expr><call><name>TF_OpKernelConstruction_GetAttrType</name><argument_list>(<argument><expr><name>ctx</name></expr></argument>, <argument><expr><literal type="string">"foobar"</literal></expr></argument>, <argument><expr><operator>&amp;</operator><name>type</name></expr></argument>, <argument><expr><name>s</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+  <expr_stmt><expr><call><name>TF_DeleteStatus</name><argument_list>(<argument><expr><name>s</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+  <return>return <expr><name>NULL</name></expr>;</return>
+</block_content>}</block></function>
+
+<comment type="line">// A compute function. This will never actually get called in this test, it's</comment>
+<comment type="line">// just nice to know that it compiles.</comment>
+<function><type><name>void</name></type> <name>compute</name><parameter_list>(<parameter><decl><type><name>void</name><modifier>*</modifier></type> <name>kernel</name></decl></parameter>, <parameter><decl><type><name>TF_OpKernelContext</name><modifier>*</modifier></type> <name>ctx</name></decl></parameter>)</parameter_list> <block>{<block_content>
+  <decl_stmt><decl><type><name>TF_Tensor</name><modifier>*</modifier></type> <name>input</name></decl>;</decl_stmt>
+  <decl_stmt><decl><type><name>TF_Status</name><modifier>*</modifier></type> <name>s</name> <init>= <expr><call><name>TF_NewStatus</name><argument_list>()</argument_list></call></expr></init></decl>;</decl_stmt>
+  <expr_stmt><expr><call><name>TF_GetInput</name><argument_list>(<argument><expr><name>ctx</name></expr></argument>, <argument><expr><literal type="number">0</literal></expr></argument>, <argument><expr><operator>&amp;</operator><name>input</name></expr></argument>, <argument><expr><name>s</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+  <expr_stmt><expr><call><name>TF_DeleteTensor</name><argument_list>(<argument><expr><name>input</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+  <expr_stmt><expr><call><name>TF_DeleteStatus</name><argument_list>(<argument><expr><name>s</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+</block_content>}</block></function>
+
+<comment type="line">// Exercises tensorflow's C API.</comment>
+<function><type><name>int</name></type> <name>main</name><parameter_list>(<parameter><decl><type><name>int</name></type> <name>argc</name></decl></parameter>, <parameter><decl><type><name>char</name><modifier>*</modifier><modifier>*</modifier></type> <name>argv</name></decl></parameter>)</parameter_list> <block>{<block_content>
+  <expr_stmt><expr><call><name>TF_InitMain</name><argument_list>(<argument><expr><name><name>argv</name><index>[<expr><literal type="number">0</literal></expr>]</index></name></expr></argument>, <argument><expr><operator>&amp;</operator><name>argc</name></expr></argument>, <argument><expr><operator>&amp;</operator><name>argv</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+
+  <decl_stmt><decl><type><name><name>struct</name> <name>TF_StringStream</name></name><modifier>*</modifier></type> <name>s</name> <init>= <expr><call><name>TF_GetLocalTempDirectories</name><argument_list>()</argument_list></call></expr></init></decl>;</decl_stmt>
+  <decl_stmt><decl><type><specifier>const</specifier> <name>char</name><modifier>*</modifier></type> <name>path</name></decl>;</decl_stmt>
+
+  <if_stmt><if>if <condition>(<expr><operator>!</operator><call><name>TF_StringStreamNext</name><argument_list>(<argument><expr><name>s</name></expr></argument>, <argument><expr><operator>&amp;</operator><name>path</name></expr></argument>)</argument_list></call></expr>)</condition> <block>{<block_content>
+    <expr_stmt><expr><call><name>fprintf</name><argument_list>(<argument><expr><name>stderr</name></expr></argument>, <argument><expr><literal type="string">"TF_GetLocalTempDirectories returned no results\n"</literal></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+    <return>return <expr><literal type="number">1</literal></expr>;</return>
+  </block_content>}</block></if></if_stmt>
+
+  <decl_stmt><decl><type><name>char</name></type> <name><name>file_name</name><index>[<expr><literal type="number">100</literal></expr>]</index></name></decl>;</decl_stmt>
+  <decl_stmt><decl><type><name>time_t</name></type> <name>t</name> <init>= <expr><call><name>time</name><argument_list>(<argument><expr><name>NULL</name></expr></argument>)</argument_list></call></expr></init></decl>;</decl_stmt>
+  <expr_stmt><expr><call><name>snprintf</name><argument_list>(<argument><expr><name>file_name</name></expr></argument>, <argument><expr><sizeof>sizeof<argument_list>(<argument><expr><name>file_name</name></expr></argument>)</argument_list></sizeof></expr></argument>, <argument><expr><literal type="string">"test-%d-%ld.txt"</literal></expr></argument>, <argument><expr><call><name>getpid</name><argument_list>()</argument_list></call></expr></argument>, <argument><expr><name>t</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+
+  <decl_stmt><decl><type><name>size_t</name></type> <name>length</name> <init>= <expr><literal type="number">2</literal> <operator>+</operator> <call><name>strlen</name><argument_list>(<argument><expr><name>path</name></expr></argument>)</argument_list></call> <operator>+</operator> <call><name>strlen</name><argument_list>(<argument><expr><name>file_name</name></expr></argument>)</argument_list></call></expr></init></decl>;</decl_stmt>
+  <decl_stmt><decl><type><name>char</name><modifier>*</modifier></type> <name>full_path</name> <init>= <expr><call><name>malloc</name><argument_list>(<argument><expr><name>length</name></expr></argument>)</argument_list></call></expr></init></decl>;</decl_stmt>
+  <expr_stmt><expr><call><name>snprintf</name><argument_list>(<argument><expr><name>full_path</name></expr></argument>, <argument><expr><name>length</name></expr></argument>, <argument><expr><literal type="string">"%s/%s"</literal></expr></argument>, <argument><expr><name>path</name></expr></argument>, <argument><expr><name>file_name</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+
+  <decl_stmt><decl><type><name>TF_WritableFileHandle</name><modifier>*</modifier></type> <name>h</name></decl>;</decl_stmt>
+  <decl_stmt><decl><type><name>TF_Status</name><modifier>*</modifier></type> <name>status</name> <init>= <expr><call><name>TF_NewStatus</name><argument_list>()</argument_list></call></expr></init></decl>;</decl_stmt>
+  <expr_stmt><expr><call><name>TF_NewWritableFile</name><argument_list>(<argument><expr><name>full_path</name></expr></argument>, <argument><expr><operator>&amp;</operator><name>h</name></expr></argument>, <argument><expr><name>status</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+  <if_stmt><if>if <condition>(<expr><call><name>TF_GetCode</name><argument_list>(<argument><expr><name>status</name></expr></argument>)</argument_list></call> <operator>!=</operator> <name>TF_OK</name></expr>)</condition> <block>{<block_content>
+    <expr_stmt><expr><call><name>fprintf</name><argument_list>(<argument><expr><name>stderr</name></expr></argument>, <argument><expr><literal type="string">"TF_NewWritableFile failed: %s\n"</literal></expr></argument>, <argument><expr><call><name>TF_Message</name><argument_list>(<argument><expr><name>status</name></expr></argument>)</argument_list></call></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+    <return>return <expr><literal type="number">1</literal></expr>;</return>
+  </block_content>}</block></if></if_stmt>
+  <expr_stmt><expr><call><name>fprintf</name><argument_list>(<argument><expr><name>stderr</name></expr></argument>, <argument><expr><literal type="string">"wrote %s\n"</literal></expr></argument>, <argument><expr><name>full_path</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+  <expr_stmt><expr><call><name>free</name><argument_list>(<argument><expr><name>full_path</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+  <expr_stmt><expr><call><name>TF_CloseWritableFile</name><argument_list>(<argument><expr><name>h</name></expr></argument>, <argument><expr><name>status</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+  <if_stmt><if>if <condition>(<expr><call><name>TF_GetCode</name><argument_list>(<argument><expr><name>status</name></expr></argument>)</argument_list></call> <operator>!=</operator> <name>TF_OK</name></expr>)</condition> <block>{<block_content>
+    <expr_stmt><expr><call><name>fprintf</name><argument_list>(<argument><expr><name>stderr</name></expr></argument>, <argument><expr><literal type="string">"TF_CloseWritableFile failed: %s\n"</literal></expr></argument>, <argument><expr><call><name>TF_Message</name><argument_list>(<argument><expr><name>status</name></expr></argument>)</argument_list></call></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+  </block_content>}</block></if></if_stmt>
+  <expr_stmt><expr><call><name>TF_StringStreamDone</name><argument_list>(<argument><expr><name>s</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+
+  <decl_stmt><decl><type><name>TF_KernelBuilder</name><modifier>*</modifier></type> <name>b</name> <init>=
+      <expr><call><name>TF_NewKernelBuilder</name><argument_list>(<argument><expr><literal type="string">"SomeOp"</literal></expr></argument>, <argument><expr><literal type="string">"SomeDevice"</literal></expr></argument>, <argument><expr><operator>&amp;</operator><name>create</name></expr></argument>, <argument><expr><operator>&amp;</operator><name>compute</name></expr></argument>, <argument><expr><name>NULL</name></expr></argument>)</argument_list></call></expr></init></decl>;</decl_stmt>
+  <expr_stmt><expr><call><name>TF_RegisterKernelBuilder</name><argument_list>(<argument><expr><literal type="string">"someKernel"</literal></expr></argument>, <argument><expr><name>b</name></expr></argument>, <argument><expr><name>status</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+
+  <expr_stmt><expr><call><name>TF_DeleteStatus</name><argument_list>(<argument><expr><name>status</name></expr></argument>)</argument_list></call></expr>;</expr_stmt>
+  <return>return <expr><literal type="number">0</literal></expr>;</return>
+</block_content>}</block></function>
+</unit>

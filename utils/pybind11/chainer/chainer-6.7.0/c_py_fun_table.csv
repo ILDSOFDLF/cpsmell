@@ -1,0 +1,23 @@
+c_path,module_name,py_fun_name,c_fun_name,lineno,lambda_len
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\core_module.cc,_core,_set_pybind_doc,lambda expression,74,163
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\array.cc,_core,to_numpy,MakeNumpyArrayFromArray,140,
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\array.cc,_core,_fromrawpointer,lambda expression,143,285.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\backprop_mode.cc,_core,is_backprop_required,lambda expression,70,68.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\backprop_mode.cc,_core,is_backprop_required,lambda expression,71,66.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\backward.cc,_core,backward,lambda expression,40,242.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\backward.cc,_core,backward,lambda expression,50,308.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\backward.cc,_core,grad,lambda expression,60,493.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\chainer_interop.cc,_core,_function_node_forward,lambda expression,48,1044.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\check_backward.cc,_core,check_backward,lambda expression,43,343.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\context.cc,_core,get_backend,GetBackend,71,
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\context.cc,_core,get_device,lambda expression,72,50.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\context.cc,_core,get_device,lambda expression,76,81.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\context.cc,_core,get_default_context,GetDefaultContext,82,
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\context.cc,_core,set_default_context,SetDefaultContext,83,
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\context.cc,_core,get_global_default_context,GetGlobalDefaultContext,85,
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\context.cc,_core,set_global_default_context,SetGlobalDefaultContext,86,
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\context.cc,_core,context_scope,lambda expression,94,48.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\device.cc,_core,using_device,lambda expression,87,44.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\device.cc,_core,using_device,lambda expression,88,95.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\device.cc,_core,using_device,lambda expression,89,105.0
+F:\DLFs_dataset\chainer\chainer-6.7.0\chainerx_cc\chainerx\python\graph.cc,_core,backprop_scope,lambda expression,69,106.0

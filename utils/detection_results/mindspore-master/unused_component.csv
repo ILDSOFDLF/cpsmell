@@ -1,0 +1,10 @@
+path,c_class_name,py_class_name,lineno
+F:\python_workplace\mindspore-master\mindspore\ccsrc\minddata\mindrecord\common\shard_pybind.cc,Statistics,Statistics,62
+F:\python_workplace\mindspore-master\mindspore\ccsrc\pybind_api\ir\anf_py.cc,CNode,CNode,24
+F:\python_workplace\mindspore-master\mindspore\ccsrc\pybind_api\ir\func_graph_py.cc,MetaFuncGraph,MetaFuncGraph_,73
+F:\python_workplace\mindspore-master\mindspore\ccsrc\pybind_api\ir\tensor_py.cc,MetaTensor,MetaTensor,495
+F:\python_workplace\mindspore-master\mindspore\ccsrc\utils\stub_tensor.cc,StubNode,StubNode,290
+F:\python_workplace\mindspore-master\mindspore\lite\python\src\context_pybind.cc,DeviceInfoContext,DeviceInfoContextBind,30
+F:\python_workplace\mindspore-master\mindspore\lite\python\src\model_pybind.cc,Status,Status,56
+path,c_fun_name,py_fun_name,lineno
+F:\python_workplace\mindspore-master\mindspore\ccsrc\pipeline\jit\init.cc,CheckMindir,_check_bprop_mindir,583

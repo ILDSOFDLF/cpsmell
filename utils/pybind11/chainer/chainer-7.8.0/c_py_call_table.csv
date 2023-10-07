@@ -1,0 +1,5 @@
+module_name,module_asname,c_file_path,c_lineno,python_file_path,py_lineno
+_core,,F:\DLFs_dataset\chainer\chainer-7.8.0\chainerx_cc\chainerx\python\core_module.cc,107,F:\DLFs_dataset\chainer\chainer-7.8.0\chainerx\__init__.py,42
+_core,,F:\DLFs_dataset\chainer\chainer-7.8.0\chainerx_cc\chainerx\python\core_module.cc,107,F:\DLFs_dataset\chainer\chainer-7.8.0\chainerx\__init__.py,41
+_core,,F:\DLFs_dataset\chainer\chainer-7.8.0\chainerx_cc\chainerx\python\core_module.cc,107,F:\DLFs_dataset\chainer\chainer-7.8.0\chainerx\__init__.py,22
+_core,,F:\DLFs_dataset\chainer\chainer-7.8.0\chainerx_cc\chainerx\python\core_module.cc,107,F:\DLFs_dataset\chainer\chainer-7.8.0\chainerx\_docs\__init__.py,3

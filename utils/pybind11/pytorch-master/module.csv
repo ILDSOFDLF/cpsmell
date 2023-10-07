@@ -1,0 +1,13 @@
+module_path,module_name,lineno
+F:\python_workplace\pytorch-master\benchmarks\operator_benchmark\pt_extension\extension.cpp,benchmark_cpp_extension,25
+F:\python_workplace\pytorch-master\caffe2\contrib\gloo\py_export.cc,python,9
+F:\python_workplace\pytorch-master\caffe2\distributed\py_export.cc,python,10
+F:\python_workplace\pytorch-master\caffe2\python\mpi_python.cc,mpi_utils,10
+F:\python_workplace\pytorch-master\caffe2\python\pybind_state.cc,caffe2_pybind11_state,1969
+F:\python_workplace\pytorch-master\caffe2\python\pybind_state_gpu.cc,caffe2_pybind11_state_gpu,165
+F:\python_workplace\pytorch-master\caffe2\python\pybind_state_hip.cc,caffe2_pybind11_state_hip,86
+F:\python_workplace\pytorch-master\caffe2\quantization\server\pybind.cc,dnnlowp_pybind11,20
+F:\python_workplace\pytorch-master\functorch\csrc\init_dim_only.cpp,TORCH_EXTENSION_NAME,13
+F:\python_workplace\pytorch-master\torch\csrc\jit\codegen\cuda\examples\sinh_extension\main.cpp,TORCH_EXTENSION_NAME,44
+F:\python_workplace\pytorch-master\torch\utils\benchmark\utils\timeit_template.cpp,TORCH_EXTENSION_NAME,41
+F:\python_workplace\pytorch-master\torch\utils\benchmark\utils\valgrind_wrapper\compat_bindings.cpp,callgrind_bindings,31

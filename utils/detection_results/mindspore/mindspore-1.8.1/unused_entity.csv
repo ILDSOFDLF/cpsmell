@@ -1,0 +1,5 @@
+path,c_class_name,py_class_name,lineno
+F:\DLFs_dataset\mindspore\mindspore-1.8.1\mindspore\ccsrc\minddata\mindrecord\common\shard_pybind.cc,Statistics,Statistics,60
+F:\DLFs_dataset\mindspore\mindspore-1.8.1\mindspore\lite\python\src\context_pybind.cc,DeviceInfoContext,DeviceInfoContextBind,30
+F:\DLFs_dataset\mindspore\mindspore-1.8.1\mindspore\lite\python\src\model_pybind.cc,Status,Status,56
+path,c_fun_name,py_fun_name,lineno

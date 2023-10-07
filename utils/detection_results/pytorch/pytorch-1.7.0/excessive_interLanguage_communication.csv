@@ -1,0 +1,4 @@
+call_path,number_of_communication_files
+F:\DLFs_dataset\pytorch\pytorch-1.7.0\test\quantization\test_quantize.py,5
+F:\DLFs_dataset\pytorch\pytorch-1.7.0\torch\testing\_internal\distributed\distributed_test.py,6
+F:\DLFs_dataset\pytorch\pytorch-1.7.0\test\test_cuda.py,10

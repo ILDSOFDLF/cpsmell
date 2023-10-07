@@ -1,0 +1,170 @@
+=================tensorflow=================
+---------------------large_class.csv---------------------
+Original number of smells :5
+End number of of smells :2
+Fixed number of smells 0.600000
+---------------------excessive_interLanguage_communication.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------long_lambda_function.csv---------------------
+Original number of smells :193
+End number of of smells :187
+Fixed number of smells 0.031100
+---------------------not_using_relative_path.csv---------------------
+Original number of smells :1
+End number of of smells :1
+Fixed number of smells 0.000000
+---------------------lack_of_rigorous_error_check.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------unused_entity.csv---------------------
+Original number of smells :65
+End number of of smells :53
+Fixed number of smells 0.184600
+---------------------unused_module.csv---------------------
+Original number of smells :1
+End number of of smells :1
+Fixed number of smells 0.000000
+---------------------lack_of_static_declaration.csv---------------------
+Original number of smells :1
+End number of of smells :1
+Fixed number of smells 0.000000
+================================================
+=================pytorch=================
+---------------------large_class.csv---------------------
+Original number of smells :1
+End number of of smells :1
+Fixed number of smells 0.000000
+---------------------excessive_interLanguage_communication.csv---------------------
+Original number of smells :2
+End number of of smells :0
+Fixed number of smells 1.000000
+---------------------long_lambda_function.csv---------------------
+Original number of smells :73
+End number of of smells :72
+Fixed number of smells 0.013700
+---------------------not_using_relative_path.csv---------------------
+Original number of smells :1
+End number of of smells :1
+Fixed number of smells 0.000000
+---------------------lack_of_rigorous_error_check.csv---------------------
+Original number of smells :6
+End number of of smells :6
+Fixed number of smells 0.000000
+---------------------unused_entity.csv---------------------
+Original number of smells :40
+End number of of smells :35
+Fixed number of smells 0.125000
+---------------------unused_module.csv---------------------
+Original number of smells :1
+End number of of smells :1
+Fixed number of smells 0.000000
+---------------------lack_of_static_declaration.csv---------------------
+Original number of smells :61
+End number of of smells :57
+Fixed number of smells 0.065600
+================================================
+=================mindspore=================
+---------------------large_class.csv---------------------
+Original number of smells :5
+End number of of smells :4
+Fixed number of smells 0.200000
+---------------------excessive_interLanguage_communication.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------long_lambda_function.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------not_using_relative_path.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------lack_of_rigorous_error_check.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------unused_entity.csv---------------------
+Original number of smells :2
+End number of of smells :2
+Fixed number of smells 0.000000
+---------------------unused_module.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------lack_of_static_declaration.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+================================================
+=================Paddle=================
+---------------------large_class.csv---------------------
+Original number of smells :17
+End number of of smells :16
+Fixed number of smells 0.058800
+---------------------excessive_interLanguage_communication.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------long_lambda_function.csv---------------------
+Original number of smells :22
+End number of of smells :17
+Fixed number of smells 0.227300
+---------------------not_using_relative_path.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------lack_of_rigorous_error_check.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------unused_entity.csv---------------------
+Original number of smells :15
+End number of of smells :11
+Fixed number of smells 0.266700
+---------------------unused_module.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------lack_of_static_declaration.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+================================================
+=================chainer=================
+---------------------large_class.csv---------------------
+Original number of smells :1
+End number of of smells :0
+Fixed number of smells 1.000000
+---------------------excessive_interLanguage_communication.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------long_lambda_function.csv---------------------
+Original number of smells :9
+End number of of smells :7
+Fixed number of smells 0.222200
+---------------------not_using_relative_path.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------lack_of_rigorous_error_check.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------unused_entity.csv---------------------
+Original number of smells :7
+End number of of smells :7
+Fixed number of smells 0.000000
+---------------------unused_module.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+---------------------lack_of_static_declaration.csv---------------------
+Original number of smells :0
+End number of of smells :0
+Fixed number of smells :0
+================================================

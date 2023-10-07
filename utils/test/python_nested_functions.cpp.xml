@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<unit xmlns="http://www.srcML.org/srcML/src" xmlns:cpp="http://www.srcML.org/srcML/cpp" revision="1.0.0" language="C++" filename="F:\python_workplace\pytorch-master\tools\autograd\templates\python_nested_functions.cpp" hash="7110481f5f4115350f25cb708008b5bc92de0d56"><cpp:define>#<cpp:directive>define</cpp:directive> <cpp:macro><name>TORCH_ASSERT_ONLY_METHOD_OPERATORS</name></cpp:macro></cpp:define>
+<comment type="line">// ${generated_comment}</comment>
+
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/Device.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/DynamicTypes.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/Exceptions.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/autograd/python_nested_functions.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/autograd/python_return_types.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/autograd/python_variable.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/autograd/utils/wrap_outputs.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/autograd/utils/python_arg_parsing.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/autograd/generated/variable_factories.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/utils/out_types.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/utils/pycfunction_helpers.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/utils/python_arg_parser.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/utils/structseq.h"</cpp:file></cpp:include>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>"torch/csrc/utils/cuda_lazy_init.h"</cpp:file></cpp:include>
+
+<cpp:ifndef>#<cpp:directive>ifndef</cpp:directive> <name>AT_PER_OPERATOR_HEADERS</name></cpp:ifndef>
+<cpp:include>#<cpp:directive>include</cpp:directive> <cpp:file>&lt;ATen/Functions.h&gt;</cpp:file></cpp:include>
+<cpp:else>#<cpp:directive>else</cpp:directive></cpp:else>
+<macro><name>$ops_headers</name></macro>
+<cpp:endif>#<cpp:directive>endif</cpp:directive></cpp:endif>
+
+<using>using <name><name>at</name><operator>::</operator><name>Tensor</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>Device</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>Layout</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>Scalar</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>ScalarType</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>Backend</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>OptionalDeviceGuard</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>DeviceGuard</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>TensorOptions</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>IntArrayRef</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>OptionalIntArrayRef</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>Generator</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>TensorList</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>Dimname</name></name>;</using>
+<using>using <name><name>at</name><operator>::</operator><name>DimnameList</name></name>;</using>
+
+<using>using <namespace>namespace <name><name>torch</name><operator>::</operator><name>autograd</name><operator>::</operator><name>utils</name></name>;</namespace></using>
+
+<namespace>namespace <name>torch</name> <block>{ <namespace>namespace <name>autograd</name> <block>{
+
+<comment type="line">// generated forward declarations start here</comment>
+
+<macro><name>$</name></macro><block>{<block_content><expr><name>py_forwards</name></expr></block_content>}</block>
+
+<decl_stmt><decl><type><specifier>static</specifier> <name>PyMethodDef</name></type> <name><name>nested_functions</name><index>[]</index></name> <init>= <expr><block>{
+  <expr><block>{<expr><name>NULL</name></expr>, <expr><name>NULL</name></expr>, <expr><literal type="number">0</literal></expr>, <expr><name>NULL</name></expr>}</block></expr>,
+  <macro><name>$</name></macro><expr><block>{<expr><name>py_method_defs</name></expr>}</block>
+  <block>{<expr><name>NULL</name></expr>}</block></expr>
+}</block></expr></init></decl>;</decl_stmt>
+
+<decl_stmt><decl><type><specifier>static</specifier> <name>PyObject</name><modifier>*</modifier></type> <name>THPNestedVariableFunctionsModule</name> <init>= <expr><name>NULL</name></expr></init></decl>;</decl_stmt>
+
+<function><type><name>void</name></type> <name>initNestedFunctions</name><parameter_list>(<parameter><decl><type><name>PyObject</name><modifier>*</modifier></type> <name>module</name></decl></parameter>)</parameter_list> <block>{<block_content>
+  <expr_stmt><expr><name><name>nested_functions</name><index>[<expr><literal type="number">0</literal></expr>]</index></name> <operator>=</operator> <call><name>get_nested_functions_manual</name><argument_list>()</argument_list></call><index>[<expr><literal type="number">0</literal></expr>]</index></expr>;</expr_stmt>
+  <decl_stmt><decl><type><specifier>static</specifier> <name><name>struct</name> <name>PyModuleDef</name></name></type> <name>def</name> <init>= <expr><block>{
+     <expr><name>PyModuleDef_HEAD_INIT</name></expr>,
+     <expr><literal type="string">"torch._C._nested"</literal></expr>,
+     <expr><name>NULL</name></expr>,
+     <expr><operator>-</operator><literal type="number">1</literal></expr>,
+     <expr><name>nested_functions</name></expr>
+  }</block></expr></init></decl>;</decl_stmt>
+  <decl_stmt><decl><type><name>PyObject</name><modifier>*</modifier></type> <name>nested</name> <init>= <expr><call><name>PyModule_Create</name><argument_list>(<argument><expr><operator>&amp;</operator><name>def</name></expr></argument>)</argument_list></call></expr></init></decl>;</decl_stmt>
+  <expr_stmt><expr><name>THPNestedVariableFunctionsModule</name> <operator>=</operator> <name>nested</name></expr>;</expr_stmt>
+  <if_stmt><if>if <condition>(<expr><operator>!</operator><name>nested</name></expr>)</condition> <block>{<block_content>
+    <throw>throw <expr><call><name>python_error</name><argument_list>()</argument_list></call></expr>;</throw>
+  </block_content>}</block></if></if_stmt>
+  <comment type="line">// steals a reference to nested</comment>
+  <if_stmt><if>if <condition>(<expr><call><name>PyModule_AddObject</name><argument_list>(<argument><expr><name>module</name></expr></argument>, <argument><expr><literal type="string">"_nested"</literal></expr></argument>, <argument><expr><name>nested</name></expr></argument>)</argument_list></call> <operator>!=</operator> <literal type="number">0</literal></expr>)</condition> <block>{<block_content>
+    <throw>throw <expr><call><name>python_error</name><argument_list>()</argument_list></call></expr>;</throw>
+  </block_content>}</block></if></if_stmt>
+</block_content>}</block></function>
+
+<comment type="line">// generated methods start here</comment>
+
+<macro><name>$</name></macro><block>{<block_content><expr><name>py_methods</name></expr></block_content>}</block>
+
+}</block></namespace>}</block></namespace> <comment type="line">// namespace torch::autograd</comment>
+</unit>

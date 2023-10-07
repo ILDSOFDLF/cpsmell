@@ -1,0 +1,28 @@
+call_path,py_component,c_component,c_path
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\hypercomplex\hypercomplex\_hc_conv_impl.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\mindrecord\shardheader.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\ops\composite\multitype_ops\negative_impl.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\ops\function\vmap_func.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\ops\function\sparse_unary_func.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\ops\function\sparse_unary_func.py,CSRTensor,CSRTensor,F:\python_workplace\mindspore-master\mindspore\ccsrc\pybind_api\ir\tensor_py.cc
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\ops\function\sparse_unary_func.py,COOTensor,COOTensor,F:\python_workplace\mindspore-master\mindspore\ccsrc\pybind_api\ir\tensor_py.cc
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\common\sparse_tensor.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\common\sparse_tensor.py,CSRTensor,CSRTensor,F:\python_workplace\mindspore-master\mindspore\ccsrc\pybind_api\ir\tensor_py.cc
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\common\sparse_tensor.py,COOTensor,COOTensor,F:\python_workplace\mindspore-master\mindspore\ccsrc\pybind_api\ir\tensor_py.cc
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\ops\composite\base.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\parallel\_ps_context.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\mindrecord\shardsegment.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\hypercomplex\hypercomplex\hc_dense.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\train\callback\_summary_collector.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\train\callback\_summary_collector.py,parameter,parameter_t,F:\python_workplace\mindspore-master\mindspore\ccsrc\debug\debugger\offline_debug\mi_pybind_register.cc
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\hypercomplex\complex\complex_operators.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\hypercomplex\complex\complex_operators.py,Number,Number,F:\python_workplace\mindspore-master\mindspore\ccsrc\pybind_api\ir\dtype_py.cc
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\parallel\_tensor.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\scipy\sparse\linalg.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\ops\composite\multitype_ops\_compile_utils.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\ops\composite\multitype_ops\_compile_utils.py,Bool,Bool,F:\python_workplace\mindspore-master\mindspore\ccsrc\pybind_api\ir\dtype_py.cc
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\communication\_hccl_management.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\offline_debug\dbg_services.py,all calls is excessive,,
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\offline_debug\dbg_services.py,TensorBaseData,TensorBaseData,F:\python_workplace\mindspore-master\mindspore\ccsrc\debug\debugger\offline_debug\mi_pybind_register.cc
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\offline_debug\dbg_services.py,TensorStatData,TensorStatData,F:\python_workplace\mindspore-master\mindspore\ccsrc\debug\debugger\offline_debug\mi_pybind_register.cc
+F:\python_workplace\mindspore-master\mindspore\python\mindspore\common\_monad.py,all calls is excessive,,

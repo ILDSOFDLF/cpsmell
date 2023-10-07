@@ -1,0 +1,3 @@
+path,unused_module_name,lineno
+F:\DLFs_dataset\pytorch\pytorch-1.11.0\caffe2\python\mpi_python.cc,mpi_utils,10
+F:\DLFs_dataset\pytorch\pytorch-1.11.0\torch\csrc\deploy\test_deploy_lib.cpp,libtest_deploy_lib,87

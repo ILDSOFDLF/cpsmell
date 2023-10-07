@@ -1,0 +1,69 @@
+call_path,py_component,c_component,c_path
+F:\python_workplace\tensorflow-master\tensorflow\core\function\trace_type\serialization.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\core\function\trace_type\serialization.py,Unpack,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\pywrap_dtensor_device.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\framework\kernels.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\client\timeline_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\profiler\profiler_wrapper_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\tpu\training_loop.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\compiler\tensorrt\test\lru_cache_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\distribute\parameter_server_strategy.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\eager\profiler_client.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\eager\executor.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\kernel_tests\proto\descriptor_source_test_base.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\kernel_tests\proto\descriptor_source_test_base.py,add,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\experimental\math_ops.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\training\checkpoint_utils.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\training\checkpoint_utils.py,get,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\op_def_registry.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\training\checkpoint_utils.py,add,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\experimental\math_ops.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\autograph\pyct\error_utils_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\kernel_tests\math_ops\division_past_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\kernel_tests\math_ops\division_past_test.py,check,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\compiler\mlir\python\mlir_wrapper\filecheck_wrapper.cc
+F:\python_workplace\tensorflow-master\tensorflow\lite\python\wrap_toco.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\saved_model\function_deserialization.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\saved_model\function_deserialization.py,add,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\experimental\math_ops.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\tf2.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\tpu\tpu_test_wrapper.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\framework\subscribe_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\framework\subscribe_test.py,add,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\experimental\math_ops.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\framework\test_util.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\framework\test_util.py,get,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\op_def_registry.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\framework\test_util.py,add,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\experimental\math_ops.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\saved_model\pywrap_saved_model_fingerprinting_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\framework\memory_checker.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\framework\experimental\nn_ops.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\lite\tools\signature\signature_def_utils_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\eager\pywrap_tfe_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\eager\pywrap_tfe_test.py,TFE_Py_FastPathExecute,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\tfe_wrapper.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\distribute\shared_variable_creator.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\compiler\mlir\tfrt\python_tests\tf_transpose_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\compiler\mlir\tfrt\python_tests\tf_transpose_test.py,compile,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\compiler\xla\python\xla.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\debug\lib\debug_events_writer.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\kernel_tests\linalg\einsum_op_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\kernel_tests\linalg\einsum_op_test.py,check,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\compiler\mlir\python\mlir_wrapper\filecheck_wrapper.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\profiler\profiler_client_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\profiler\internal\model_analyzer_testlib.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\platform\sysconfig.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\compiler\mlir\tfrt\python_tests\tf_strided_slice_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\eager\forwardprop_util.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\feature_column\serialization.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\distribute\parallel_device\parallel_device.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\compiler\mlir\tensorflow\tests\tf_saved_model\keras.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\training\quantize_training.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\platform\benchmark.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\platform\benchmark.py,get,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\op_def_registry.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\platform\benchmark.py,add,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\experimental\math_ops.cc
+F:\python_workplace\tensorflow-master\tensorflow\tools\graph_transforms\__init__.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\util\tf_export.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\util\tf_export.py,get,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\op_def_registry.cc
+F:\python_workplace\tensorflow-master\tensorflow\lite\tools\signature\signature_def_utils.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\lite\tools\optimize\python\modify_model_interface_lib.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\lite\testing\zip_test_utils.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\lite\testing\zip_test_utils.py,mul,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\experimental\math_ops.cc
+F:\python_workplace\tensorflow-master\tensorflow\lite\testing\zip_test_utils.py,get,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\op_def_registry.cc
+F:\python_workplace\tensorflow-master\tensorflow\lite\testing\zip_test_utils.py,add,lambda expression,F:\python_workplace\tensorflow-master\tensorflow\python\framework\experimental\math_ops.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\util\module_wrapper.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\feature_column\sequence_feature_column_integration_test.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\client\pywrap_tf_session.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\compiler\xla\experimental\xla_sharding.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\compiler\xla\experimental\xla_sharding.py,Sharding,Sharding,F:\python_workplace\tensorflow-master\tensorflow\compiler\xla\python\sharding.cc
+F:\python_workplace\tensorflow-master\tensorflow\python\training\py_checkpoint_reader.py,all calls is excessive,,
+F:\python_workplace\tensorflow-master\tensorflow\python\compat\disable_v2_behavior_test.py,all calls is excessive,,

@@ -1,0 +1,8 @@
+call_path,number_of_communication_files
+F:\DLFs_dataset\pytorch\pytorch-1.13.0\test\distributed\test_c10d_gloo.py,5
+F:\DLFs_dataset\pytorch\pytorch-1.13.0\benchmarks\operator_benchmark\benchmark_core.py,6
+F:\DLFs_dataset\pytorch\pytorch-1.13.0\torch\testing\_internal\distributed\rpc\examples\reinforcement_learning_rpc_test.py,5
+F:\DLFs_dataset\pytorch\pytorch-1.13.0\torch\overrides.py,12
+F:\DLFs_dataset\pytorch\pytorch-1.13.0\torch\fx\experimental\proxy_tensor.py,5
+F:\DLFs_dataset\pytorch\pytorch-1.13.0\test\distributed\test_data_parallel.py,6
+F:\DLFs_dataset\pytorch\pytorch-1.13.0\functorch\_src\eager_transforms.py,5

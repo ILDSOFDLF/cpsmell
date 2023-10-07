@@ -1,0 +1,14 @@
+path,class_name,lineno
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\compiler\xla\python\xla.cc,DebugOptions,692
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\compiler\xla\python\xla.cc,XlaBuilder,852
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\compiler\xla\python\xla.cc,PyClient,538
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\compiler\xla\python\xla.cc,PyExecutable,678
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\compiler\xla\python\xla.cc,HloPrintOptions,772
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,PyTpuClient,33
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,PyTpuBuffer,147
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\compiler\xla\python\tpu_driver\client\tpu_client_extension.cc,PyTpuExecutable,186
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\lite\python\interpreter_wrapper\interpreter_wrapper_pybind11.cc,InterpreterWrapper,83
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\python\tfe_wrapper.cc,EagerContextThreadLocalDataWrapper,1446
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\python\framework\experimental\unified_api.cc,AbstractOperation,181
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\python\lib\io\record_io_wrapper.cc,ZlibCompressionOptions,269
+F:\DLFs_dataset\tensorflow\tensorflow-2.4.0\tensorflow\compiler\xla\python\pytree.cc,PyTreeDef,625

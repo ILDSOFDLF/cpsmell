@@ -1,0 +1,4 @@
+module_name,methods_table,lineno,path
+torch._C._nn,nn_functions,69,F:\DLFs_dataset\pytorch\pytorch-1.6.0\tools\autograd\templates\python_nn_functions.cpp
+torch._dl,TorchDlMethods,10,F:\DLFs_dataset\pytorch\pytorch-1.6.0\torch\csrc\dl.c
+torch._C,,649,F:\DLFs_dataset\pytorch\pytorch-1.6.0\torch\csrc\Module.cpp

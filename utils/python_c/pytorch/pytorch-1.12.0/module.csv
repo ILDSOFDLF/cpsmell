@@ -1,0 +1,10 @@
+module_name,methods_table,lineno,path
+torch._C._fft,fft_functions,59,F:\DLFs_dataset\pytorch\pytorch-1.12.0\tools\autograd\templates\python_fft_functions.cpp
+torch._C._linalg,linalg_functions,46,F:\DLFs_dataset\pytorch\pytorch-1.12.0\tools\autograd\templates\python_linalg_functions.cpp
+torch._C._nn,nn_functions,91,F:\DLFs_dataset\pytorch\pytorch-1.12.0\tools\autograd\templates\python_nn_functions.cpp
+torch._C._return_types,,38,F:\DLFs_dataset\pytorch\pytorch-1.12.0\tools\autograd\templates\python_return_types.cpp
+torch._C._sparse,sparse_functions,45,F:\DLFs_dataset\pytorch\pytorch-1.12.0\tools\autograd\templates\python_sparse_functions.cpp
+torch._C._special,special_functions,57,F:\DLFs_dataset\pytorch\pytorch-1.12.0\tools\autograd\templates\python_special_functions.cpp
+torch._dl,TorchDlMethods,10,F:\DLFs_dataset\pytorch\pytorch-1.12.0\torch\csrc\dl.c
+torch._C_flatbuffer,m,50,F:\DLFs_dataset\pytorch\pytorch-1.12.0\torch\csrc\init_flatbuffer_module.cpp
+torch._C,,812,F:\DLFs_dataset\pytorch\pytorch-1.12.0\torch\csrc\Module.cpp

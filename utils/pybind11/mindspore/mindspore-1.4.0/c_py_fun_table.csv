@@ -1,0 +1,13 @@
+c_path,module_name,py_fun_name,c_fun_name,lineno,lambda_len
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\minddata\mindrecord\common\shard_pybind.cc,_c_mindrecord,get_max_thread_num,GetMaxThreadNum,137,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,generate_key,GenerateKey,103,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,real_run_op,RealRunOp,104,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,reset_op_id,ResetOpId,105,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,init_hccl,InitHccl,106,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,finalize_hccl,FinalizeHccl,107,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,verify_inputs_signature,VerifyInputSignature,108,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,init_exec_dataset,InitExecDataset,109,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,_set_dataset_mode_config,SetDatasetModeConfig,112,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,init_pipeline,InitPipeline,113,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,export_graph,ExportGraph,115,
+F:\DLFs_dataset\mindspore\mindspore-1.4.0\mindspore\ccsrc\pipeline\jit\init.cc,_c_expression,load_mindir,LoadMindIR,117,

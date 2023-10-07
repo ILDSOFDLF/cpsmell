@@ -1,0 +1,16 @@
+call_path,number_of_communication_files
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\torch\testing\_internal\common_methods_invocations.py,6
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\benchmarks\transformer\better_transformer_vs_mha_functional.py,5
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\benchmarks\operator_benchmark\benchmark_core.py,6
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\torch\overrides.py,13
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\torch\_utils.py,5
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\test\jit\test_freezing.py,7
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\torch\testing\_internal\distributed\rpc\examples\reinforcement_learning_rpc_test.py,5
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\test\test_fake_tensor.py,5
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\torch\utils\checkpoint.py,5
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\test\test_nestedtensor.py,7
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\test\nn\test_multihead_attention.py,6
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\test\functorch\test_dims.py,5
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\test\distributed\test_data_parallel.py,7
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\torch\nn\parallel\_functions.py,5
+F:\DLFs_dataset\pytorch\pytorch-2.0.1\test\inductor\test_torchinductor.py,9

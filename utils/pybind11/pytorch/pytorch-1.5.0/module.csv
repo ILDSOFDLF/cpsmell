@@ -1,0 +1,16 @@
+module_path,module_name,lineno
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\benchmarks\operator_benchmark\pt_extension\extension.cpp,cpp_extension,18
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\caffe2\contrib\gloo\py_export.cc,python,9
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\caffe2\distributed\py_export.cc,python,10
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\caffe2\python\mpi_python.cc,mpi_utils,10
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\caffe2\python\pybind_state.cc,caffe2_pybind11_state,1859
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\caffe2\python\pybind_state_gpu.cc,caffe2_pybind11_state_gpu,165
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\caffe2\python\pybind_state_hip.cc,caffe2_pybind11_state_hip,88
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\caffe2\quantization\server\pybind.cc,dnnlowp_pybind11,18
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\test\cpp_extensions\complex_registration_extension.cpp,TORCH_EXTENSION_NAME,57
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\test\cpp_extensions\cpp_frontend_extension.cpp,TORCH_EXTENSION_NAME,46
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\test\cpp_extensions\cuda_extension.cpp,TORCH_EXTENSION_NAME,17
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\test\cpp_extensions\cudnn_extension.cpp,TORCH_EXTENSION_NAME,77
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\test\cpp_extensions\extension.cpp,TORCH_EXTENSION_NAME,27
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\test\cpp_extensions\jit_extension.cpp,TORCH_EXTENSION_NAME,13
+F:/DLFs_dataset/pytorch/pytorch-1.5.0\test\cpp_extensions\msnpu_extension.cpp,TORCH_EXTENSION_NAME,129

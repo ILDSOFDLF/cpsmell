@@ -1,0 +1,41 @@
+path,c_class_name,py_class_name,lineno
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,ObserverBase,Observer,364
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,DLPackWrapper,DLPackTensorCPU,439
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,BackgroundPlan,BackgroundPlan,635
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,Transaction,Transaction,669
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,Cursor,Cursor,672
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,DB,DB,684
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,Caffe2BackendRep,Caffe2BackenRep,774
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state_gpu.cc,DLPackWrapper,DLPackTensorCUDA,133
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state_hip.cc,DLPackWrapper,DLPackTensorHIP,56
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,TensorQuantizationParams,QueryTensorQparam,244
+path,c_fun_name,py_fun_name,lineno
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\benchmarks\operator_benchmark\pt_extension\extension.cpp,consume,_consume,19.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,lambda expression,on_module_exit,1102.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,lambda expression,local_blobs,1157.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,lambda expression,delete_net,1293.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state.cc,lambda expression,transform_addNNPACK,1797.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state_hip.cc,HipVersion,get_hip_version,31.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\python\pybind_state_hip.cc,miopenCompiledVersion,get_miopen_version,32.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,ClearNetObservers,22.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,DumpHistogramFile,63.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,AddHistogramObserver,72.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,ChooseQuantizationParams,137.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,RegisterQuantizationParams,166.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,RegisterQuantizationParamsWithHistogram,182.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,AddRegisterQuantizationParamsWithHistogramObserver,199.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,AddScaleZeroOffsetArgumentsWithHistogram,226.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,get_fakefp16_mapping,270.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,ChooseStaticQuantizationParams,273.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,ObserveFp16FCPackedWeights,318.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\caffe2\quantization\server\pybind.cc,lambda expression,ObserveInt8FCPackedWeights,363.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\tools\autograd\templates\python_nn_functions.cpp,THPVariable__parse_to,_parse_to,61.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\torch\csrc\Module.cpp,THPModule_hasDistributed,_has_distributed,531.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\torch\csrc\Module.cpp,THPModule_safeCall,_safe_call,532.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\torch\csrc\Module.cpp,THPModule_crashIfCsrcASAN,_crash_if_csrc_asan,536.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\torch\csrc\Module.cpp,THPModule_crashIfCsrcUBSAN,_crash_if_csrc_ubsan,537.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\torch\csrc\Module.cpp,THPModule_crashIfATenASAN,_crash_if_aten_asan,538.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\torch\csrc\cuda\Module.cpp,THCPModule_isInBadFork,_cuda_isInBadFork,490.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\torch\csrc\cuda\Stream.cpp,THCPStream_priority_range,priority_range,121.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\torch\csrc\generic\StorageMethods.cpp,PyCFunction,_set_cdata,338.0
+F:\DLFs_dataset\pytorch\pytorch-1.5.0\torch\csrc\generic\StorageSharing.cpp,PyCFunction,_get_shared_fd,546.0

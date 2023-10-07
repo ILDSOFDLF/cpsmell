@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<unit xmlns="http://www.srcML.org/srcML/src" xmlns:cpp="http://www.srcML.org/srcML/cpp" xmlns:s="http://www.sdml.info/srcML/src" xmlns:doc="http://www.sdml.info/srcML/doc" revision="1.0.0" language="C++" filename="constants.h" version="211" hash="e7d2f8d06c552c222c8450baa150f8e103ec427f"><comment type="block">/* Copyright 2022 The TensorFlow Authors. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+==============================================================================*/</comment>
+
+<cpp:ifndef>#<cpp:directive>ifndef</cpp:directive> <name>TENSORFLOW_DTENSOR_CC_CONSTANTS_H_</name></cpp:ifndef>
+<cpp:define>#<cpp:directive>define</cpp:directive> <cpp:macro><name>TENSORFLOW_DTENSOR_CC_CONSTANTS_H_</name></cpp:macro></cpp:define>
+
+<namespace>namespace <name>tensorflow</name> <block>{
+<namespace>namespace <name>dtensor</name> <block>{
+<comment type="line">// Constants used within dtensor scope.</comment>
+
+<comment type="line">// Qualified attribute without `_` prefix.</comment>
+<comment type="line">// Used in Ops attribute registration.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kQualifiedLayoutAttr</name><index>[]</index></name> <init>= <expr><literal type="string">"layout"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Internal attribute to DTensor MLIR passes and Graph nodes.</comment>
+<comment type="line">// Prefixed with `_` so that it doesn't require op attribute registration.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kLayoutAttr</name><index>[]</index></name> <init>= <expr><literal type="string">"_layout"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Indicates a non-binding layout hint provided by the user.</comment>
+<comment type="line">// `tf` prefix attached in MLIR importer for dialect requirements.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kCustomDefaultLayoutAttr</name><index>[]</index></name> <init>= <expr><literal type="string">"tf._default_layout"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Indicates a non-binding layout hint provided by the user.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kDefaultLayoutAttr</name><index>[]</index></name> <init>= <expr><literal type="string">"_default_layout"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute carries layout information from Custom Device Arguments.</comment>
+<comment type="line">// `tf` prefix attached in MLIR importer for dialect requirements.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kCustomDeviceAttr</name><index>[]</index></name> <init>= <expr><literal type="string">"tf._layout"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute attached on _Arg node for the mesh config.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kMeshAttr</name><index>[]</index></name> <init>= <expr><literal type="string">"_mesh"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute carries mesh information from Custom Device Arguments.</comment>
+<comment type="line">// `tf` prefix attached in MLIR importer for dialect requirements.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kCustomDeviceMeshAttr</name><index>[]</index></name> <init>= <expr><literal type="string">"tf._mesh"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute carries argument indices for newly inferred layout of resource</comment>
+<comment type="line">// handle.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kNewResourceLayoutIndices</name><index>[]</index></name> <init>=
+    <expr><literal type="string">"_inferred_resource_indices"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute carries layout for newly inferred layout of resource handle.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kNewResourceArgLayouts</name><index>[]</index></name> <init>= <expr><literal type="string">"_inferred_resource_layouts"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute carries input layout information for shape op.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kShapeOpInputLayout</name><index>[]</index></name> <init>= <expr><literal type="string">"_shape_input_layout"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute carries input layout index for shape op. This forms a 1 -&gt; 1</comment>
+<comment type="line">// mapping for kShapeOpInputLayout above.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kShapeOpInputLayoutIndices</name><index>[]</index></name> <init>= <expr><literal type="string">"_shape_input_indices"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute that carries global shape of operation. Used to preserve global</comment>
+<comment type="line">// shape to be used during SPMD expansion.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kGlobalShape</name><index>[]</index></name> <init>= <expr><literal type="string">"_global_shape"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Global shape attribute with `tf.` dialect to be used for annotating func op</comment>
+<comment type="line">// arguments/return values.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kGlobalShapeDialectAttr</name><index>[]</index></name> <init>= <expr><literal type="string">"tf._global_shape"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute attached to resource-type function arguments containing the local</comment>
+<comment type="line">// shape of the tensor that is being assigned to it.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kAssignedResourceLocalShape</name><index>[]</index></name> <init>=
+    <expr><literal type="string">"tf._assigned_resource_local_shape"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Tensor handles smaller than this is considered as small tensor. We perform</comment>
+<comment type="line">// some optimizations around it. For example, will be transformed into constant</comment>
+<comment type="line">// values during graph building, instead of being passed as inputs. In addition,</comment>
+<comment type="line">// we allow automatical broadcasting small non-DTensor to DTensor device, which</comment>
+<comment type="line">// is very useful for shape/axis info tensor in eager mode (eliminating the need</comment>
+<comment type="line">// forcing users to do explicit copy-to-mesh).</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>int</name></type> <name>kSmallTensorThreshold</name> <init>= <expr><literal type="number">20</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Contains a serialized mesh. Will be attached to a FloorMod op to denote which</comment>
+<comment type="line">// mesh the output of the FloorMod op is giving coordinates for.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kMeshCoordinatesAttr</name><index>[]</index></name> <init>= <expr><literal type="string">"_mesh_coordinates"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute used to determine if a module pass should log long form information</comment>
+<comment type="line">// such as IR dumps etc.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kDoNotLog</name><index>[]</index></name> <init>= <expr><literal type="string">"dtensor.do_not_log"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// The number of TPU cores in a donut.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>int</name></type> <name>kTpuDonutSize</name> <init>= <expr><literal type="number">8</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// An attribute used to cache the computation of device seeds, so that we don't</comment>
+<comment type="line">// constantly recompute device seeds in a cluster for a given layout.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kDeviceSeedForMeshDims</name><index>[]</index></name> <init>=
+    <expr><literal type="string">"dtensor.device_seed_for_mesh_dims"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute that determines whether to skip XlA compilation. There are some ops</comment>
+<comment type="line">// that run on a TPU mesh but are not expected to be compiled by XLA, e.g.</comment>
+<comment type="line">// VarHandleOp, DestroyResourceOp, etc. For such an case, set this attribute</comment>
+<comment type="line">// to true on the StatefulPartitionedCallOp generated by MLIR lowering.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kSkipXlaCompilation</name><index>[]</index></name> <init>= <expr><literal type="string">"_skip_xla_compilation"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// An attribute which stores the cache_key for the graph in the module. Used</comment>
+<comment type="line">// to uniquely name functions.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kCacheKey</name><index>[]</index></name> <init>= <expr><literal type="string">"dtensor.cache_key"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// An attribute that determines whether a tensor is a sparse tensor. If this</comment>
+<comment type="line">// attribute exists in a tensor, then this tensor is a sparse tensor.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kSparseValue</name><index>[]</index></name> <init>= <expr><literal type="string">"tf._sparse"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// TPUEmbedding configuration attribute with `tf.` dialect to be used for</comment>
+<comment type="line">// annotating func op that contains tpu embedding configuration ops.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kTPUEmbeddingConfiguration</name><index>[]</index></name> <init>=
+    <expr><literal type="string">"tf._tpu_embedding_configuration"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute mapping table_id to func op arguments using as TPUEmbedding tables</comment>
+<comment type="line">// `tf` prefix attached in MLIR importer for dialect requirements.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kTPUEmbeddingTableID</name><index>[]</index></name> <init>= <expr><literal type="string">"tf._tpu_embedding_table_id"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute mapping slot_id to func op arguments using as TPUEmbedding slot</comment>
+<comment type="line">// variables.`tf` prefix attached in MLIR importer for dialect requirements.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kTPUEmbeddingSlotID</name><index>[]</index></name> <init>= <expr><literal type="string">"tf._tpu_embedding_slot_id"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Name of dtensor load embedding function.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kLoadEmbeddingFn</name><index>[]</index></name> <init>= <expr><literal type="string">"load_embedding_fn"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Name of dtensor retrieve embedding function.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kRetrieveEmbeddingFn</name><index>[]</index></name> <init>= <expr><literal type="string">"retrieve_embedding_fn"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute which stores the layouts to be applied to the elements returned by</comment>
+<comment type="line">// calling IteratorGetNextOp on a tf.data iterator.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kIteratorElementLayouts</name><index>[]</index></name> <init>= <expr><literal type="string">"tf._element_layouts"</literal></expr></init></decl>;</decl_stmt>
+
+<comment type="line">// Attribute used in tf.data ops which stores the shapes of the output elements.</comment>
+<decl_stmt><decl><type><specifier>static</specifier> <specifier>constexpr</specifier> <name>char</name></type> <name><name>kIteratorOutputShapes</name><index>[]</index></name> <init>= <expr><literal type="string">"output_shapes"</literal></expr></init></decl>;</decl_stmt>
+
+}</block></namespace>  <comment type="line">// namespace dtensor</comment>
+}</block></namespace>  <comment type="line">// namespace tensorflow</comment>
+
+<cpp:endif>#<cpp:directive>endif</cpp:directive></cpp:endif>  <comment type="line">// TENSORFLOW_DTENSOR_CC_CONSTANTS_H_</comment>
+</unit>
