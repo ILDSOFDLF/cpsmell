@@ -63,28 +63,36 @@ class MyPybind:
     def check_import(self):
         c_py_files = []
         py_paths = []
-        py_files_path = os.path.join("..", "py_files", self.frame_name,self.frame_version + "_py_files.csv")
+        if self.front_flag:
+            py_files_path = os.path.join("py_files", self.frame_name, self.frame_version + "_py_files.csv")
+        else:
+            py_files_path = os.path.join("..", "py_files", self.frame_name,self.frame_version + "_py_files.csv")
         if os.path.exists(py_files_path):
             py_paths = pd.read_csv(py_files_path, header=None).values.flatten()
         else:
             print("the path of file is not exist")
 
         for py_path in py_paths:
-            myast = parse_file_to_ast(py_path)
-            if isinstance(myast, bool) and not myast:
-                continue
-            for defitem in myast.imports:
-                for module in self.modules:
-                    if module[-2].isupper():
-                        continue
-                    if module[-2] == 'python':
-                        continue
+            print(py_path)
+            try:
+                myast = parse_file_to_ast(py_path)
+                if isinstance(myast, bool) and not myast:
+                    continue
+                for defitem in myast.imports:
+                    for module in self.modules:
+                        if module[-2].isupper():
+                            continue
+                        if module[-2] == 'python':
+                            continue
 
-                    if defitem[0] == module[-2]:
-                        self.used_module.add(defitem[0])
-                        sub_c_py_files = [defitem[0], defitem[1], module[0], module[-1], py_path, defitem[-1]]
-                        c_py_files.append(sub_c_py_files)
-                        break
+                        if defitem[0] == module[-2]:
+                            self.used_module.add(defitem[0])
+                            sub_c_py_files = [defitem[0], defitem[1], module[0], module[-1], py_path, defitem[-1]]
+                            c_py_files.append(sub_c_py_files)
+                            break
+            except Exception as e:
+                print(e)
+
         if self.front_flag:
             pd.DataFrame(c_py_files,
                          columns=['module_name', 'module_asname', 'c_file_path', 'c_lineno', 'python_file_path',

@@ -22,7 +22,7 @@ class Utils:
 
     def getPyMethodDef(self):
         py_c_fun_list = []
-        self.srcml_parser.read_c_files(self.frame_name,self.frame_version)
+        self.srcml_parser.read_c_files(self.frame_name,self.frame_version,front_flag=True)
         for path in self.srcml_parser.c_files:
             archive = self.srcml_parser.parse_c_files(path)
             pymethoddefs = etree.XML(archive.srcML().encode(), self.parser).xpath(self.QUERY_METHODS_TABLE)
@@ -82,7 +82,7 @@ class Utils:
             os.path.join(self.frame_name,self.frame_version ,"c_py_fun_table.csv"), index=False)
 
     def getPyModuleDef(self):
-        self.srcml_parser.read_c_files(self.frame_name,self.frame_version)
+        self.srcml_parser.read_c_files(self.frame_name,self.frame_version,front_flag=True)
         module=[]
         for path in self.srcml_parser.c_files:
             archive = self.srcml_parser.parse_c_files(path)

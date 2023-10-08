@@ -2,6 +2,8 @@ import logging
 import os
 import subprocess
 import sys
+import threading
+
 import pandas as pd
 from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout,
                              QPushButton, QFileDialog, QListWidget, QListWidgetItem, QTableWidget, QTableWidgetItem,
@@ -19,6 +21,75 @@ def get_smell_files(frame_name,file_name):
         path=os.path.join('detection_results',frame_name,file_name,code_smell_results_files[i])
         csv_files[path]=smell_alias[i]
     return csv_files
+
+from PyQt6.QtCore import QObject, pyqtSignal, QThread
+
+class findapi(QObject):
+    finishedSignal = pyqtSignal()  # 你可以定义更多的信号，例如传递进度信息等
+    errorSignal = pyqtSignal(str)  # 用于发送错误消息到主线程
+
+    def __init__(self, input_files,log_display):
+        super().__init__()
+        self.input_files = input_files
+        self.log_display=log_display
+
+
+    def doWork(self):
+        for i in range(len(self.input_files)):
+            path = self.input_files[i]
+            file_name = path[path.rfind("/") + 1:]
+            if '-' not in file_name:
+                frame_name = file_name
+            else:
+                frame_name = file_name[:file_name.find('-')]
+
+            try:
+                print('Looking for api...')
+                find_api(path, frame_name, file_name)
+                print('Run successfully')
+            except subprocess.CalledProcessError as e:
+                self.errorSignal.emit(f"Error in Program1: {e}")
+            except FileNotFoundError:
+                self.errorSignal.emit("File not found!")
+            except PermissionError:
+                self.errorSignal.emit("You don't have permission to access the file!")
+        self.finishedSignal.emit()
+
+
+class detectsmell(QObject):
+    finishedSignal = pyqtSignal()  # 你可以定义更多的信号，例如传递进度信息等
+    updateSignal = pyqtSignal(str,dict)  # 假设你想传递一个字符串来更新UI
+    errorSignal = pyqtSignal(str)  # 用于发送错误消息到主线程
+
+    def __init__(self, input_files,log_display):
+        super().__init__()
+        self.input_files = input_files
+        self.log_display=log_display
+    def doWork(self):
+
+        for i in range(len(self.input_files)):
+
+            path = self.input_files[i]
+            file_name = path[path.rfind("/") + 1:]
+            if '-' not in file_name:
+                frame_name = file_name
+            else:
+                frame_name = file_name[:file_name.find('-')]
+            try:
+                print('Detecting Smell...')
+                detect_smells(frame_name, file_name)
+                print('Detection completed')
+            except subprocess.CalledProcessError as e:
+                # 如果有错误，显示在日志框中
+                self.errorSignal.emit(f"Error in Program1: {e}")
+            except FileNotFoundError:
+                self.errorSignal.emit("File not found!")
+            except PermissionError:
+                self.errorSignal.emit("You don't have permission to access the file!")
+            csv_files = get_smell_files(frame_name, file_name)
+            self.updateSignal.emit(file_name, csv_files)
+            # 在初始化中加载多个CSV文件
+        self.finishedSignal.emit()
 
 
 class CombinedApp(QWidget):
@@ -57,11 +128,11 @@ class CombinedApp(QWidget):
 
         self.run1_button = QPushButton('FindAPI', self)
 
-        self.run1_button.clicked.connect(self.execute_program1)
+        self.run1_button.clicked.connect(self.startRunningFindAPI)
         self.run_button_layout.addWidget(self.run1_button)
 
         self.run2_button = QPushButton('DetectSmell', self)
-        self.run2_button.clicked.connect(self.execute_program2)
+        self.run2_button.clicked.connect(self.startRunningDetectSmell)
         self.run_button_layout.addWidget(self.run2_button)
 
         # 将新的按钮布局加到右边的布局中
@@ -161,56 +232,67 @@ class CombinedApp(QWidget):
 
         super().resizeEvent(event)
 
-    def execute_program1(self):
-        input_files=self.get_folders()
-        for i in range(len(input_files)):
-            path = input_files[i]
-            print(path)
-            file_name = path[path.rfind("/") + 1:]
-            if '-' not in file_name:
-                frame_name = file_name
-            else:
-                frame_name = file_name[:file_name.find('-')]
+    def startRunningFindAPI(self):
+        try:
+            self.worker1 = findapi(self.get_folders(), self.log_display)
+            self.thread1 = QThread()
+            self.worker1.moveToThread(self.thread1)
+            self.thread1.started.connect(self.worker1.doWork)
+            # 连接工作线程的信号到主线程的槽函数
+            self.worker1.errorSignal.connect(self.handleFindAPIError)
 
-            try:
-                print('Looking for api...')
-                find_api(path,frame_name, file_name)
-                print('Run successfully')
-            except subprocess.CalledProcessError as e:
-                # 如果有错误，显示在日志框中
-                self.log_display(f"Error in Program1: {e}")
-            except FileNotFoundError:
-                print("File not found!")
-            except PermissionError:
-                print("You don't have permission to access the file!")
+            self.worker1.finishedSignal.connect(self.onFindAPIFinished)  # 可以连接到一个槽函数以处理任务完成后的操作
 
+            self.worker1.finishedSignal.connect(self.thread1.quit)
+            self.worker1.finishedSignal.connect(self.worker1.deleteLater)
+            self.thread1.finished.connect(self.thread1.deleteLater)
+            self.thread1.start()
 
-    def execute_program2(self):
-        input_files = self.get_folders()
-        for i in range(len(input_files)):
+        except Exception as e:
+            error_message = f"Error starting FindAPI thread: {e}"
 
-            path = input_files[i]
-            file_name = path[path.rfind("/") + 1:]
-            if '-' not in file_name:
-                frame_name = file_name
-            else:
-                frame_name = file_name[:file_name.find('-')]
-            try:
-                print('Detecting Smell...')
-                detect_smells(frame_name, file_name)
-                print('Detection completed')
-            except subprocess.CalledProcessError as e:
-                 # 如果有错误，显示在日志框中
-                self.log_display(f"Error in Program1: {e}")
-            except FileNotFoundError:
-                print("File not found!")
-            except PermissionError:
-                print("You don't have permission to access the file!")
-        # 在初始化中加载多个CSV文件
+            logging.error(error_message)
 
-        csv_files=get_smell_files(frame_name,file_name)
-        self.load_multiple_csv_files(file_name,csv_files)
+            self.log_display.append(error_message)
 
+    def onFindAPIFinished(self):
+        # 当耗时任务完成后执行的代码
+        print("Finding Finished!")
+
+    def startRunningDetectSmell(self):
+        try:
+            self.worker2 = detectsmell(self.get_folders(), self.log_display)
+            self.thread2 = QThread()
+            self.worker2.moveToThread(self.thread2)
+            self.thread2.started.connect(self.worker2.doWork)
+            self.worker2.errorSignal.connect(self.handleDetectSmellError)
+            self.worker2.updateSignal.connect(self.updateUI)  # 连接更新UI的槽函数
+            self.worker2.finishedSignal.connect(self.onDetectSmellFinished)  # 可以连接到一个槽函数以处理任务完成后的操作
+            self.worker2.finishedSignal.connect(self.thread2.quit)
+            self.worker2.finishedSignal.connect(self.worker2.deleteLater)
+            self.thread2.finished.connect(self.thread2.deleteLater)
+
+            self.thread2.start()
+        except Exception as e:
+            error_message = f"Error starting DetectSmell thread: {e}"
+
+            logging.error(error_message)
+
+            self.log_display.append(error_message)
+
+    def updateUI(self,file_name, csv_files):
+        self.load_multiple_csv_files(file_name, csv_files)
+    def onDetectSmellFinished(self):
+        # 当耗时任务完成后执行的代码
+        print("Detection Finished!")
+
+    def handleFindAPIError(self, message):
+        """Handle errors from the findapi worker."""
+        self.log_display.append(f"FindAPI Error: {message}")
+
+    def handleDetectSmellError(self, message):
+        """Handle errors from the detectsmell worker."""
+        self.log_display.append(f"DetectSmell Error: {message}")
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
