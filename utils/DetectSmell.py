@@ -7,10 +7,10 @@ import threading
 import pandas as pd
 from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout,
                              QPushButton, QFileDialog, QListWidget, QListWidgetItem, QTableWidget, QTableWidgetItem,
-                             QSplitter, QHeaderView, QTabWidget, QTextEdit)
+                             QSplitter, QHeaderView, QTabWidget, QTextEdit, QMessageBox)
 from PyQt6.QtCore import Qt
 
-from utils.client import find_api, detect_smells
+from utils.client import find_api
 from utils.metric import smell_alias
 from utils.smell_verification import code_smell_results_files
 
@@ -25,8 +25,8 @@ def get_smell_files(frame_name,file_name):
 from PyQt6.QtCore import QObject, pyqtSignal, QThread
 
 class findapi(QObject):
-    finishedSignal = pyqtSignal()  # 你可以定义更多的信号，例如传递进度信息等
-    errorSignal = pyqtSignal(str)  # 用于发送错误消息到主线程
+    finishedSignal = pyqtSignal()
+    errorSignal = pyqtSignal(str)
 
     def __init__(self, input_files,log_display):
         super().__init__()
@@ -44,22 +44,22 @@ class findapi(QObject):
                 frame_name = file_name[:file_name.find('-')]
 
             try:
-                print('Looking for api...')
+                print('Find language interface...')
                 find_api(path, frame_name, file_name)
                 print('Run successfully')
             except subprocess.CalledProcessError as e:
                 self.errorSignal.emit(f"Error in Program1: {e}")
             except FileNotFoundError:
-                self.errorSignal.emit("File not found!")
+                self.errorSignal.emit("The file could not be found!")
             except PermissionError:
-                self.errorSignal.emit("You don't have permission to access the file!")
+                self.errorSignal.emit("No permission to access the file!")
         self.finishedSignal.emit()
 
 
 class detectsmell(QObject):
-    finishedSignal = pyqtSignal()  # 你可以定义更多的信号，例如传递进度信息等
-    updateSignal = pyqtSignal(str,dict)  # 假设你想传递一个字符串来更新UI
-    errorSignal = pyqtSignal(str)  # 用于发送错误消息到主线程
+    finishedSignal = pyqtSignal()
+    updateSignal = pyqtSignal(str,dict)
+    errorSignal = pyqtSignal(str)
 
     def __init__(self, input_files,log_display):
         super().__init__()
@@ -76,19 +76,19 @@ class detectsmell(QObject):
             else:
                 frame_name = file_name[:file_name.find('-')]
             try:
-                print('Detecting Smell...')
-                detect_smells(frame_name, file_name)
-                print('Detection completed')
+                print('Detect smell...')
+                # detect_smells(frame_name, file_name)
+                print('Detect is completed')
             except subprocess.CalledProcessError as e:
                 # 如果有错误，显示在日志框中
                 self.errorSignal.emit(f"Error in Program1: {e}")
             except FileNotFoundError:
-                self.errorSignal.emit("File not found!")
+                self.errorSignal.emit("The file cannot be found!")
             except PermissionError:
-                self.errorSignal.emit("You don't have permission to access the file!")
+                self.errorSignal.emit("No permission to access the file!")
             csv_files = get_smell_files(frame_name, file_name)
             self.updateSignal.emit(file_name, csv_files)
-            # 在初始化中加载多个CSV文件
+
         self.finishedSignal.emit()
 
 
@@ -98,9 +98,8 @@ class CombinedApp(QWidget):
 
         self.layout = QVBoxLayout(self)
         self.splitter = QSplitter(Qt.Orientation.Horizontal)
+        self.setWindowTitle("CPsmell")
 
-
-        # 创建QTabWidget来容纳多个CSV数据显示
         self.tab_widget = QTabWidget()
         self.splitter.addWidget(self.tab_widget)
 
@@ -110,43 +109,38 @@ class CombinedApp(QWidget):
         self.folder_list.setSelectionMode(QListWidget.SelectionMode.MultiSelection)
         self.right_layout.addWidget(self.folder_list)
 
-
-        # 创建并排的添加和删除按钮
         self.button_layout = QHBoxLayout()
 
-        self.add_button = QPushButton('Add', self)
+        self.add_button = QPushButton('Add Files', self)
         self.add_button.clicked.connect(self.add_folders)
         self.button_layout.addWidget(self.add_button)
 
-        self.delete_button = QPushButton('Delete', self)
+        self.delete_button = QPushButton('Delete Files', self)
         self.delete_button.clicked.connect(self.delete_folders)
         self.button_layout.addWidget(self.delete_button)
 
         self.right_layout.addLayout(self.button_layout)
-        # 在日志框上面添加两个并排的按钮
+
         self.run_button_layout = QHBoxLayout()
 
-        self.run1_button = QPushButton('FindAPI', self)
+        self.run1_button = QPushButton('Find Language Interface', self)
 
         self.run1_button.clicked.connect(self.startRunningFindAPI)
         self.run_button_layout.addWidget(self.run1_button)
 
-        self.run2_button = QPushButton('DetectSmell', self)
+        self.run2_button = QPushButton('Detect Smell', self)
         self.run2_button.clicked.connect(self.startRunningDetectSmell)
         self.run_button_layout.addWidget(self.run2_button)
 
-        # 将新的按钮布局加到右边的布局中
         self.right_layout.addLayout(self.run_button_layout)
-        # 配置日志记录
+
         self.setup_logging("app_log.log")
 
-        # 在按钮下方添加日志显示框
         self.log_display = QTextEdit(self)
-        self.log_display.setReadOnly(True)  # 设置为只读，用户不能在里面输入内容
+        self.log_display.setReadOnly(True)
 
         self.right_layout.addWidget(self.log_display)
 
-        # 重定向标准输出
         sys.stdout.write = self.append_log
         sys.stderr.write = self.append_log
 
@@ -157,7 +151,7 @@ class CombinedApp(QWidget):
         self.layout.addWidget(self.splitter)
         self.setLayout(self.layout)
 
-        self.resize(900, 600)  # 假设初始大小为 900x600，您可以根据需要进行调整
+        self.resize(900, 600)
 
     def setup_logging(self, log_file_path):
         logging.basicConfig(filename=log_file_path, level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -197,7 +191,7 @@ class CombinedApp(QWidget):
 
     def add_folders(self):
         while True:
-            folder = QFileDialog.getExistingDirectory(self, "选择文件夹")
+            folder = QFileDialog.getExistingDirectory(self, "Select the folder")
             if not folder:
                 break
             self.folder_list.addItem(QListWidgetItem(folder))
@@ -216,18 +210,15 @@ class CombinedApp(QWidget):
         return input_files
 
     def append_log(self, text):
-        self.log_display.append(text)  # 在 QTextEdit 中追加内容
-        QApplication.processEvents()  # 使应用程序处理所有挂起的事件
+        self.log_display.append(text)
+        QApplication.processEvents()
 
     def resizeEvent(self, event):
-        # 获取当前窗口的宽度
-        total_width = self.width()
 
-        # 左边布局占三分之二，右边布局占三分之一
+        total_width = self.width()
         left_width = int(total_width * 2 / 3)
         right_width = total_width - left_width
 
-        # 更新 QSplitter 的大小
         self.splitter.setSizes([left_width, right_width])
 
         super().resizeEvent(event)
@@ -238,10 +229,12 @@ class CombinedApp(QWidget):
             self.thread1 = QThread()
             self.worker1.moveToThread(self.thread1)
             self.thread1.started.connect(self.worker1.doWork)
-            # 连接工作线程的信号到主线程的槽函数
+
             self.worker1.errorSignal.connect(self.handleFindAPIError)
 
-            self.worker1.finishedSignal.connect(self.onFindAPIFinished)  # 可以连接到一个槽函数以处理任务完成后的操作
+            self.worker1.finishedSignal.connect(self.onFindAPIFinished)
+
+            self.worker1.finishedSignal.connect(self.showCompletionMessage)
 
             self.worker1.finishedSignal.connect(self.thread1.quit)
             self.worker1.finishedSignal.connect(self.worker1.deleteLater)
@@ -256,8 +249,7 @@ class CombinedApp(QWidget):
             self.log_display.append(error_message)
 
     def onFindAPIFinished(self):
-        # 当耗时任务完成后执行的代码
-        print("Finding Finished!")
+        print("Execution success!")
 
     def startRunningDetectSmell(self):
         try:
@@ -266,8 +258,8 @@ class CombinedApp(QWidget):
             self.worker2.moveToThread(self.thread2)
             self.thread2.started.connect(self.worker2.doWork)
             self.worker2.errorSignal.connect(self.handleDetectSmellError)
-            self.worker2.updateSignal.connect(self.updateUI)  # 连接更新UI的槽函数
-            self.worker2.finishedSignal.connect(self.onDetectSmellFinished)  # 可以连接到一个槽函数以处理任务完成后的操作
+            self.worker2.updateSignal.connect(self.updateUI)
+            self.worker2.finishedSignal.connect(self.onDetectSmellFinished)
             self.worker2.finishedSignal.connect(self.thread2.quit)
             self.worker2.finishedSignal.connect(self.worker2.deleteLater)
             self.thread2.finished.connect(self.thread2.deleteLater)
@@ -280,11 +272,17 @@ class CombinedApp(QWidget):
 
             self.log_display.append(error_message)
 
+    def showCompletionMessage(self):
+        # Display a completion message box
+        msg_box = QMessageBox(self)
+        msg_box.setWindowTitle("Find language interface")
+        msg_box.setText("Find Language Interface is successful！")
+        msg_box.exec()
+
     def updateUI(self,file_name, csv_files):
         self.load_multiple_csv_files(file_name, csv_files)
     def onDetectSmellFinished(self):
-        # 当耗时任务完成后执行的代码
-        print("Detection Finished!")
+        print("Detect successfully!")
 
     def handleFindAPIError(self, message):
         """Handle errors from the findapi worker."""
@@ -293,6 +291,7 @@ class CombinedApp(QWidget):
     def handleDetectSmellError(self, message):
         """Handle errors from the detectsmell worker."""
         self.log_display.append(f"DetectSmell Error: {message}")
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

@@ -2,169 +2,169 @@
 ---------------tensorflow-2.2.0---------------
 the number of LILBC smell files:3	the proportion of LILBC smell files:0.0263
 the number of EILC smell files:0	the proportion of EILC smell files:0.0
-the number of LLFFILB smell files:25	the proportion of LLFFILB smell files:0.2193
+the number of LLF smell files:25	the proportion of LLF smell files:0.2193
 the number of NURP smell files:1	the proportion of NURP smell files:0.0088
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:11	the proportion of UE smell files:0.0965
-the number of UM smell files:1	the proportion of UM smell files:0.0088
-the number of LOSD smell files:1	the proportion of LOSD smell files:0.0088
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:11	the proportion of UNE smell files:0.0965
+the number of UEM smell files:1	the proportion of UEM smell files:0.0088
+the number of LSD smell files:1	the proportion of LSD smell files:0.0088
 the number of all smell files:30	the proportion of all smell files:0.2632
 ""
 ---------------tensorflow-2.8.0---------------
 the number of LILBC smell files:7	the proportion of LILBC smell files:0.0281
 the number of EILC smell files:6	the proportion of EILC smell files:0.0241
-the number of LLFFILB smell files:46	the proportion of LLFFILB smell files:0.1847
+the number of LLF smell files:46	the proportion of LLF smell files:0.1847
 the number of NURP smell files:1	the proportion of NURP smell files:0.004
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:27	the proportion of UE smell files:0.1084
-the number of UM smell files:4	the proportion of UM smell files:0.0161
-the number of LOSD smell files:1	the proportion of LOSD smell files:0.004
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:27	the proportion of UNE smell files:0.1084
+the number of UEM smell files:4	the proportion of UEM smell files:0.0161
+the number of LSD smell files:1	the proportion of LSD smell files:0.004
 the number of all smell files:65	the proportion of all smell files:0.261
 ""
 ---------------tensorflow-2.12.0---------------
 the number of LILBC smell files:7	the proportion of LILBC smell files:0.0244
 the number of EILC smell files:16	the proportion of EILC smell files:0.0557
-the number of LLFFILB smell files:52	the proportion of LLFFILB smell files:0.1812
+the number of LLF smell files:52	the proportion of LLF smell files:0.1812
 the number of NURP smell files:1	the proportion of NURP smell files:0.0035
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:30	the proportion of UE smell files:0.1045
-the number of UM smell files:4	the proportion of UM smell files:0.0139
-the number of LOSD smell files:1	the proportion of LOSD smell files:0.0035
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:30	the proportion of UNE smell files:0.1045
+the number of UEM smell files:4	the proportion of UEM smell files:0.0139
+the number of LSD smell files:1	the proportion of LSD smell files:0.0035
 the number of all smell files:78	the proportion of all smell files:0.2718
 ""
 ==================pytorch==================
 ---------------pytorch-1.5.0---------------
 the number of LILBC smell files:1	the proportion of LILBC smell files:0.0115
 the number of EILC smell files:12	the proportion of EILC smell files:0.1379
-the number of LLFFILB smell files:5	the proportion of LLFFILB smell files:0.0575
+the number of LLF smell files:5	the proportion of LLF smell files:0.0575
 the number of NURP smell files:1	the proportion of NURP smell files:0.0115
-the number of LOREC smell files:6	the proportion of LOREC smell files:0.069
-the number of UE smell files:11	the proportion of UE smell files:0.1264
-the number of UM smell files:1	the proportion of UM smell files:0.0115
-the number of LOSD smell files:11	the proportion of LOSD smell files:0.1264
-the number of all smell files:31	the proportion of all smell files:0.3563
+the number of LREC smell files:6	the proportion of LREC smell files:0.069
+the number of UNE smell files:11	the proportion of UNE smell files:0.1264
+the number of UEM smell files:1	the proportion of UEM smell files:0.0115
+the number of LSD smell files:11	the proportion of LSD smell files:0.1264
+the number of all smell files:32	the proportion of all smell files:0.3678
 ""
 ---------------pytorch-1.11.0---------------
 the number of LILBC smell files:1	the proportion of LILBC smell files:0.0061
 the number of EILC smell files:17	the proportion of EILC smell files:0.1043
-the number of LLFFILB smell files:5	the proportion of LLFFILB smell files:0.0307
+the number of LLF smell files:5	the proportion of LLF smell files:0.0307
 the number of NURP smell files:5	the proportion of NURP smell files:0.0307
-the number of LOREC smell files:6	the proportion of LOREC smell files:0.0368
-the number of UE smell files:13	the proportion of UE smell files:0.0798
-the number of UM smell files:2	the proportion of UM smell files:0.0123
-the number of LOSD smell files:15	the proportion of LOSD smell files:0.092
+the number of LREC smell files:6	the proportion of LREC smell files:0.0368
+the number of UNE smell files:13	the proportion of UNE smell files:0.0798
+the number of UEM smell files:2	the proportion of UEM smell files:0.0123
+the number of LSD smell files:15	the proportion of LSD smell files:0.092
 the number of all smell files:47	the proportion of all smell files:0.2883
 ""
 ---------------pytorch-2.0.1---------------
 the number of LILBC smell files:1	the proportion of LILBC smell files:0.0053
 the number of EILC smell files:37	the proportion of EILC smell files:0.1979
-the number of LLFFILB smell files:5	the proportion of LLFFILB smell files:0.0267
+the number of LLF smell files:5	the proportion of LLF smell files:0.0267
 the number of NURP smell files:7	the proportion of NURP smell files:0.0374
-the number of LOREC smell files:7	the proportion of LOREC smell files:0.0374
-the number of UE smell files:14	the proportion of UE smell files:0.0749
-the number of UM smell files:1	the proportion of UM smell files:0.0053
-the number of LOSD smell files:17	the proportion of LOSD smell files:0.0909
+the number of LREC smell files:7	the proportion of LREC smell files:0.0374
+the number of UNE smell files:14	the proportion of UNE smell files:0.0749
+the number of UEM smell files:1	the proportion of UEM smell files:0.0053
+the number of LSD smell files:17	the proportion of LSD smell files:0.0909
 the number of all smell files:65	the proportion of all smell files:0.3476
 ""
 ==================mindspore==================
 ---------------mindspore-1.0.0---------------
 the number of LILBC smell files:2	the proportion of LILBC smell files:0.0308
 the number of EILC smell files:0	the proportion of EILC smell files:0.0
-the number of LLFFILB smell files:0	the proportion of LLFFILB smell files:0.0
+the number of LLF smell files:0	the proportion of LLF smell files:0.0
 the number of NURP smell files:0	the proportion of NURP smell files:0.0
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:1	the proportion of UE smell files:0.0154
-the number of UM smell files:0	the proportion of UM smell files:0.0
-the number of LOSD smell files:0	the proportion of LOSD smell files:0.0
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:1	the proportion of UNE smell files:0.0154
+the number of UEM smell files:0	the proportion of UEM smell files:0.0
+the number of LSD smell files:0	the proportion of LSD smell files:0.0
 the number of all smell files:2	the proportion of all smell files:0.0308
 ""
 ---------------mindspore-1.7.0---------------
 the number of LILBC smell files:3	the proportion of LILBC smell files:0.024
 the number of EILC smell files:0	the proportion of EILC smell files:0.0
-the number of LLFFILB smell files:0	the proportion of LLFFILB smell files:0.0
+the number of LLF smell files:0	the proportion of LLF smell files:0.0
 the number of NURP smell files:1	the proportion of NURP smell files:0.008
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:1	the proportion of UE smell files:0.008
-the number of UM smell files:0	the proportion of UM smell files:0.0
-the number of LOSD smell files:0	the proportion of LOSD smell files:0.0
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:1	the proportion of UNE smell files:0.008
+the number of UEM smell files:0	the proportion of UEM smell files:0.0
+the number of LSD smell files:0	the proportion of LSD smell files:0.0
 the number of all smell files:4	the proportion of all smell files:0.032
 ""
 ---------------mindspore-1.10.1---------------
 the number of LILBC smell files:10	the proportion of LILBC smell files:0.0602
 the number of EILC smell files:0	the proportion of EILC smell files:0.0
-the number of LLFFILB smell files:0	the proportion of LLFFILB smell files:0.0
+the number of LLF smell files:0	the proportion of LLF smell files:0.0
 the number of NURP smell files:1	the proportion of NURP smell files:0.006
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:5	the proportion of UE smell files:0.0301
-the number of UM smell files:0	the proportion of UM smell files:0.0
-the number of LOSD smell files:0	the proportion of LOSD smell files:0.0
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:5	the proportion of UNE smell files:0.0301
+the number of UEM smell files:0	the proportion of UEM smell files:0.0
+the number of LSD smell files:0	the proportion of LSD smell files:0.0
 the number of all smell files:13	the proportion of all smell files:0.0783
 ""
 ==================Paddle==================
 ---------------Paddle-1.8.0---------------
 the number of LILBC smell files:7	the proportion of LILBC smell files:0.0805
 the number of EILC smell files:0	the proportion of EILC smell files:0.0
-the number of LLFFILB smell files:2	the proportion of LLFFILB smell files:0.023
+the number of LLF smell files:2	the proportion of LLF smell files:0.023
 the number of NURP smell files:0	the proportion of NURP smell files:0.0
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:5	the proportion of UE smell files:0.0575
-the number of UM smell files:0	the proportion of UM smell files:0.0
-the number of LOSD smell files:0	the proportion of LOSD smell files:0.0
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:5	the proportion of UNE smell files:0.0575
+the number of UEM smell files:0	the proportion of UEM smell files:0.0
+the number of LSD smell files:0	the proportion of LSD smell files:0.0
 the number of all smell files:11	the proportion of all smell files:0.1264
 ""
 ---------------Paddle-2.3.0---------------
 the number of LILBC smell files:12	the proportion of LILBC smell files:0.0628
 the number of EILC smell files:7	the proportion of EILC smell files:0.0366
-the number of LLFFILB smell files:6	the proportion of LLFFILB smell files:0.0314
+the number of LLF smell files:6	the proportion of LLF smell files:0.0314
 the number of NURP smell files:1	the proportion of NURP smell files:0.0052
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:15	the proportion of UE smell files:0.0785
-the number of UM smell files:0	the proportion of UM smell files:0.0
-the number of LOSD smell files:1	the proportion of LOSD smell files:0.0052
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:15	the proportion of UNE smell files:0.0785
+the number of UEM smell files:0	the proportion of UEM smell files:0.0
+the number of LSD smell files:1	the proportion of LSD smell files:0.0052
 the number of all smell files:27	the proportion of all smell files:0.1414
 ""
 ---------------Paddle-2.4.2---------------
 the number of LILBC smell files:15	the proportion of LILBC smell files:0.0811
 the number of EILC smell files:6	the proportion of EILC smell files:0.0324
-the number of LLFFILB smell files:8	the proportion of LLFFILB smell files:0.0432
+the number of LLF smell files:8	the proportion of LLF smell files:0.0432
 the number of NURP smell files:1	the proportion of NURP smell files:0.0054
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:17	the proportion of UE smell files:0.0919
-the number of UM smell files:0	the proportion of UM smell files:0.0
-the number of LOSD smell files:1	the proportion of LOSD smell files:0.0054
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:17	the proportion of UNE smell files:0.0919
+the number of UEM smell files:0	the proportion of UEM smell files:0.0
+the number of LSD smell files:1	the proportion of LSD smell files:0.0054
 the number of all smell files:32	the proportion of all smell files:0.173
 ""
 ==================chainer==================
 ---------------chainer-6.0.0---------------
 the number of LILBC smell files:1	the proportion of LILBC smell files:0.0345
 the number of EILC smell files:0	the proportion of EILC smell files:0.0
-the number of LLFFILB smell files:8	the proportion of LLFFILB smell files:0.2759
+the number of LLF smell files:8	the proportion of LLF smell files:0.2759
 the number of NURP smell files:0	the proportion of NURP smell files:0.0
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:4	the proportion of UE smell files:0.1379
-the number of UM smell files:0	the proportion of UM smell files:0.0
-the number of LOSD smell files:0	the proportion of LOSD smell files:0.0
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:4	the proportion of UNE smell files:0.1379
+the number of UEM smell files:0	the proportion of UEM smell files:0.0
+the number of LSD smell files:0	the proportion of LSD smell files:0.0
 the number of all smell files:9	the proportion of all smell files:0.3103
 ""
 ---------------chainer-6.7.0---------------
 the number of LILBC smell files:1	the proportion of LILBC smell files:0.0333
 the number of EILC smell files:0	the proportion of EILC smell files:0.0
-the number of LLFFILB smell files:8	the proportion of LLFFILB smell files:0.2667
+the number of LLF smell files:8	the proportion of LLF smell files:0.2667
 the number of NURP smell files:0	the proportion of NURP smell files:0.0
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:4	the proportion of UE smell files:0.1333
-the number of UM smell files:0	the proportion of UM smell files:0.0
-the number of LOSD smell files:0	the proportion of LOSD smell files:0.0
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:4	the proportion of UNE smell files:0.1333
+the number of UEM smell files:0	the proportion of UEM smell files:0.0
+the number of LSD smell files:0	the proportion of LSD smell files:0.0
 the number of all smell files:9	the proportion of all smell files:0.3
 ""
 ---------------chainer-7.8.1---------------
 the number of LILBC smell files:0	the proportion of LILBC smell files:0.0
 the number of EILC smell files:0	the proportion of EILC smell files:0.0
-the number of LLFFILB smell files:6	the proportion of LLFFILB smell files:0.2609
+the number of LLF smell files:6	the proportion of LLF smell files:0.2609
 the number of NURP smell files:0	the proportion of NURP smell files:0.0
-the number of LOREC smell files:0	the proportion of LOREC smell files:0.0
-the number of UE smell files:4	the proportion of UE smell files:0.1739
-the number of UM smell files:0	the proportion of UM smell files:0.0
-the number of LOSD smell files:0	the proportion of LOSD smell files:0.0
+the number of LREC smell files:0	the proportion of LREC smell files:0.0
+the number of UNE smell files:4	the proportion of UNE smell files:0.1739
+the number of UEM smell files:0	the proportion of UEM smell files:0.0
+the number of LSD smell files:0	the proportion of LSD smell files:0.0
 the number of all smell files:7	the proportion of all smell files:0.3043
 ""

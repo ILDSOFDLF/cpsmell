@@ -32,6 +32,8 @@ Original number of smells :1
 End number of of smells :1
 Fixed number of smells 0.000000
 ================================================
+"tensorflow fixed ratio = 0.0789, the number of before fix = 266, already fixed number = 21"
+================================================
 =================pytorch=================
 ---------------------large_class.csv---------------------
 Original number of smells :1
@@ -65,6 +67,8 @@ Fixed number of smells 0.000000
 Original number of smells :61
 End number of of smells :57
 Fixed number of smells 0.065600
+================================================
+"pytorch fixed ratio = 0.0649, the number of before fix = 185, already fixed number = 12"
 ================================================
 =================mindspore=================
 ---------------------large_class.csv---------------------
@@ -100,6 +104,8 @@ Original number of smells :0
 End number of of smells :0
 Fixed number of smells :0
 ================================================
+"mindspore fixed ratio = 0.1429, the number of before fix = 7, already fixed number = 1"
+================================================
 =================Paddle=================
 ---------------------large_class.csv---------------------
 Original number of smells :17
@@ -133,6 +139,8 @@ Fixed number of smells :0
 Original number of smells :0
 End number of of smells :0
 Fixed number of smells :0
+================================================
+"Paddle fixed ratio = 0.1852, the number of before fix = 54, already fixed number = 10"
 ================================================
 =================chainer=================
 ---------------------large_class.csv---------------------
@@ -168,3 +176,13 @@ Original number of smells :0
 End number of of smells :0
 Fixed number of smells :0
 ================================================
+"chainer fixed ratio = 0.1765, the number of before fix = 17, already fixed number = 3"
+================================================
+"all LILBC fixed ratio = 0.2069, the number of before fix = 29, already fixed number = 6"
+"all EILC fixed ratio = 1.0, the number of before fix = 2, already fixed number = 2"
+"all LLF fixed ratio = 0.0471, the number of before fix = 297, already fixed number = 14"
+"all NURP fixed ratio = 0.0, the number of before fix = 2, already fixed number = 0"
+"all LREC fixed ratio = 0.0, the number of before fix = 6, already fixed number = 0"
+"all UNE fixed ratio = 0.1628, the number of before fix = 129, already fixed number = 21"
+"all UEM fixed ratio = 0.0, the number of before fix = 2, already fixed number = 0"
+"all LSD fixed ratio = 0.0645, the number of before fix = 62, already fixed number = 4"

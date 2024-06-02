@@ -1,7 +1,7 @@
 from lxml import etree
 
 parser = etree.HTMLParser(encoding="utf-8")
-path="F:\\python_workplace\\check_utils\\utils\\xml_files\\torch\\csrc\\Exceptions.cpp.xml"
+path="F:\\python_workplace\\cpsmell\\utils\\xml_files\\torch\\csrc\\Exceptions.cpp.xml"
 path2="dim.cpp.xml"
 path3="python_return_types.cpp.xml"
 path4="Generator.cpp.xml"

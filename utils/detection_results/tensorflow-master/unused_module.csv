@@ -1,5 +1,0 @@
-path,unused_module_name,lineno
-F:\python_workplace\tensorflow-master\tensorflow\lite\kernels\variable_ops_wrapper.cc,pywrap_variable_ops,18
-F:\python_workplace\tensorflow-master\tensorflow\lite\kernels\gradient\gradient_ops_wrapper.cc,pywrap_gradient_ops,19
-F:\python_workplace\tensorflow-master\tensorflow\lite\kernels\perception\perception_ops_wrapper.cc,pywrap_perception_ops,19
-F:\python_workplace\tensorflow-master\tensorflow\python\util\stat_summarizer_wrapper.cc,_pywrap_stat_summarizer,29

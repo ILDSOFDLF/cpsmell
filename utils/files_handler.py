@@ -11,7 +11,7 @@ from utils.version_management import DFLs_version, Frame_names
 
 # frame_names=['tensorflow','pytorch','mindspore','Paddle','chainer']
 def write_files(path,frame_name,file_name):
-    postfixs = (".c", ".cpp", ".cc", ".h", ".py")
+    postfixs = (".c", ".cpp", ".cc", ".h", ".hpp", ".py")
     c_files_list = []
     py_files_list = []
     for dirpaths, dirnames, fs in os.walk(path):
@@ -107,13 +107,6 @@ def code_toXML(frame_name):
 
 
     print(count)
-
-
-
-
-
-
-
 
 # def zip_files():
 #     zipf = zipfile.ZipFile(output_filename, 'w')

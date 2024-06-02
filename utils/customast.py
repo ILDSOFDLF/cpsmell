@@ -6,7 +6,6 @@ import json
 
 from json import JSONEncoder
 
-# Is it Python 3?
 is_python3 = hasattr(sys.version_info, 'major') and (sys.version_info.major == 3)
 
 class AstEncoder(JSONEncoder):

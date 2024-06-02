@@ -3,7 +3,7 @@ from pylibsrcml import srcml
 
 parser = etree.HTMLParser(encoding="utf-8")
 src_path="F:\\DLFs_dataset\\chainer\\chainer-7.8.1\\chainerx_cc\\chainerx\\python\context.cc"
-# path="F:\\python_workplace\\check_utils\\utils\\xml_files\\tensorflow\\compiler\\xla\\python\\xla.cc.xml"
+# path="F:\\python_workplace\\cpsmell\\utils\\xml_files\\tensorflow\\compiler\\xla\\python\\xla.cc.xml"
 path="context.cc.xml"
 srcml.srcml(src_path,path)
 code_smell_list=[]

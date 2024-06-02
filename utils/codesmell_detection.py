@@ -405,6 +405,8 @@ class CodeSmell:
         csv_path = os.path.join("python_c", self.frame_name, self.frame_version, "c_py_fun_table.csv")
         c_py_fun = pd.read_csv(csv_path).values
         path_num = len(c_py_fun)
+        c_path = os.path.join("c_files", self.frame_name, self.frame_version + "_c_files.csv")
+        c_files = pd.read_csv(c_path, header=None).values.flatten()
         code_smell_list = []
         for i in range(path_num):
             path = c_py_fun[i][-1]
@@ -421,7 +423,7 @@ class CodeSmell:
             else:
                 print(path)
                 print(fun_name)
-                print("======================================")
+                # print("======================================")
 
         # enhanced detection using pattern matching
         index = 0
@@ -566,8 +568,8 @@ if __name__ == '__main__':
             # codesmell.detect_unused_entity()
             # codesmell.detect_excessive_interLanguage_communication()
             # codesmell.lack_of_rigorous_error_check()
-            # codesmell.detect_lack_of_static_declaration()
-            codesmell.detect_not_using_relative_path()
+            codesmell.detect_lack_of_static_declaration()
+            # codesmell.detect_not_using_relative_path()
             # must run detect_unused_module ,detect_unused_entity, detect_not_using_relative_path first
             # cpy_file_count,cpy_code_lines=codesmell.about_inter_language_files()
             # calls_list.append([file_name, cpy_file_count, cpy_code_lines])

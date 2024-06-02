@@ -6,9 +6,9 @@ py_paths=["F:\\DLFs_dataset\\pytorch\pytorch-2.0.1\\torch\\__init__.py",
           "F:\\DLFs_dataset\\pytorch\pytorch-2.0.1\\torch\\_inductor\\codecache.py",
           "F:\\DLFs_dataset\\pytorch\\pytorch-2.0.1\\torch\\cuda\\__init__.py",
           "F:\\DLFs_dataset\\tensorflow\\tensorflow-2.12.0\\tensorflow\\tools\\test\\gpu_info_lib.py"]
-sys_list=['WINDOWS','MACOS','system','platform']
-ctypes_paths = set()
-code_smells = []
+# sys_list=['WINDOWS','MACOS','system','platform']
+# ctypes_paths = set()
+# code_smells = []
 # for path in py_paths:
 #     myast = parse_file_to_ast(path)
 #     if isinstance(myast, bool) and not myast:
@@ -37,24 +37,24 @@ code_smells = []
 #             match_res2 = re.findall(pattern2, line)
 #             if hard_code and (len(match_res1) > 0 or len(match_res2) > 0):
 #                 code_smells.append([lineno, path])
-
-def test1():
-    for path in py_paths:
-        myast = parse_file_to_ast(path)
-        with open(path) as f:
-            lines = f.readlines()
-            for cdll_info in myast.load_cdll:
-                lineno = cdll_info[1]
-                line = lines[lineno - 1].strip()
-                pattern = "{}\((.*)".format(cdll_info[0])
-                match_res = re.findall(pattern, line)
-                if len(match_res) > 0 and (match_res[0][0] == '\'' or match_res[0][0] == '\"'):
-                    if len(match_res[0]) > 1 and ('/' not in match_res[0] or match_res[0][1] == '/'):
-                        print(match_res[0])
-                        code_smells.append([path, lineno])
-    for i in code_smells:
-        print("------------------------")
-        print(i)
+#
+# def test1():
+#     for path in py_paths:
+#         myast = parse_file_to_ast(path)
+#         with open(path) as f:
+#             lines = f.readlines()
+#             for cdll_info in myast.load_cdll:
+#                 lineno = cdll_info[1]
+#                 line = lines[lineno - 1].strip()
+#                 pattern = "{}\((.*)".format(cdll_info[0])
+#                 match_res = re.findall(pattern, line)
+#                 if len(match_res) > 0 and (match_res[0][0] == '\'' or match_res[0][0] == '\"'):
+#                     if len(match_res[0]) > 1 and ('/' not in match_res[0] or match_res[0][1] == '/'):
+#                         print(match_res[0])
+#                         code_smells.append([path, lineno])
+#     for i in code_smells:
+#         print("------------------------")
+#         print(i)
 if __name__ == '__main__':
     test1()
         # for index in range(len(lines)):

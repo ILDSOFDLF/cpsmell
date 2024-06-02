@@ -1,6 +1,6 @@
 from lxml import etree
 
-path="F:\\python_workplace\\check_utils\\utils\\xml_files\\torch\\csrc\\dynamo\\eval_frame.c.xml"
+path="F:\\python_workplace\\cpsmell\\utils\\xml_files\\torch\\csrc\\dynamo\\eval_frame.c.xml"
 path2="dim.cpp.xml"
 fun_name="_set_pointwise_optimize"
 parser = etree.HTMLParser(encoding="utf-8")

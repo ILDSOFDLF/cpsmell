@@ -8,27 +8,27 @@ from utils.files_handler import read_py_files, parse_file_to_ast
 from utils.smell_verification import code_smell_results_files
 from utils.version_management import Frame_names, test_DFLs_version
 
-smell_alias = ['LILBC', 'EILC', 'LLFFILB', 'NURP', 'LOREC', 'UE', 'UM', 'LOSD']
+smell_alias = ['LILBC', 'EILC', 'LLF', 'NURP', 'LREC', 'UNE', 'UEM', 'LSD']
 
 
 def get_smell_distribution():
     results_list1 = []
     results_list2 = []
     results_list3 = []
-    cpy_files_list=pd.read_csv('inter_language_files.csv').values
-    cpy_Nfile={}
-    cpy_Ncodeline={}
+    cpy_files_list = pd.read_csv('inter_language_files.csv').values
+    cpy_Nfile = {}
+    cpy_Ncodeline = {}
     for cpy_item in cpy_files_list:
-        cpy_Nfile[cpy_item[0]]=cpy_item[1]
-        cpy_Ncodeline[cpy_item[0]]=cpy_item[2]
+        cpy_Nfile[cpy_item[0]] = cpy_item[1]
+        cpy_Ncodeline[cpy_item[0]] = cpy_item[2]
     for i in range(len(test_DFLs_version)):
         results_list1.append(['==================' + Frame_names[i] + '=================='])
         results_list2.append(['==================' + Frame_names[i] + '=================='])
         results_list3.append(['==================' + Frame_names[i] + '=================='])
         for path in test_DFLs_version[i]:
             frame_version = path[path.rfind("\\") + 1:]
-            inter_Nfile=cpy_Nfile[frame_version]
-            inter_Ncodelines=cpy_Ncodeline[frame_version]
+            inter_Nfile = cpy_Nfile[frame_version]
+            inter_Ncodelines = cpy_Ncodeline[frame_version]
             results_list1.append(['---------------' + frame_version + '---------------'])
             results_list2.append(['---------------' + frame_version + '---------------'])
             results_list3.append(['---------------' + frame_version + '---------------'])
@@ -36,17 +36,17 @@ def get_smell_distribution():
             print("the number of files：", inter_Nfile)
             print("the number of code lines:", inter_Ncodelines)
             all_smell_files = set()
-            all_Nsmell=0
+            all_Nsmell = 0
 
             for k, results_file_name in enumerate(code_smell_results_files):
                 results_file_path = os.path.join("detection_results", Frame_names[i], frame_version, results_file_name)
                 results_file = pd.read_csv(results_file_path).values
                 src_smell_files = results_file[:, 0].flatten()
                 dest_smell_files = set()
-                Nsmell=len(src_smell_files)
-                if k==5:
-                    Nsmell=Nsmell-1
-                all_Nsmell+=Nsmell
+                Nsmell = len(src_smell_files)
+                if k == 5:
+                    Nsmell = Nsmell - 1
+                all_Nsmell += Nsmell
                 if k == 1:
                     dest_smell_files = get_EILC_code_files(Frame_names[i], frame_version)
 
@@ -56,32 +56,33 @@ def get_smell_distribution():
 
                 else:
                     for index, x in enumerate(src_smell_files):
-                        if x=='path':
+                        if x == 'path':
                             continue
                         if x not in src_smell_files[:index]:
                             dest_smell_files.add(x)
                         if x not in all_smell_files:
                             all_smell_files.add(x)
 
-                smell_file_count=len(dest_smell_files)
+                smell_file_count = len(dest_smell_files)
                 smell_file_proportion = smell_file_count / inter_Nfile
                 smell_file_proportion = round(smell_file_proportion, 4)
-                smell_code_lines_density = Nsmell*1000 / inter_Ncodelines
+                smell_code_lines_density = Nsmell * 1000 / inter_Ncodelines
                 smell_code_lines_density = round(smell_code_lines_density, 6)
-                smell_density_each_file=round(Nsmell/inter_Nfile,4)
+                smell_density_each_file = round(Nsmell / inter_Nfile, 4)
                 results_list1.append(['the number of {} smell files:{}\tthe proportion of {} smell files:{}'
                                      .format(smell_alias[k], smell_file_count, smell_alias[k], smell_file_proportion)])
                 results_list2.append(['the number of {} smell:{}\tthe density of {} KLOC:{}'
                                      .format(smell_alias[k], Nsmell, smell_alias[k], smell_code_lines_density)])
-                results_list3.append(['Number of {} smell for each cross-language file:{}'.format(smell_alias[k],smell_density_each_file)])
+                results_list3.append(['Number of {} smell for each cross-language file:{}'.format(smell_alias[k],
+                                                                                                  smell_density_each_file)])
 
             all_smell_file_proportion = len(all_smell_files) / inter_Nfile
             all_smell_file_proportion = round(all_smell_file_proportion, 4)
-            all_smell_code_lines_density = all_Nsmell*1000 / inter_Ncodelines
+            all_smell_code_lines_density = all_Nsmell * 1000 / inter_Ncodelines
             all_smell_code_lines_density = round(all_smell_code_lines_density, 6)
-            all_smell_density_each_file=round(all_Nsmell/inter_Nfile,4)
+            all_smell_density_each_file = round(all_Nsmell / inter_Nfile, 4)
             results_list1.append(['the number of all smell files:{}\tthe proportion of all smell files:{}'
-                                 .format(len(all_smell_files),all_smell_file_proportion)])
+                                 .format(len(all_smell_files), all_smell_file_proportion)])
             results_list2.append(['the number of all smell:{}\tthe density of all smell KLOC:{}'
                                  .format(all_Nsmell, all_smell_code_lines_density)])
             results_list3.append(['the number of all smell:{}\tthe smell density of files:{}'
@@ -165,28 +166,68 @@ def classify_metric_EILC(com, cf_names, cf_tables, visited_paths, cf_asnames, pa
             visited_paths.append(cf_path)
 
 
+src_smell_list=[0]*8
+end_smell_list=[0]*8
+
 def get_fixed_smells_ratio(frame_name, first_version, end_version, all_fixed_snell_results):
     all_fixed_snell_results.append(["=================" + frame_name + "================="])
+    src0 = src1 = src2 = src3 = src4 = src5 = src6 = src7 = 0
+    end0 = end1 = end2 = end3 = end4 = end5 = end6 = end7 = 0
+    src_sum=[0]*8
+    end_sum=[0]*8
     for smell_name in code_smell_results_files:
         all_fixed_snell_results.append(['---------------------' + smell_name + '---------------------'])
         first_version_smell_path = os.path.join(first_version, smell_name)
         end_version_smell_path = os.path.join(end_version, smell_name)
         if smell_name == 'large_class.csv':
-            fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path, end_version_smell_path, 1)
+            (src_sum[0], end_sum[0]) = fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path,
+                                                        end_version_smell_path, 1)
+            src_smell_list[0]+=src_sum[0]
+            end_smell_list[0]+=end_sum[0]
         elif smell_name == 'excessive_interLanguage_communication.csv':
-            fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path, end_version_smell_path, 0, True)
+            (src_sum[1], end_sum[1]) = fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path,
+                                                      end_version_smell_path, 0, True)
+            src_smell_list[1] += src_sum[1]
+            end_smell_list[1] += end_sum[1]
         elif smell_name == 'long_lambda_function.csv':
-            fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path, end_version_smell_path, 2)
+            (src_sum[2], end_sum[2]) = fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path,
+                                                    end_version_smell_path, 2)
+            src_smell_list[2] += src_sum[2]
+            end_smell_list[2] += end_sum[2]
         elif smell_name == 'not_using_relative_path.csv':
-            fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path, end_version_smell_path, 0, True)
+            (src_sum[3], end_sum[3]) = fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path,
+                                                      end_version_smell_path, 0, True)
+            src_smell_list[3] += src_sum[3]
+            end_smell_list[3] += end_sum[3]
         elif smell_name == 'lack_of_rigorous_error_check.csv':
-            fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path, end_version_smell_path, 0, True)
+            (src_sum[4], end_sum[4]) = fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path,
+                                                      end_version_smell_path, 0, True)
+            src_smell_list[4] += src_sum[4]
+            end_smell_list[4] += end_sum[4]
         elif smell_name == 'unused_entity.csv':
-            fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path, end_version_smell_path, 2)
+            (src_sum[5], end_sum[5]) = fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path,
+                                                    end_version_smell_path, 2)
+            src_smell_list[5] += src_sum[5]
+            end_smell_list[5] += end_sum[5]
         elif smell_name == 'unused_module.csv':
-            fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path, end_version_smell_path, 1)
+            (src_sum[6], end_sum[6]) = fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path,
+                                                    end_version_smell_path, 1)
+            src_smell_list[6] += src_sum[6]
+            end_smell_list[6] += end_sum[6]
         elif smell_name == 'lack_of_static_declaration.csv':
-            fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path, end_version_smell_path, 1)
+            (src_sum[7], end_sum[7]) = fixed_smell__ratio(all_fixed_snell_results, first_version_smell_path,
+                                                    end_version_smell_path, 1)
+            src_smell_list[7] += src_sum[7]
+            end_smell_list[7] += end_sum[7]
+    src_count=0
+    end_count=0
+    for findex in range(8):
+        src_count += src_sum[findex]
+        end_count += end_sum[findex]
+    dlf_fixed_ratio=round((src_count-end_count)/src_count,4)
+    all_fixed_snell_results.append(['================================================'])
+    all_fixed_snell_results.append([f'{frame_name} fixed ratio = {dlf_fixed_ratio}, the number of before fix = '
+                                    f'{src_count}, already fixed number = {src_count-end_count}'])
     all_fixed_snell_results.append(['================================================'])
 
 
@@ -218,7 +259,7 @@ def fixed_smell__ratio(fixed_result, first_path, end_path, pos, isPath=False):
         fixed_result.append(["Fixed number of smells :0"])
     else:
         fixed_result.append(["Fixed number of smells %f" % round((fixed_count / src_count), 4)])
-    return fixed_result
+    return src_count, end_count
 
 
 def get_number_of_smell():
@@ -233,8 +274,8 @@ def get_number_of_smell():
                 smell_results_paths = os.path.join("detection_results", Frame_names[i], frame_version, result_file_name)
                 with open(smell_results_paths) as f:
                     smell_count = len(f.readlines()) - 1
-                    if result_file_name=='unused_entity.csv':
-                        smell_count=smell_count-1
+                    if result_file_name == 'unused_entity.csv':
+                        smell_count = smell_count - 1
                     smell_sum += smell_count
                     results.append([result_file_name + "————%d" % smell_count])
             results.append(["the number of all smell:%d" % smell_sum])
@@ -242,8 +283,8 @@ def get_number_of_smell():
 
 
 if __name__ == '__main__':
-    get_smell_distribution()
-    get_number_of_smell()
+    # get_smell_distribution()
+    # get_number_of_smell()
     all_fixed_smell_results = []
     for i in range(len(test_DFLs_version)):
         first_path = test_DFLs_version[i][0]
@@ -254,4 +295,9 @@ if __name__ == '__main__':
         first_smells_path = os.path.join("detection_results", frame_name, first_frame_version)
         end_smells_path = os.path.join("detection_results", frame_name, end_frame_version)
         get_fixed_smells_ratio(frame_name, first_smells_path, end_smells_path, all_fixed_smell_results)
+    for findex in range(8):
+        beforefix=src_smell_list[findex]
+        fixed = src_smell_list[findex]-end_smell_list[findex]
+        all_fixed_smell_results.append([f'all {smell_alias[findex]} fixed ratio = {round(fixed/beforefix,4)}, '
+                                        f'the number of before fix = {beforefix}, already fixed number = {fixed}'])
     pd.DataFrame(all_fixed_smell_results).to_csv("fixed_smell_results.csv", header=False, index=False)
