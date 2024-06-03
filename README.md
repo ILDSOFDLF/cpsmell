@@ -1,4 +1,4 @@
-# CPsmell：a inter-language design smell detection toolkit
+# CPsmell：an inter-language design smell detection toolkit
 
 CPsmell can detect inter-language design smell  in multi-language software written in the combination of Python and C/C++.
 ```text
@@ -21,7 +21,7 @@ CPsmell can detect inter-language design smell  in multi-language software writt
 |    |
 |    ├───codesmell_detection.py // check 8 inter-language design smells
 |    |
-|    ├───srcml_parse.py // parse c/c++ code into an xml file
+|    ├───srcml_parse.py // parse c/c++ code into a xml file
 |    |
 |    ├───files_handler.py // divide source code files into python files and c/c++ files
 |    |
