@@ -1,4 +1,4 @@
-# CPsmell：a detect toolkit for inter-language design smell 
+# CPsmell：a inter-language design smell detection toolkit
 
 CPsmell can detect inter-language design smell  in multi-language software written in the combination of Python and C/C++.
 ```text
