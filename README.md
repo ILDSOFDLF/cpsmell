@@ -31,7 +31,7 @@ CPsmell can detect inter-language design smell  in multi-language software writt
 
 ## Start
 
-### 1. Add data sources
+### 1. Adding data sources
 
 version_management.py
 
