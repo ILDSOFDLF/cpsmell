@@ -27,3 +27,28 @@ CPsmell can detect inter-language design smell  in multi-language software writt
 |    |
 |    └───configuration.py // set thresholds and sensitive words 
 
+
+
+## Start
+
+### 1. Add data sources
+
+version_management.py
+
+### 2. Processing source code files
+
+files_handler.py 
+
+### 3. Detecting  inter-language interface
+
+pybind11/check_api.py and python_c/check_api.py
+
+### 4. Identifying smells
+
+codesmell_detection.py
+
+### 5. Visualization
+
+visualization.py
+
+
