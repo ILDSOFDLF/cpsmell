@@ -26,7 +26,7 @@ CPsmell can detect inter-language design smell  in multi-language software writt
 |    ├───files_handler.py // divide source code files into python files and c/c++ files
 |    |
 |    └───configuration.py // set thresholds and sensitive words 
-
+```
 
 
 ## Start
