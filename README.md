@@ -11,6 +11,8 @@ CPsmell can detect inter-language design smell  in multi-language software writt
 |    |
 |    ├───py_files // python files
 |    |
+|    ├───detection_results // inter-language design smell detection results
+|    |
 |    ├───pybind11 // pybind11 detector and results
 |    |
 |    ├───python_c // python/c api detector and results
