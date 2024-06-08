@@ -5,6 +5,8 @@ CPsmell can detect inter-language design smell  in multi-language software writt
 
 ├───example // examples of design smell instances
 |
+├───validation // Manual validation of data
+|
 ├───utils // toolkit
 |    |
 |    ├───c_files // c/c++ files
